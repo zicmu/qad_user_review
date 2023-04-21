@@ -1,0 +1,21 @@
+﻿.overlay{
+
+   position:absolute;
+   display:none;
+   background-color:rgba(128,128,128,0.5);
+   top:0;
+   left:0;
+   right:0;
+
+}
+
+.popup{
+
+    position:fixed;
+    z-index:99;
+    vertical-align:central;
+    display:none;
+    margin-left:50%;
+    margin-bottom:50%;
+
+}

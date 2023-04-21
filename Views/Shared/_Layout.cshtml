@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title> QAD User Review</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/QAD_User_Review.styles.css" asp-append-version="true" />
+
+
+</head>
+
+@{
+
+    string menuTextColor = "text-white";
+    
+}
+<body>
+    <div class="container-fluid" style="background:linear-gradient(to left,#62a313,#00754c)">
+        <header>           
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom-width: thin" style="margin-left:10%">
+                <div class="container-fluid">
+                    <a class="navbar-brand @menuTextColor" asp-area="" asp-controller="Home" asp-action="Index">IT User Portal</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                                <a class="nav-link @menuTextColor" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                            <li class="nav-item HomePageloader">
+                                <a class="nav-link @menuTextColor" asp-area="" asp-controller="ReviewList" asp-action="Index">QAD User Review</a>
+                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link @menuTextColor" asp-area="" asp-controller="ItDocs" asp-action="Index">IT Policies & Procedures</a>
+                            </li>
+                            <li class="nav-item">                               
+                                <a class="nav-link @menuTextColor" asp-area="" asp-controller="ITQuality" asp-action="Index">IT Quality & Compliance </a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link @menuTextColor" asp-area="" asp-controller="ServiceDesk" asp-action="Index">Service Desk+ </a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    </div>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+        
+            <!--Success Dialog Start-->
+            <div id="myModalSuccess" class="modal fade text-width:30%;" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Information</h2>
+                              <button type="button" class="close" data-bs-dismiss="modal">&times</button>
+                        </div>
+                        <div id="MyModalSuccessAlertBody" class="modal-body alert alert-success">
+                            This is the modal body. The message will appear here
+                        </div>
+                        <div class="modal-footer">
+                            &nbsp
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <!--Success Dialog End-->
+
+            <!-- Start Modal for Menu Details-->
+                <div class="modal" tabindex="-1" role="dialog" id="form-modal-menu">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"></h5>
+                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">     
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            <!-- End Modal for Menu Details-->
+ 
+ 
+   
+    <div class="modal modal-backdrop" id="loader">
+        <div class="modal-dialog modal-dialog-centered modal-sm" >
+            <div class="modal-content">
+                <div class="modal-body" >
+                    <div class="text-center">
+                        <div class="spinner-border text-primary">
+                            <span class="sr-only"> </span>
+                        </div>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal-backdrop" id="HomePageloader">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="text-center">
+                        <div class="spinner-border text-primary">
+                            <span class="sr-only"> </span>
+                        </div>
+                        <div class="row">
+                            <strong>Loading...</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+   
+
+     
+  <!--  <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - QAD User Review
+        </div>
+      </footer>-->
+
+
+    <script type="text/javascript">
+
+
+        function openSuccessModal(strMessage) {
+            var myDiv = document.getElementById("MyModalSuccessAlertBody");
+            myDiv.innerHTML = strMessage;
+            $('#myModalSuccess').modal('toggle');
+        }
+        $(document).ready(function () {
+            var msg = "@TempData["SuccessMessage"]";
+            if (msg)
+                openSuccessModal(msg);
+
+        });
+
+       
+    </script>
+    <script src="~/js/savechanges.js"></script>
+    <script src="~/js/site.js"></script>    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
+
+
+

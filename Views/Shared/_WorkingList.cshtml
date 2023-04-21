@@ -1,0 +1,47 @@
+﻿@model QAD_User_Review.ViewModels.SharedReviewListViewModel ; 
+
+<table id="WorkingList" class="table-striped tableFixHead table table-sm mb-0 pb-0 table-hover">
+    <thead>
+        <tr>
+            <th style="width:15%">
+                Employee
+            </th>
+
+            
+            <th style="width:10%">
+                Decision
+            </th>
+           
+
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (Model.ReviewLists.Count() != 0)
+        {
+            @for (int i = 0; i < Model.ReviewLists.Count; i++)
+            {
+                <tr class="@Model.ReviewLists[i].Plant @Model.ReviewLists[i].Username @Model.ReviewLists[i].Decision">
+                    <td style="width:15%" title="@Model.ReviewLists[i].Username">
+                        @Html.DisplayFor(m => m.ReviewLists[i].Employee)
+                    </td>
+
+                   
+                    <td style="width:10%">
+                        @Html.DropDownListFor(m => m.ReviewLists[i].Decision, new List <SelectListItem>
+                {
+                new SelectListItem {Text ="Disable",Value="Disable"},
+                new SelectListItem {Text ="Approved",Value="Approved"},
+                new SelectListItem {Text ="Open",Value="Open"}
+                }
+                )
+                    </td>
+                    <td>
+                        @Html.HiddenFor(m	=>	m.ReviewLists[i].Id)
+                    </td>
+                </tr>
+            }
+        }
+     
+    </tbody>
+</table>

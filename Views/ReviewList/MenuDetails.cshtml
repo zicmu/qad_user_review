@@ -1,0 +1,40 @@
+﻿@model QAD_User_Review.ViewModels.MenuDetailViewModel ;
+
+@{
+    ViewData["Title"] = "Menu Details";
+    Layout = null;
+}
+<!--<link href="d:\web_projects\qad user review\wwwroot\css\site.css" rel="stylesheet" />-->
+
+<div class="card">
+    <div class="card-header bg-success text-uppercase text-white text-center mb-2 pt-0" style="height:25px; margin-top:20px;">
+        <h6>@Model.selectedGroup</h6>
+    </div>
+    <div class="col-12 ml-1" style="padding:20px;">
+        <table id="MenuDetails" class="table table-striped CodesTable table-sm mb-0 pb-0">
+            <thead>
+                <tr>
+
+                    <th class="col-3 text-center">
+                        Menu Name
+                    </th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                @for (int i = 0; i < Model.MenuDetails.Count; i++)
+                {
+                    <tr>
+                        <td class="col-3 text-left">
+                            @Html.DisplayFor(m => m.MenuDetails[i].Menu)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+
+        
+    </div>
+</div>

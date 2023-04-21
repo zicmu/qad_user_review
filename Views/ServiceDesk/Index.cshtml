@@ -1,0 +1,68 @@
+﻿
+@using QAD_User_Review.ViewModels
+@model List<FileModel>
+
+
+@{
+    ViewData["Title"] = "Service Desk+";
+}
+
+
+<h3 class="text-center font-weight-bold"> Service Desk+</h3>
+
+<!-- Main Div -->
+<div class="card">
+    <div class="card-header bg-success text-uppercase text-white text-center mb-2 pt-0" style="height:25px; margin-top:20px;">
+        <h6>Documentation List</h6>
+        <div class="form-group col-12">
+            <div class="col-12 ml-1" style="padding:40px">
+                
+                <table id="List of Documentation" class="table table-striped CodesTable table-sm mb-0 pb-0">
+                    <thead>
+                        <tr>
+
+                            <th class="col-3">
+                                File Name
+                            </th>
+
+                            <th class="col-3">
+                                Link
+                            </th>
+                           
+                    </thead>
+
+                    <tbody>
+                    @foreach (FileModel file in Model)
+                    {
+                        <tr>
+                            <td>
+                                @file.FileName
+                            </td>
+                            <td>
+                                    @Html.ActionLink("Download","DownloadFile", new{fileName=file.FileName})
+                            </td>
+
+                        </tr>
+                    }
+                    </tbody>
+
+                </table>
+
+
+            </div>
+            <!--    </form>-->
+        </div>
+    }
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

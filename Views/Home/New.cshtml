@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "New Page";
+}
+
+
+
+    <div class="container">
+        <h4> Ajax Preloader </h4>
+    <input id="btnGroup" type="submit" value="Group" class="btn btn-primary btn-block" style="width:90px" asp-area="" asp-controller="ReviewList" asp-action="ShowMenuDetails" />
+  
+
+        <div id="loader" style="margin-top:10px; display:none;">
+
+            <img src="~/images/spinner.gif" />
+
+        </div>
+
+        <div id="results">
+
+
+        </div>
+
+    </div>
+
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"> </script>
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    white-space: nowrap;
+    line-height: 40px;
+}
+
+
+.IndexDiv {
+    position: relative;
+    background: linear-gradient(to right,#F9F9F9,#F9F9F9);
+    left: 10%;
+    margin-top: 0%;
+    min-height: 100%;
+    min-width: 80%;
+    width: 800px;
+    height: 800px;
+    overflow: auto;
+}
+
+.flex-parent-element {
+    display: flex;
+    width: 100%;
+}
+
+.flex-child-element {
+    flex: 1;
+    margin: 10px;
+    border-radius:20px;
+}
+
+    .flex-child-element:first-child {
+        margin-right: 20px;
+    }
+
+
+
+.CodesTable table {
+    width: 100%
+}
+
+.CodesTable thead {
+    width: calc(100%);
+}
+
+.CodesTable tbody {
+    display: block;
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+    .CodesTable thead, .CodesTable tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+.CodesTable thead, .CodesTable tbody, .CodesTable td {
+    border: none !important;
+}
+
+td.yes {
+    background-color: green;
+}
+
+td.no {
+    background-color: red;
+}
