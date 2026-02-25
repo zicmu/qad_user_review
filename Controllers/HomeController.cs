@@ -40,16 +40,7 @@ namespace QAD_User_Review.Controllers
             return View();
         }
 
-        public ActionResult Privacy()
-        {
-
-            int a = 5;
-            int b = 10;
-            int c = a + b;
-            TempData["Result"] = c;
-            return View("New");
-            
-        }
+        
 
         
 

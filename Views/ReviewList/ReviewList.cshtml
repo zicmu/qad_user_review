@@ -65,6 +65,15 @@
                         <h7>Number of approved cases: @Model.ReviewLists.Count(c => c.Decision=="Approved")</h7>
                         <br />
                         <h7>Number of disabled cases: @Model.ReviewLists.Count(c => c.Decision=="Disable")</h7>
+                        <br />
+                         @if (@Model.ReviewLists.Count(c => c.Decision=="Open")==0)
+                             {
+                                <h6 style="color: green; margin-top:15px;"> All cases have been resolved! </h6> }
+                                else 
+                                {
+                                <h6 style="color: red; margin-top:15px;"> Please review all cases! </h6>
+                                }
+                             
                     </div>
                 </div>
                 <div class="flex-child-element" style="background-color: rgb(255,255,255)">
@@ -85,6 +94,9 @@
                             <a href="~/files/qad user review web.pdf" title="Download" download>User Manual</a>
                         </div>
                     </div>
+                     <div >
+                            <p> <strong>Database was last updated on Nov 24th, 2025.</strong></p>
+                        </div>
                     
                 </div>
 

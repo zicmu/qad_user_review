@@ -20,6 +20,7 @@ using System.Globalization;
 using System.Windows.Input;
 using Microsoft.Data.SqlClient.Server;
 using Microsoft.EntityFrameworkCore.Query.Internal;
+using QAD_User_Review.Services;
 //using AspNetCore;
 
 namespace QAD_User_Review.Controllers
@@ -100,6 +101,7 @@ namespace QAD_User_Review.Controllers
             string managerUserID = User.Identity.Name.ToString().ToLower().Split('\\')[1];
            
             int cntChanges = 0;
+            
 
             var tReviewLists = _context.ReviewLists.Where(d => reviewList.ReviewLists.Select(x => x.Id).Contains(d.Id));
 
@@ -131,8 +133,26 @@ namespace QAD_User_Review.Controllers
             {
                 passMessage = passMessage + "Number of made changes is " + cntChanges + ".";
             }
+
+
         
             TempData["SuccessMessage"] = passMessage;
+
+            //Check whether all cases have been colosed 
+
+            cntChanges = 0;
+            cntChanges = _context.ReviewLists.Where(d => d.Decision.ToLower() == "open").Count();
+
+            if (cntChanges == 0)
+            {
+                // send email
+                var emailService = new EmailService();
+                var emailSubject = "Test Subject";
+                var emailBody = "<html><body> Hvala Caki! </body></hmtl>";
+                var toEmail = "igor.dabic@essexfurukawa.com";
+                emailService.SendEmail(toEmail, emailSubject, emailBody);
+
+            }
 
             return RedirectToAction("Index", "ReviewList");
         }
@@ -167,11 +187,13 @@ namespace QAD_User_Review.Controllers
 
             if ( ManagerUserID=="edabici" || ManagerUserID=="epetkoz")
             {
-                ManagerUserID = "earesm";
+                ManagerUserID = "emarjas";
 
             }
             return ManagerUserID;
         }
+
+
 
        
 
