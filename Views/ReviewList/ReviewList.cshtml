@@ -68,13 +68,21 @@
 
             <!-- Actions Panel -->
             <div class="flex-child-element panel-actions">
-                <p class="fw-bold mb-3">Multiple Update of Selection</p>
+                @if (Model.CanSubmitDecision)
+                {
+                    <p class="fw-bold mb-3">Multiple Update of Selection</p>
 
-                <div class="d-flex flex-column gap-2 mb-3">
-                    <button id="btnApprove" type="button" class="btn btn-success" title="Approve the selected records with status Pending" onclick="approveSelected()">Approve Selection</button>
-                    <button id="btnDisable" type="button" class="btn btn-danger" title="Disable the selected records with status Pending" onclick="disableSelected()">Disable Selection</button>
-                    <button id="btnPending" type="button" class="btn btn-primary" title="Return the selected records to status Pending" onclick="pendingSelected()">Reset to Pending</button>
-                </div>
+                    <div class="d-flex flex-column gap-2 mb-3">
+                        <button id="btnApprove" type="button" class="btn btn-success" title="Approve the selected records with status Pending" onclick="approveSelected()">Approve Selection</button>
+                        <button id="btnDisable" type="button" class="btn btn-danger" title="Disable the selected records with status Pending" onclick="disableSelected()">Disable Selection</button>
+                        <button id="btnPending" type="button" class="btn btn-primary" title="Return the selected records to status Pending" onclick="pendingSelected()">Reset to Pending</button>
+                    </div>
+                }
+                else
+                {
+                    <p class="fw-bold mb-3">View Mode</p>
+                    <p class="text-muted small mb-3">You have read-only access to this review data.</p>
+                }
 
                 <div class="d-flex align-items-center mb-2">
                     <img src="~/images/userManual.png" class="manual-icon" alt="User Manual" />
@@ -86,23 +94,27 @@
 
         </div>
 
-        <!-- Working List Table -->
-        <div class="p-3">
-            <h5 class="page-title">Working List</h5>
+        <!-- Review Table -->
+        <div class="review-table-section">
+            <div class="review-table-header">
+                <h5 class="review-table-title">Review Table</h5>
+                @if (Model.CanSubmitDecision)
+                {
+                    <input type="submit" value="Save Changes" class="btn btn-warning btn-sm Loader" title="Save your work"
+                           id="btnSave" />
+                }
+            </div>
             <div class="working-list-scroll">
-                <table id="WorkingList" class="table table-striped table-sm table-hover mb-0">
+                <table id="WorkingList" class="table table-sm table-hover mb-0">
                     <thead>
                         <tr>
-                            <th style="width:15%">Employee</th>
-                            <th style="width:8%">Plant</th>
-                            <th style="width:7%">System</th>
-                            <th style="width:20%">Role</th>
-                            <th style="width:10%">Status</th>
-                            <th style="width:20%">Comment</th>
-                            <th style="width:10%">
-                                <input type="submit" value="Save" class="btn btn-warning btn-sm Loader w-100" title="Save your work"
-                                       id="btnSave" />
-                            </th>
+                            <th style="width:18%">Employee</th>
+                            <th style="width:10%">Plant</th>
+                            <th style="width:8%">System</th>
+                            <th style="width:18%">Role</th>
+                            <th style="width:12%">Status</th>
+                            <th style="width:24%">Comment</th>
+                            <th style="width:10%">Actions</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -111,28 +123,44 @@
                             @for (int i = 0; i < Model.ReviewItems.Count; i++)
                             {
                                 <tr class="@Model.ReviewItems[i].Plant @Model.ReviewItems[i].AD_Username @Model.ReviewItems[i].StatusCode">
-                                    <td style="width:15%" title="@Model.ReviewItems[i].AD_Username">
+                                    <td style="width:18%" title="@Model.ReviewItems[i].AD_Username">
                                         @Html.DisplayFor(m => m.ReviewItems[i].EmployeeName)
                                     </td>
-                                    <td style="width:8%">
+                                    <td style="width:10%">
                                         @Html.DisplayFor(m => m.ReviewItems[i].Plant)
                                     </td>
-                                    <td style="width:7%">
+                                    <td style="width:8%">
                                         @Html.DisplayFor(m => m.ReviewItems[i].SourceSystem)
                                     </td>
-                                    <td style="width:20%" title="@Model.ReviewItems[i].RoleDescription">
+                                    <td style="width:18%" title="@Model.ReviewItems[i].RoleDescription">
                                         @Html.DisplayFor(m => m.ReviewItems[i].RoleCode)
                                     </td>
-                                    <td class="decision-cell" style="width:10%">
-                                        @Html.DropDownListFor(m => m.ReviewItems[i].StatusCode, new List<SelectListItem>
+                                    <td class="decision-cell" style="width:12%">
+                                        @if (Model.CanSubmitDecision)
                                         {
-                                            new SelectListItem { Text = "Pending", Value = "Pending" },
-                                            new SelectListItem { Text = "Approved", Value = "Approved" },
-                                            new SelectListItem { Text = "Disabled", Value = "Disabled" }
-                                        })
+                                            @Html.DropDownListFor(m => m.ReviewItems[i].StatusCode, new List<SelectListItem>
+                                            {
+                                                new SelectListItem { Text = "Pending", Value = "Pending" },
+                                                new SelectListItem { Text = "Approved", Value = "Approved" },
+                                                new SelectListItem { Text = "Disabled", Value = "Disabled" }
+                                            })
+                                        }
+                                        else
+                                        {
+                                            <span class="badge-status badge-@Model.ReviewItems[i].StatusCode.ToLower()">@Model.ReviewItems[i].StatusCode</span>
+                                            @Html.HiddenFor(m => m.ReviewItems[i].StatusCode)
+                                        }
                                     </td>
-                                    <td style="width:20%">
-                                        @Html.TextBoxFor(m => m.ReviewItems[i].ReviewerComment)
+                                    <td style="width:24%">
+                                        @if (Model.CanSubmitDecision)
+                                        {
+                                            @Html.TextBoxFor(m => m.ReviewItems[i].ReviewerComment)
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">@(Model.ReviewItems[i].ReviewerComment ?? "—")</span>
+                                            @Html.HiddenFor(m => m.ReviewItems[i].ReviewerComment)
+                                        }
                                     </td>
                                     <td style="width:10%">
                                         <a title="Show the menus of the role"

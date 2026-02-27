@@ -19,6 +19,8 @@ builder.Services.AddDbContext<UserReviewContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("dbconn")));
 
 builder.Services.AddSingleton<IEmailService, EmailService>();
+builder.Services.AddMemoryCache();
+builder.Services.AddScoped<IPermissionService, PermissionService>();
 
 var app = builder.Build();
 

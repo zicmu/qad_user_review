@@ -13,5 +13,9 @@ namespace QAD_User_Review.ViewModels
         public string? SelectedEmployee { get; set; }
         public string? SelectedStatus { get; set; }
         public string? SelectedPlant { get; set; }
+
+        public bool CanSubmitDecision { get; set; }
+        public bool CanReviewAll { get; set; }
+        public string? UserRoleCode { get; set; }
     }
 }

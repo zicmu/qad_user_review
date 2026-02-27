@@ -15,5 +15,7 @@ namespace QAD_User_Review.Models
         public ICollection<BridgeOrgChart> ManagedEmployees { get; set; } = new List<BridgeOrgChart>();
         public ICollection<BridgeOrgChart> ReviewerFor { get; set; } = new List<BridgeOrgChart>();
         public ICollection<FactRoleReview> Reviews { get; set; } = new List<FactRoleReview>();
+        public ICollection<AppUser> AppUserAccounts { get; set; } = new List<AppUser>();
+        public ICollection<AppUser> AppUserAssignments { get; set; } = new List<AppUser>();
     }
 }

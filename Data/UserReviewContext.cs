@@ -23,6 +23,10 @@ namespace QAD_User_Review.Data
         public virtual DbSet<BridgeOrgChart> BridgeOrgCharts { get; set; } = null!;
         public virtual DbSet<FactUserRoleAssignment> FactUserRoleAssignments { get; set; } = null!;
         public virtual DbSet<FactRoleReview> FactRoleReviews { get; set; } = null!;
+        public virtual DbSet<RefAppRole> RefAppRoles { get; set; } = null!;
+        public virtual DbSet<RefAppFeature> RefAppFeatures { get; set; } = null!;
+        public virtual DbSet<BridgeRoleFeature> BridgeRoleFeatures { get; set; } = null!;
+        public virtual DbSet<AppUser> AppUsers { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -209,6 +213,145 @@ namespace QAD_User_Review.Data
                 entity.HasOne(e => e.Status)
                     .WithMany(s => s.Reviews)
                     .HasForeignKey(e => e.StatusKey)
+                    .OnDelete(DeleteBehavior.Restrict);
+            });
+
+            // ===== RBAC Tables =====
+
+            modelBuilder.Entity<RefAppRole>(entity =>
+            {
+                entity.ToTable("Ref_AppRole");
+                entity.HasKey(e => e.AppRoleKey);
+
+                entity.Property(e => e.RoleCode)
+                    .HasMaxLength(20).IsUnicode(false).IsRequired();
+                entity.HasIndex(e => e.RoleCode).IsUnique();
+
+                entity.Property(e => e.RoleDescription)
+                    .HasMaxLength(100).IsUnicode(false);
+
+                entity.HasData(
+                    new RefAppRole { AppRoleKey = 1, RoleCode = "SuperAdmin", RoleDescription = "Full access including role management" },
+                    new RefAppRole { AppRoleKey = 2, RoleCode = "Admin", RoleDescription = "Manages users, imports, and employee-reviewer assignments" },
+                    new RefAppRole { AppRoleKey = 3, RoleCode = "Auditor", RoleDescription = "Read-only unfiltered access to all reviews" },
+                    new RefAppRole { AppRoleKey = 4, RoleCode = "Reviewer", RoleDescription = "Can review and submit decisions for own employees only" }
+                );
+            });
+
+            modelBuilder.Entity<RefAppFeature>(entity =>
+            {
+                entity.ToTable("Ref_AppFeature");
+                entity.HasKey(e => e.FeatureKey);
+
+                entity.Property(e => e.FeatureCode)
+                    .HasMaxLength(50).IsUnicode(false).IsRequired();
+                entity.HasIndex(e => e.FeatureCode).IsUnique();
+
+                entity.Property(e => e.FeatureDescription)
+                    .HasMaxLength(100).IsUnicode(false);
+
+                entity.HasData(
+                    new RefAppFeature { FeatureKey = 1, FeatureCode = "ReviewAll", FeatureDescription = "View reviews for all employees unfiltered" },
+                    new RefAppFeature { FeatureKey = 2, FeatureCode = "ReviewOwn", FeatureDescription = "View reviews scoped to own employees" },
+                    new RefAppFeature { FeatureKey = 3, FeatureCode = "SubmitDecision", FeatureDescription = "Submit Approved/Disabled decision + comment" },
+                    new RefAppFeature { FeatureKey = 4, FeatureCode = "ManageEmployeeReviewer", FeatureDescription = "View and edit employee-reviewer assignments" },
+                    new RefAppFeature { FeatureKey = 5, FeatureCode = "Import", FeatureDescription = "Upload and process Excel files" },
+                    new RefAppFeature { FeatureKey = 6, FeatureCode = "Reports", FeatureDescription = "View audit history and reporting" },
+                    new RefAppFeature { FeatureKey = 7, FeatureCode = "ManageUsers", FeatureDescription = "Add/edit/deactivate app users and their roles" },
+                    new RefAppFeature { FeatureKey = 8, FeatureCode = "ManageRoles", FeatureDescription = "Edit role-feature permission assignments" },
+                    new RefAppFeature { FeatureKey = 9, FeatureCode = "ManagePeriod", FeatureDescription = "Open and close review periods, trigger archive" }
+                );
+            });
+
+            modelBuilder.Entity<BridgeRoleFeature>(entity =>
+            {
+                entity.ToTable("Bridge_RoleFeature");
+                entity.HasKey(e => e.RoleFeatureKey);
+
+                entity.HasIndex(e => new { e.AppRoleKey, e.FeatureKey })
+                    .IsUnique()
+                    .HasDatabaseName("UQ_RoleFeature");
+
+                entity.HasOne(e => e.AppRole)
+                    .WithMany(r => r.RoleFeatures)
+                    .HasForeignKey(e => e.AppRoleKey)
+                    .OnDelete(DeleteBehavior.Restrict);
+
+                entity.HasOne(e => e.Feature)
+                    .WithMany(f => f.RoleFeatures)
+                    .HasForeignKey(e => e.FeatureKey)
+                    .OnDelete(DeleteBehavior.Restrict);
+
+                // Seed: permission matrix from architecture doc
+                // SuperAdmin (1): all features
+                // Admin (2): all except ManageRoles
+                // Auditor (3): ReviewAll, ReviewOwn, Reports
+                // Reviewer (4): ReviewOwn, SubmitDecision
+                entity.HasData(
+                    // SuperAdmin - all 9 features
+                    new BridgeRoleFeature { RoleFeatureKey = 1,  AppRoleKey = 1, FeatureKey = 1, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 2,  AppRoleKey = 1, FeatureKey = 2, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 3,  AppRoleKey = 1, FeatureKey = 3, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 4,  AppRoleKey = 1, FeatureKey = 4, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 5,  AppRoleKey = 1, FeatureKey = 5, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 6,  AppRoleKey = 1, FeatureKey = 6, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 7,  AppRoleKey = 1, FeatureKey = 7, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 8,  AppRoleKey = 1, FeatureKey = 8, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 9,  AppRoleKey = 1, FeatureKey = 9, CanAccess = true },
+                    // Admin - all except ManageRoles (8)
+                    new BridgeRoleFeature { RoleFeatureKey = 10, AppRoleKey = 2, FeatureKey = 1, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 11, AppRoleKey = 2, FeatureKey = 2, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 12, AppRoleKey = 2, FeatureKey = 3, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 13, AppRoleKey = 2, FeatureKey = 4, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 14, AppRoleKey = 2, FeatureKey = 5, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 15, AppRoleKey = 2, FeatureKey = 6, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 16, AppRoleKey = 2, FeatureKey = 7, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 17, AppRoleKey = 2, FeatureKey = 8, CanAccess = false },
+                    new BridgeRoleFeature { RoleFeatureKey = 18, AppRoleKey = 2, FeatureKey = 9, CanAccess = true },
+                    // Auditor - ReviewAll, ReviewOwn, Reports only
+                    new BridgeRoleFeature { RoleFeatureKey = 19, AppRoleKey = 3, FeatureKey = 1, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 20, AppRoleKey = 3, FeatureKey = 2, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 21, AppRoleKey = 3, FeatureKey = 3, CanAccess = false },
+                    new BridgeRoleFeature { RoleFeatureKey = 22, AppRoleKey = 3, FeatureKey = 4, CanAccess = false },
+                    new BridgeRoleFeature { RoleFeatureKey = 23, AppRoleKey = 3, FeatureKey = 5, CanAccess = false },
+                    new BridgeRoleFeature { RoleFeatureKey = 24, AppRoleKey = 3, FeatureKey = 6, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 25, AppRoleKey = 3, FeatureKey = 7, CanAccess = false },
+                    new BridgeRoleFeature { RoleFeatureKey = 26, AppRoleKey = 3, FeatureKey = 8, CanAccess = false },
+                    new BridgeRoleFeature { RoleFeatureKey = 27, AppRoleKey = 3, FeatureKey = 9, CanAccess = false },
+                    // Reviewer - ReviewOwn, SubmitDecision only
+                    new BridgeRoleFeature { RoleFeatureKey = 28, AppRoleKey = 4, FeatureKey = 1, CanAccess = false },
+                    new BridgeRoleFeature { RoleFeatureKey = 29, AppRoleKey = 4, FeatureKey = 2, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 30, AppRoleKey = 4, FeatureKey = 3, CanAccess = true },
+                    new BridgeRoleFeature { RoleFeatureKey = 31, AppRoleKey = 4, FeatureKey = 4, CanAccess = false },
+                    new BridgeRoleFeature { RoleFeatureKey = 32, AppRoleKey = 4, FeatureKey = 5, CanAccess = false },
+                    new BridgeRoleFeature { RoleFeatureKey = 33, AppRoleKey = 4, FeatureKey = 6, CanAccess = false },
+                    new BridgeRoleFeature { RoleFeatureKey = 34, AppRoleKey = 4, FeatureKey = 7, CanAccess = false },
+                    new BridgeRoleFeature { RoleFeatureKey = 35, AppRoleKey = 4, FeatureKey = 8, CanAccess = false },
+                    new BridgeRoleFeature { RoleFeatureKey = 36, AppRoleKey = 4, FeatureKey = 9, CanAccess = false }
+                );
+            });
+
+            modelBuilder.Entity<AppUser>(entity =>
+            {
+                entity.ToTable("App_User");
+                entity.HasKey(e => e.AppUserKey);
+
+                entity.Property(e => e.CreatedAt).HasColumnType("datetime2");
+                entity.Property(e => e.UpdatedAt).HasColumnType("datetime2");
+
+                entity.HasOne(e => e.Employee)
+                    .WithMany(d => d.AppUserAccounts)
+                    .HasForeignKey(e => e.EmployeeKey)
+                    .OnDelete(DeleteBehavior.Restrict);
+
+                entity.HasOne(e => e.AppRole)
+                    .WithMany(r => r.AppUsers)
+                    .HasForeignKey(e => e.AppRoleKey)
+                    .OnDelete(DeleteBehavior.Restrict);
+
+                entity.HasOne(e => e.AssignedByEmployee)
+                    .WithMany(d => d.AppUserAssignments)
+                    .HasForeignKey(e => e.AssignedBy)
                     .OnDelete(DeleteBehavior.Restrict);
             });
 

@@ -1,0 +1,162 @@
+@model QAD_User_Review.ViewModels.AdminViewModel
+
+@{
+    ViewData["Title"] = "Settings";
+}
+
+<div class="card mb-4">
+    <div class="card-header bg-success text-uppercase text-white text-center card-header-slim">
+        <h6>Settings — User &amp; Role Management</h6>
+    </div>
+
+    <div class="review-table-section">
+
+        <!-- Add User Section -->
+        <div class="review-table-header">
+            <h5 class="review-table-title">App Users</h5>
+        </div>
+
+        <div class="card p-3 mb-4" style="background-color: var(--surface-card);">
+            <form asp-action="AddUser" method="post" class="d-flex align-items-end gap-3 flex-wrap">
+                <div class="flex-grow-1" style="min-width: 200px;">
+                    <label class="small-label">Employee</label>
+                    <select name="EmployeeKey" class="form-control" required>
+                        <option value="">-- Select Employee --</option>
+                        @foreach (var emp in Model.AvailableEmployees)
+                        {
+                            <option value="@emp.Value">@emp.Text</option>
+                        }
+                    </select>
+                </div>
+                <div style="min-width: 160px;">
+                    <label class="small-label">Role</label>
+                    <select name="AppRoleKey" class="form-control" required>
+                        @foreach (var role in Model.AvailableRoles)
+                        {
+                            <option value="@role.Value">@role.Text</option>
+                        }
+                    </select>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-success btn-sm">Add User</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Users Table -->
+        <div class="working-list-scroll mb-4">
+            <table class="table table-sm table-hover mb-0">
+                <thead>
+                    <tr>
+                        <th style="width:25%">Employee</th>
+                        <th style="width:15%">Username</th>
+                        <th style="width:12%">Role</th>
+                        <th style="width:10%">Status</th>
+                        <th style="width:15%">Assigned By</th>
+                        <th style="width:13%">Created</th>
+                        <th style="width:10%">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.AppUsers.Count == 0)
+                    {
+                        <tr>
+                            <td colspan="7" class="text-center py-4">No app users configured yet.</td>
+                        </tr>
+                    }
+                    else
+                    {
+                        @foreach (var user in Model.AppUsers)
+                        {
+                            <tr class="@(user.IsActive ? "" : "text-muted")">
+                                <td>@user.EmployeeName</td>
+                                <td><code>@user.AD_Username</code></td>
+                                <td>
+                                    <span class="badge bg-@(user.RoleCode == "SuperAdmin" ? "danger" : user.RoleCode == "Admin" ? "warning text-dark" : user.RoleCode == "Auditor" ? "info" : "success")">
+                                        @user.RoleCode
+                                    </span>
+                                </td>
+                                <td>
+                                    @if (user.IsActive)
+                                    {
+                                        <span class="badge bg-success">Active</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">Inactive</span>
+                                    }
+                                </td>
+                                <td>@user.AssignedByName</td>
+                                <td>@user.CreatedAt.ToString("yyyy-MM-dd")</td>
+                                <td>
+                                    <form asp-action="ToggleUser" method="post" style="display:inline">
+                                        <input type="hidden" name="AppUserKey" value="@user.AppUserKey" />
+                                        <button type="submit" class="btn btn-sm @(user.IsActive ? "btn-outline-danger" : "btn-outline-success")"
+                                                title="@(user.IsActive ? "Deactivate" : "Activate")">
+                                            @(user.IsActive ? "Deactivate" : "Activate")
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Role Permissions Section (SuperAdmin only) -->
+        @if (Model.CanManageRoles && Model.RolePermissions.Count > 0)
+        {
+            <div class="review-table-header mt-4">
+                <h5 class="review-table-title">Permission Matrix</h5>
+            </div>
+
+            <div class="working-list-scroll">
+                <table class="table table-sm table-hover mb-0">
+                    <thead>
+                        <tr>
+                            <th style="width:20%">Feature</th>
+                            @foreach (var role in Model.RolePermissions)
+                            {
+                                <th class="text-center">@role.RoleCode</th>
+                            }
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.RolePermissions.Count > 0)
+                        {
+                            var featureList = Model.RolePermissions.First().Features;
+                            @foreach (var feature in featureList)
+                            {
+                                <tr>
+                                    <td title="@feature.FeatureDescription">@feature.FeatureCode</td>
+                                    @foreach (var role in Model.RolePermissions)
+                                    {
+                                        var rf = role.Features.FirstOrDefault(f => f.FeatureKey == feature.FeatureKey);
+                                        if (rf != null)
+                                        {
+                                            <td class="text-center">
+                                                <form asp-action="UpdatePermission" method="post" style="display:inline">
+                                                    <input type="hidden" name="RoleFeatureKey" value="@rf.RoleFeatureKey" />
+                                                    <input type="hidden" name="CanAccess" value="@(!rf.CanAccess)" />
+                                                    <button type="submit" class="btn btn-sm @(rf.CanAccess ? "btn-success" : "btn-outline-secondary")"
+                                                            style="width:36px; height:28px; padding:0;" title="@(rf.CanAccess ? "Granted — click to revoke" : "Denied — click to grant")">
+                                                        @(rf.CanAccess ? "✓" : "✗")
+                                                    </button>
+                                                </form>
+                                            </td>
+                                        }
+                                        else
+                                        {
+                                            <td class="text-center text-muted">—</td>
+                                        }
+                                    }
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+</div>

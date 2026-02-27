@@ -283,63 +283,98 @@ body {
     box-shadow: 0 0 0 3px rgba(0, 117, 76, 0.15);
 }
 
+/* ===== Review Table Section ===== */
+
+.review-table-section {
+    padding: 1.5rem;
+}
+
+.review-table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--green-primary);
+}
+
+.review-table-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--text-primary);
+    margin: 0;
+    letter-spacing: -0.01em;
+}
+
 /* ===== Table Styles ===== */
 
 .working-list-scroll {
-    max-height: 480px;
+    max-height: 520px;
     overflow-y: auto;
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-md);
+    border: 1px solid #dde5e0;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.working-list-scroll table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
 }
 
 .working-list-scroll thead th {
     position: sticky;
     top: 0;
     z-index: 2;
-    background: linear-gradient(135deg, var(--green-primary), var(--green-light));
-    color: #fff;
+    background-color: #f6faf8;
+    color: #2d6a4f;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
-    padding: 0.75rem 0.5rem;
-    border: none;
+    letter-spacing: 0.05em;
+    padding: 0.85rem 0.75rem;
+    border-bottom: 2px solid #c8e0d4;
     white-space: nowrap;
 }
 
 .table > :not(caption) > * > * {
-    padding: 0.5rem;
-}
-
-.table-striped > tbody > tr:nth-of-type(odd) > * {
-    background-color: rgba(0, 117, 76, 0.04);
+    padding: 0.6rem 0.75rem;
 }
 
 .table-hover > tbody > tr:hover > * {
-    background-color: rgba(0, 117, 76, 0.08);
+    background-color: #f0f7f3;
 }
 
 .working-list-scroll tbody tr {
     transition: background-color var(--transition);
+    border-bottom: 1px solid #eef2f0;
+}
+
+.working-list-scroll tbody tr:last-child {
+    border-bottom: none;
 }
 
 .working-list-scroll tbody td {
     vertical-align: middle;
     font-size: 0.875rem;
+    color: var(--text-primary);
 }
 
 .working-list-scroll tbody td select {
     font-size: 0.8rem;
-    padding: 0.25rem 0.4rem;
+    padding: 0.35rem 0.5rem;
     border-radius: 6px;
     border: 1px solid var(--border-color);
+    background-color: #fff;
+    width: 100%;
 }
 
 .working-list-scroll tbody td input[type="text"] {
     font-size: 0.8rem;
-    padding: 0.25rem 0.5rem;
+    padding: 0.35rem 0.6rem;
     border-radius: 6px;
     border: 1px solid var(--border-color);
+    background-color: #fff;
     width: 100%;
 }
 
@@ -384,6 +419,31 @@ body {
     padding: 0.4rem 0.75rem;
     border-radius: var(--radius-sm);
     font-size: 0.85rem;
+}
+
+.badge-status {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.badge-pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.badge-approved {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.badge-disabled {
+    background-color: #f8d7da;
+    color: #842029;
 }
 
 /* ===== Documentation List Tables ===== */
@@ -495,7 +555,11 @@ td.no {
 
 @media (max-width: 768px) {
     .working-list-scroll {
-        max-height: 350px;
+        max-height: 380px;
+    }
+
+    .review-table-section {
+        padding: 1rem;
     }
 }
 

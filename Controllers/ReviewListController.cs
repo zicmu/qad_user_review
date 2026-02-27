@@ -12,11 +12,16 @@ namespace QAD_User_Review.Controllers
     {
         private readonly UserReviewContext _context;
         private readonly IEmailService _emailService;
+        private readonly IPermissionService _permissionService;
 
-        public ReviewListController(UserReviewContext context, IEmailService emailService)
+        public ReviewListController(
+            UserReviewContext context,
+            IEmailService emailService,
+            IPermissionService permissionService)
         {
             _context = context;
             _emailService = emailService;
+            _permissionService = permissionService;
         }
 
         public async Task<IActionResult> Index()
@@ -33,13 +38,24 @@ namespace QAD_User_Review.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            bool isReviewer = await _context.BridgeOrgCharts
-                .AnyAsync(o => o.ReviewerKey == reviewer.EmployeeKey && o.IsActive);
+            bool canReviewAll = await _permissionService.CanReviewAllAsync(currentUserId);
+            bool canSubmitDecision = await _permissionService.HasFeatureAsync(currentUserId, "SubmitDecision");
+            string? userRole = await _permissionService.GetUserRoleCodeAsync(currentUserId);
 
-            if (!isReviewer)
+            // If user has no app role, fall back to legacy Reviewer behavior
+            bool hasAppRole = userRole != null;
+            if (!hasAppRole)
             {
-                TempData["SuccessMessage"] = "You are not authorized to access the review list.\r\nPlease contact the administrator.";
-                return RedirectToAction("Index", "Home");
+                bool isReviewer = await _context.BridgeOrgCharts
+                    .AnyAsync(o => o.ReviewerKey == reviewer.EmployeeKey && o.IsActive);
+
+                if (!isReviewer)
+                {
+                    TempData["SuccessMessage"] = "You are not authorized to access the review list.\r\nPlease contact the administrator.";
+                    return RedirectToAction("Index", "Home");
+                }
+
+                canSubmitDecision = true;
             }
 
             var activePeriod = await _context.DimReviewPeriods
@@ -52,17 +68,23 @@ namespace QAD_User_Review.Controllers
             }
 
             var statuses = await _context.RefReviewStatuses.ToListAsync();
-            var statusLookup = statuses.ToDictionary(s => s.StatusKey, s => s.StatusCode);
 
-            var reviewItems = await _context.FactRoleReviews
+            var query = _context.FactRoleReviews
                 .Include(r => r.Assignment)
                     .ThenInclude(a => a.SystemIdentity)
                         .ThenInclude(si => si.Employee)
                 .Include(r => r.Assignment)
                     .ThenInclude(a => a.Role)
                 .Include(r => r.Status)
-                .Where(r => r.ReviewerKey == reviewer.EmployeeKey
-                         && r.ReviewPeriodKey == activePeriod.ReviewPeriodKey)
+                .Where(r => r.ReviewPeriodKey == activePeriod.ReviewPeriodKey);
+
+            // ReviewAll: show all employees; otherwise scope to own employees
+            if (!canReviewAll)
+            {
+                query = query.Where(r => r.ReviewerKey == reviewer.EmployeeKey);
+            }
+
+            var reviewItems = await query
                 .OrderBy(r => r.Assignment.SystemIdentity.Employee.FullName)
                     .ThenBy(r => r.Assignment.Role.RoleCode)
                 .ToListAsync();
@@ -81,16 +103,31 @@ namespace QAD_User_Review.Controllers
                 RoleKey = r.Assignment.RoleKey
             }).ToList();
 
-            var managedEmployeeKeys = await _context.BridgeOrgCharts
-                .Where(o => o.ReviewerKey == reviewer.EmployeeKey && o.IsActive)
-                .Select(o => o.EmployeeKey)
-                .Distinct()
-                .ToListAsync();
+            IEnumerable<SelectListItem> employeeList;
+            if (canReviewAll)
+            {
+                employeeList = viewItems
+                    .Select(v => new { v.EmployeeName, v.AD_Username })
+                    .DistinctBy(x => x.AD_Username)
+                    .OrderBy(x => x.EmployeeName)
+                    .Select(x => new SelectListItem { Text = x.EmployeeName, Value = x.AD_Username });
+            }
+            else
+            {
+                var managedEmployeeKeys = await _context.BridgeOrgCharts
+                    .Where(o => o.ReviewerKey == reviewer.EmployeeKey && o.IsActive)
+                    .Select(o => o.EmployeeKey)
+                    .Distinct()
+                    .ToListAsync();
 
-            var employees = await _context.DimEmployees
-                .Where(e => managedEmployeeKeys.Contains(e.EmployeeKey) && e.IsActive)
-                .OrderBy(e => e.FullName)
-                .ToListAsync();
+                var employees = await _context.DimEmployees
+                    .Where(e => managedEmployeeKeys.Contains(e.EmployeeKey) && e.IsActive)
+                    .OrderBy(e => e.FullName)
+                    .ToListAsync();
+
+                employeeList = employees
+                    .Select(e => new SelectListItem { Text = e.FullName, Value = e.AD_Username });
+            }
 
             var plants = viewItems
                 .Where(v => v.Plant != null)
@@ -98,9 +135,6 @@ namespace QAD_User_Review.Controllers
                 .Distinct()
                 .OrderBy(p => p)
                 .Select(p => new SelectListItem { Text = p, Value = p });
-
-            var employeeList = employees
-                .Select(e => new SelectListItem { Text = e.FullName, Value = e.AD_Username });
 
             var statusList = statuses
                 .Select(s => new SelectListItem { Text = s.StatusCode, Value = s.StatusCode });
@@ -115,7 +149,10 @@ namespace QAD_User_Review.Controllers
                 ActivePeriodName = activePeriod.PeriodName,
                 SelectedEmployee = null,
                 SelectedStatus = null,
-                SelectedPlant = null
+                SelectedPlant = null,
+                CanSubmitDecision = canSubmitDecision,
+                CanReviewAll = canReviewAll,
+                UserRoleCode = userRole
             };
 
             return View("ReviewList", viewModel);
@@ -125,6 +162,18 @@ namespace QAD_User_Review.Controllers
         public async Task<IActionResult> Save(ReviewListMainViewModel model)
         {
             string currentUserId = GetCurrentUserId();
+            currentUserId = ResolveManagerUserId(currentUserId);
+
+            bool canSubmit = await _permissionService.HasFeatureAsync(currentUserId, "SubmitDecision");
+            string? userRole = await _permissionService.GetUserRoleCodeAsync(currentUserId);
+
+            // Allow legacy users (no app role) to submit as before
+            if (userRole != null && !canSubmit)
+            {
+                TempData["SuccessMessage"] = "You do not have permission to submit decisions.";
+                return RedirectToAction("Index");
+            }
+
             int changeCount = 0;
 
             var statuses = await _context.RefReviewStatuses.ToListAsync();
@@ -212,7 +261,6 @@ namespace QAD_User_Review.Controllers
 
         /// <summary>
         /// Temporary delegation mapping for testing/dev purposes.
-        /// TODO: Replace with a proper delegation table in the database.
         /// </summary>
         private static string ResolveManagerUserId(string userId)
         {
