@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using QAD_User_Review.Data;
+using QAD_User_Review.Models;
 using QAD_User_Review.Services;
 using QAD_User_Review.ViewModels;
 
@@ -24,10 +25,13 @@ namespace QAD_User_Review.Controllers
             string currentUser = GetCurrentUserId();
             bool canManageRoles = await _permissionService.HasFeatureAsync(currentUser, "ManageRoles");
 
+            var managedRoleCodes = new[] { "SuperAdmin", "Admin", "Auditor" };
+
             var appUsers = await _context.AppUsers
                 .Include(au => au.Employee)
                 .Include(au => au.AppRole)
                 .Include(au => au.AssignedByEmployee)
+                .Where(au => managedRoleCodes.Contains(au.AppRole.RoleCode))
                 .OrderBy(au => au.Employee.FullName)
                 .Select(au => new AppUserViewModel
                 {
@@ -82,6 +86,7 @@ namespace QAD_User_Review.Controllers
                 .ToListAsync();
 
             var availableRoles = await _context.RefAppRoles
+                .Where(r => managedRoleCodes.Contains(r.RoleCode))
                 .OrderBy(r => r.AppRoleKey)
                 .Select(r => new SelectListItem { Text = r.RoleCode, Value = r.AppRoleKey.ToString() })
                 .ToListAsync();
@@ -114,7 +119,7 @@ namespace QAD_User_Review.Controllers
                 return RedirectToAction("Index");
             }
 
-            var appUser = new Models.AppUser
+            var appUser = new AppUser
             {
                 EmployeeKey = request.EmployeeKey,
                 AppRoleKey = request.AppRoleKey,
@@ -177,6 +182,32 @@ namespace QAD_User_Review.Controllers
                 _permissionService.ClearCache(username);
 
             TempData["SuccessMessage"] = "Permission updated successfully.";
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RemoveUser(RemoveUserRequest request)
+        {
+            var appUser = await _context.AppUsers
+                .Include(au => au.Employee)
+                .FirstOrDefaultAsync(au => au.AppUserKey == request.AppUserKey);
+            if (appUser == null)
+                return NotFound();
+
+            string currentUser = GetCurrentUserId();
+            if (string.Equals(appUser.Employee.AD_Username, currentUser, StringComparison.OrdinalIgnoreCase))
+            {
+                TempData["ErrorMessage"] = "You cannot remove yourself.";
+                return RedirectToAction("Index");
+            }
+
+            string removedUsername = appUser.Employee.AD_Username;
+            _context.AppUsers.Remove(appUser);
+            await _context.SaveChangesAsync();
+
+            _permissionService.ClearCache(removedUsername);
+
+            TempData["SuccessMessage"] = "User removed successfully.";
             return RedirectToAction("Index");
         }
 

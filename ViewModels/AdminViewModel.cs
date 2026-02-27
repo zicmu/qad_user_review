@@ -57,4 +57,9 @@ namespace QAD_User_Review.ViewModels
         public int RoleFeatureKey { get; set; }
         public bool CanAccess { get; set; }
     }
+
+    public class RemoveUserRequest
+    {
+        public int AppUserKey { get; set; }
+    }
 }

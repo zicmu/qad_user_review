@@ -89,13 +89,23 @@
                                 <td>@user.AssignedByName</td>
                                 <td>@user.CreatedAt.ToString("yyyy-MM-dd")</td>
                                 <td>
-                                    <form asp-action="ToggleUser" method="post" style="display:inline">
-                                        <input type="hidden" name="AppUserKey" value="@user.AppUserKey" />
-                                        <button type="submit" class="btn btn-sm @(user.IsActive ? "btn-outline-danger" : "btn-outline-success")"
-                                                title="@(user.IsActive ? "Deactivate" : "Activate")">
-                                            @(user.IsActive ? "Deactivate" : "Activate")
-                                        </button>
-                                    </form>
+                                    <div class="d-flex gap-1 justify-content-center">
+                                        <form asp-action="ToggleUser" method="post">
+                                            <input type="hidden" name="AppUserKey" value="@user.AppUserKey" />
+                                            <button type="submit" class="btn btn-xs @(user.IsActive ? "btn-outline-danger" : "btn-outline-success")"
+                                                    style="font-size:0.7rem; padding:2px 8px;" title="@(user.IsActive ? "Deactivate" : "Activate")">
+                                                @(user.IsActive ? "Disable" : "Enable")
+                                            </button>
+                                        </form>
+                                        <form asp-action="RemoveUser" method="post"
+                                              onsubmit="return confirm('Are you sure you want to permanently remove @user.EmployeeName? This cannot be undone.');">
+                                            <input type="hidden" name="AppUserKey" value="@user.AppUserKey" />
+                                            <button type="submit" class="btn btn-xs btn-outline-dark"
+                                                    style="font-size:0.7rem; padding:2px 8px;" title="Remove permanently">
+                                                Remove
+                                            </button>
+                                        </form>
+                                    </div>
                                 </td>
                             </tr>
                         }
@@ -138,7 +148,7 @@
                                             <td class="text-center">
                                                 <form asp-action="UpdatePermission" method="post" style="display:inline">
                                                     <input type="hidden" name="RoleFeatureKey" value="@rf.RoleFeatureKey" />
-                                                    <input type="hidden" name="CanAccess" value="@(!rf.CanAccess)" />
+                                                    <input type="hidden" name="CanAccess" value="@(rf.CanAccess ? "false" : "true")" />
                                                     <button type="submit" class="btn btn-sm @(rf.CanAccess ? "btn-success" : "btn-outline-secondary")"
                                                             style="width:36px; height:28px; padding:0;" title="@(rf.CanAccess ? "Granted — click to revoke" : "Denied — click to grant")">
                                                         @(rf.CanAccess ? "✓" : "✗")
