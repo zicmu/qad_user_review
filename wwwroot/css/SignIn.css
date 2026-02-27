@@ -1,52 +1,77 @@
-﻿.container {
-    max-width: 500px;
+.container {
+    max-width: 480px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 8vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 form {
     background-color: #fff;
-    padding: 50px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
 }
 
 h1 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: #00754c;
+    font-size: 1.75rem;
 }
 
 .form-group {
-    margin-bottom: 25px;
+    margin-bottom: 1.25rem;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
-    font-weight: 700;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #5a5a7a;
 }
 
 input[type="text"], select {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    padding: 0.65rem 0.85rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
     box-sizing: border-box;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background-color: #f8fafc;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #00754c;
+    box-shadow: 0 0 0 3px rgba(0, 117, 76, 0.15);
+    outline: none;
+    background-color: #fff;
 }
 
 button[type="submit"] {
     display: block;
-    margin-top: 25px;
-    padding: 10px;
-    background-color: #2ecc71;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.7rem;
+    background: linear-gradient(135deg, #00754c, #62a313);
     color: #fff;
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 8px;
+    font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(135deg, #005a3a, #00754c);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 117, 76, 0.3);
 }
 
 select {
@@ -54,7 +79,8 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5.293 7.293a1 1 0 0 0 0 1.414l6.3 6.3a1 1 0 0 0 1.414 0l6.3-6.3a1 1 0 1 0-1.414-1.414L12 12.586l-5.293-5.293a1 1 0 0 0-1.414 0z" fill="%23525252"/></svg>');
-    background-size: 12px;
+    background-size: 14px;
     background-repeat: no-repeat;
-    background-position: calc(100% - 10px) center;
-    padding-right: 30px;
+    background-position: calc(100% - 12px) center;
+    padding-right: 36px;
+}

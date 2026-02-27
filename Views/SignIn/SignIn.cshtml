@@ -1,5 +1,4 @@
-﻿@model QAD_User_Review.Models.Manager ;
-
+@model IEnumerable<QAD_User_Review.Models.DimEmployee>
 
 <!DOCTYPE html>
 <html>
@@ -17,15 +16,14 @@
                 <input type="text" id="userId" name="userId" required>
             </div>
             <div class="form-group">
-                <label for="fullName">Full Name</label>
+                <label for="fullName">Reviewer</label>
                 <select id="fullName" name="fullName" required>
-
-                  <!--  foreach (var manager in Managers)
+                    <option value="">-- Select Reviewer --</option>
+                    @foreach (var reviewer in Model)
                     {
-                        <option value="anager.UserId">manager.Manager1</option>
+                        <option value="@reviewer.AD_Username">@reviewer.FullName</option>
                     }
-                    -->
-            </select>
+                </select>
             </div>
             <div class="form-group">
                 <label for="position">Position</label>

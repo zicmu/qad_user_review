@@ -1,41 +1,29 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-using System.Diagnostics;
-using System.Net.Mail;
-using System.Net.NetworkInformation;
-using System.IO;
-using Microsoft.AspNetCore.Hosting.Server;
-using Microsoft.Extensions.Hosting.Internal;
+using Microsoft.AspNetCore.Mvc;
 using QAD_User_Review.ViewModels;
-using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
-
 
 namespace QAD_User_Review.Controllers
 {
-
-    public class ITQuality : Controller
+    public class ITQualityController : Controller
     {
-        private IHostingEnvironment Environment;
-        public ITQuality(IHostingEnvironment _environment)
-        {
-            Environment = _environment;
-        }
+        private readonly IWebHostEnvironment _environment;
 
+        public ITQualityController(IWebHostEnvironment environment)
+        {
+            _environment = environment;
+        }
 
         public ActionResult Index()
         {
-            string[] filepaths = Directory.GetFiles(Path.Combine(this.Environment.WebRootPath, "ITQualityFiles/"));
-            List<FileModel> list = new List<FileModel>();
-            foreach (string filepath in filepaths)
-            {
-                list.Add(new FileModel { FileName = Path.GetFileName(filepath) });
-            }
+            string[] filepaths = Directory.GetFiles(Path.Combine(_environment.WebRootPath, "ITQualityFiles"));
+            var list = filepaths
+                .Select(fp => new FileModel { FileName = Path.GetFileName(fp) })
+                .ToList();
             return View(list);
         }
 
         public FileResult DownloadFile(string fileName)
         {
-            string path = Path.Combine(this.Environment.WebRootPath, "ITQualityFiles/") + fileName;
+            string path = Path.Combine(_environment.WebRootPath, "ITQualityFiles", fileName);
             byte[] bytes = System.IO.File.ReadAllBytes(path);
             return File(bytes, "application/octet-stream", fileName);
         }

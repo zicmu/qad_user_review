@@ -1,40 +1,35 @@
-﻿@model QAD_User_Review.ViewModels.MenuDetailViewModel ;
+@model QAD_User_Review.ViewModels.MenuDetailViewModel
 
 @{
     ViewData["Title"] = "Menu Details";
     Layout = null;
 }
-<!--<link href="d:\web_projects\qad user review\wwwroot\css\site.css" rel="stylesheet" />-->
 
 <div class="card">
-    <div class="card-header bg-success text-uppercase text-white text-center mb-2 pt-0" style="height:25px; margin-top:20px;">
-        <h6>@Model.selectedGroup</h6>
+    <div class="card-header bg-success text-uppercase text-white text-center mb-2 pt-0 card-header-slim">
+        <h6>@Model.SelectedRole</h6>
     </div>
-    <div class="col-12 ml-1" style="padding:20px;">
-        <table id="MenuDetails" class="table table-striped CodesTable table-sm mb-0 pb-0">
+    <div class="col-12 ms-1 p-3">
+        <table id="MenuDetails" class="table table-striped table-sm mb-0 pb-0">
             <thead>
                 <tr>
-
-                    <th class="col-3 text-center">
-                        Menu Name
-                    </th>
-
+                    <th class="col-4 text-center">Menu Code</th>
+                    <th class="col-8 text-center">Description</th>
                 </tr>
             </thead>
-
             <tbody>
-                @for (int i = 0; i < Model.MenuDetails.Count; i++)
+                @for (int i = 0; i < Model.MenuItems.Count; i++)
                 {
                     <tr>
-                        <td class="col-3 text-left">
-                            @Html.DisplayFor(m => m.MenuDetails[i].Menu)
+                        <td class="col-4 text-start">
+                            @Html.DisplayFor(m => m.MenuItems[i].MenuCode)
+                        </td>
+                        <td class="col-8 text-start">
+                            @Html.DisplayFor(m => m.MenuItems[i].MenuDescription)
                         </td>
                     </tr>
                 }
             </tbody>
-
         </table>
-
-        
     </div>
 </div>

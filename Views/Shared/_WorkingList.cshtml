@@ -1,47 +1,34 @@
-﻿@model QAD_User_Review.ViewModels.SharedReviewListViewModel ; 
+@model QAD_User_Review.ViewModels.SharedReviewListViewModel
 
-<table id="WorkingList" class="table-striped tableFixHead table table-sm mb-0 pb-0 table-hover">
+<table id="WorkingList" class="table table-striped table-sm table-hover mb-0 table-fixed-head">
     <thead>
         <tr>
-            <th style="width:15%">
-                Employee
-            </th>
-
-            
-            <th style="width:10%">
-                Decision
-            </th>
-           
-
+            <th style="width:15%">Employee</th>
+            <th style="width:10%">Status</th>
         </tr>
     </thead>
-
     <tbody>
-        @if (Model.ReviewLists.Count() != 0)
+        @if (Model.ReviewItems.Count != 0)
         {
-            @for (int i = 0; i < Model.ReviewLists.Count; i++)
+            @for (int i = 0; i < Model.ReviewItems.Count; i++)
             {
-                <tr class="@Model.ReviewLists[i].Plant @Model.ReviewLists[i].Username @Model.ReviewLists[i].Decision">
-                    <td style="width:15%" title="@Model.ReviewLists[i].Username">
-                        @Html.DisplayFor(m => m.ReviewLists[i].Employee)
+                <tr class="@Model.ReviewItems[i].Plant @Model.ReviewItems[i].AD_Username @Model.ReviewItems[i].StatusCode">
+                    <td style="width:15%" title="@Model.ReviewItems[i].AD_Username">
+                        @Html.DisplayFor(m => m.ReviewItems[i].EmployeeName)
                     </td>
-
-                   
-                    <td style="width:10%">
-                        @Html.DropDownListFor(m => m.ReviewLists[i].Decision, new List <SelectListItem>
-                {
-                new SelectListItem {Text ="Disable",Value="Disable"},
-                new SelectListItem {Text ="Approved",Value="Approved"},
-                new SelectListItem {Text ="Open",Value="Open"}
-                }
-                )
+                    <td class="decision-cell" style="width:10%">
+                        @Html.DropDownListFor(m => m.ReviewItems[i].StatusCode, new List<SelectListItem>
+                        {
+                            new SelectListItem { Text = "Pending", Value = "Pending" },
+                            new SelectListItem { Text = "Approved", Value = "Approved" },
+                            new SelectListItem { Text = "Disabled", Value = "Disabled" }
+                        })
                     </td>
                     <td>
-                        @Html.HiddenFor(m	=>	m.ReviewLists[i].Id)
+                        @Html.HiddenFor(m => m.ReviewItems[i].ReviewKey)
                     </td>
                 </tr>
             }
         }
-     
     </tbody>
 </table>

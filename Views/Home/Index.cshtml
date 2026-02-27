@@ -1,39 +1,10 @@
-﻿@{
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="IndexDiv">
-
-    
-    <div id="ITPortalHomePage" style="margin-top:5%">
-        <h1 class="text-center font-weight-bold" >IT User Portal</h1>
-        <h3 class="text-center font-weight-bold">Maintain user's accessability</h3>
-       
-    </div>   
+    <div id="ITPortalHomePage" class="text-center">
+        <h1 class="fw-bold mb-3" style="font-size: 2.5rem; color: var(--green-primary);">IT User Portal</h1>
+        <h3 class="fw-normal" style="color: var(--text-secondary);">Maintain user's accessibility</h3>
+    </div>
 </div>
-
-
-@section Scripts
-{
-
-<script type="text/javascript">
-
-
-        function openSuccessModal(strMessage) {
-            var myDiv = document.getElementById("MyModalSuccessAlertBody");
-            myDiv.innerHTML = strMessage;
-            $('#myModalSuccess').modal('toggle');
-        }
-        $(document).ready(function () {
-            var msg = "@TempData["SuccessMessage"]";
-            if (msg)
-                openSuccessModal(msg);
-
-        });
-
-               
-</script>
-    <script src="~/js/site.js"></script>
-    <script src="~/js/savechanges.js"></script>
-
-}

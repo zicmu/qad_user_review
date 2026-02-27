@@ -1,22 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using QAD_User_Review.Data;
-using QAD_User_Review.Models;
 
 namespace QAD_User_Review.ViewModels
 {
     public class ReviewListMainViewModel
     {
-        public IList<ReviewList> ReviewLists { set; get; }
-        public IEnumerable<SelectListItem> Decisions { set; get; }
-        public IEnumerable<User> Employees { set; get; }
-        public IEnumerable<Manager> Managers { set; get; }
-        public IEnumerable<SelectListItem> Plants { set; get; }
-        public string selectedEmployee { set; get; }
-        public string selectedDecision { set; get; }
-        public string selectedPlant { set; get; }
+        public IList<ReviewItemViewModel> ReviewItems { get; set; } = new List<ReviewItemViewModel>();
+        public IEnumerable<SelectListItem> Statuses { get; set; } = Enumerable.Empty<SelectListItem>();
+        public IEnumerable<SelectListItem> Employees { get; set; } = Enumerable.Empty<SelectListItem>();
+        public IEnumerable<SelectListItem> Plants { get; set; } = Enumerable.Empty<SelectListItem>();
+        public string ReviewerName { get; set; } = string.Empty;
+        public string ActivePeriodName { get; set; } = string.Empty;
+        public string? SelectedEmployee { get; set; }
+        public string? SelectedStatus { get; set; }
+        public string? SelectedPlant { get; set; }
     }
-
-    
 }

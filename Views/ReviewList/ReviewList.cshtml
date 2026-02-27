@@ -1,251 +1,160 @@
-﻿@model QAD_User_Review.ViewModels.ReviewListMainViewModel ;
-
+@model QAD_User_Review.ViewModels.ReviewListMainViewModel
 
 @{
     ViewData["Title"] = "Review List";
 }
 
-<!-- Main Div -->
 <div class="card">
-    <div class="card-header bg-success text-uppercase text-white text-center mb-2 pt-0" style="height:25px; margin-top:20px;">
+    <div class="card-header bg-success text-uppercase text-white text-center card-header-slim">
         <h6>QAD Review Process</h6>
     </div>
 
-    @using (Html.BeginForm(FormMethod.Post))
-
+    @using (Html.BeginForm("Save", "ReviewList", FormMethod.Post))
     {
+        <div class="flex-parent-element panel-border-bottom">
 
-        <div class="form-group">
-            <div class="flex-parent-element " style="border-bottom:2px solid rgb(186,20,25); border-bottom-width:medium">
-                   <div class="flex-child-element" style="background-color: rgb(222,222,222); padding:5px">
-                    <div class="form-group col-12" style="margin-left:15px; margin-top:10px">
-                        
-                            <h7 style="margin-left:8px"> Approver: <b>@Model.Managers.First().Manager1</b> </h7> <br/>
-                        
-                        <div class="form-group col-10" style="margin-top:5px">
-                            <label for="filterPlant" class="small-label">Select by Plant:</label>
-                            @{
-                                var sortedPlants = Model.Plants.Distinct().OrderBy(x => x.Text);
-                            }
-                            @Html.DropDownListFor(m => m.selectedPlant, new SelectList(sortedPlants, "Value", "Text"), "-- All Plants --", new { @id="filterPlant", @class ="form-control", @onchange="filterEmployees(); filterTable()"})
-                        </div>
-                        <div class="form-group col-10">
-                            <label for="filterEmployee" class="small-label">Select by Employee:</label>
-                           @{
-                                    var sortedEmployees = Model.Employees.OrderBy(e => e.Employee).ToList();
-                                  }
-                                  <select id="filterEmployee" class="form-control" onchange="filterTable()">
-                                    <option value="">-- All Employees --</option>
-                                    @foreach (var employee in sortedEmployees)
-                                    {
-                                      <option value="@employee.Username" data-plant="@employee.Plant">@employee.Employee</option>
-                                    }
-                                  </select>
-                            
-                        </div>
-                        <div class="form-group col-10" style="margin-bottom:15px">
-                            <label for="filterDecision" class="small-label">Select by Decision:</label>
-                            @Html.DropDownListFor(m => m.selectedDecision, new SelectList(Model.Decisions, "Value", "Text"), "-- All Decisions --", new { @id="filterDecision", @class ="form-control", @onchange="filterTable()"})
-                        </div>
-                    </div>
-                </div>
-          
+            <!-- Filter Panel -->
+            <div class="flex-child-element panel-filter">
+                <p class="mb-2"><strong>Approver:</strong> @Model.ReviewerName</p>
 
-                <div class="flex-child-element" style="background-color: rgb(222,222,222); padding:5px">
-                    <div class="form-group col-12" style="margin-left:15px; margin-top:10px">
-                        <b><h8>Review Status</h8></b>
-                        <br />
-                      
-                        <!-- <h7>Number of employees: @Model.ReviewLists.Select(c => c.Employee).Distinct().Count()</h7>-->
-                        <br />
-                        <h7>Number of total cases: @Model.ReviewLists.Count()</h7>
-                        <br />
-                        <h7>Number of open cases: @Model.ReviewLists.Count(c => c.Decision=="Open")</h7>
-                        <br />
-                        <h7>Number of approved cases: @Model.ReviewLists.Count(c => c.Decision=="Approved")</h7>
-                        <br />
-                        <h7>Number of disabled cases: @Model.ReviewLists.Count(c => c.Decision=="Disable")</h7>
-                        <br />
-                         @if (@Model.ReviewLists.Count(c => c.Decision=="Open")==0)
-                             {
-                                <h6 style="color: green; margin-top:15px;"> All cases have been resolved! </h6> }
-                                else 
-                                {
-                                <h6 style="color: red; margin-top:15px;"> Please review all cases! </h6>
-                                }
-                             
-                    </div>
-                </div>
-                <div class="flex-child-element" style="background-color: rgb(255,255,255)">
-                    
-                    <div class="form-group col-12" style="margin-left:20%; margin-top:10px">
-                        <b><h7> Multiple Update of Selection </h7></b>
-                    </div>
-
-                    <div class="btn-group-vertical" style="margin-left:30%; margin-top:3%">
-
-                        <button id="btnApprove" type="button" class="btn btn-success" title="Approve the selected records with status Open" onclick="approveSelected()">Approve Selection</button>
-
-                        <button id="btnDisable" type="button" class="btn btn-danger" title="Disable the selected records with status Open" style="margin-top:7px" onclick="disableSelected()">Disable Selection</button>
-
-                        <button id="btnOpen" type="button" class="btn btn-primary" title="Return the selected records to status Open" style="margin-top:7px" onclick="OpenSelected()">Open Selection</button>
-                        <div style="margin-top:15px">
-                            <img src="~/images/userManual.png" style="width:32px; height:32px; margin-right:10px">
-                            <a href="~/files/qad user review web.pdf" title="Download" download>User Manual</a>
-                        </div>
-                    </div>
-                     <div >
-                            <p> <strong>Database was last updated on Nov 24th, 2025.</strong></p>
-                        </div>
-                    
+                <div class="mb-2">
+                    <label for="filterPlant" class="small-label">Select by Plant:</label>
+                    @{
+                        var sortedPlants = Model.Plants.OrderBy(x => x.Text);
+                    }
+                    @Html.DropDownListFor(m => m.SelectedPlant,
+                        new SelectList(sortedPlants, "Value", "Text"),
+                        "-- All Plants --",
+                        new { id = "filterPlant", @class = "form-control", onchange = "filterEmployees(); filterTable()" })
                 </div>
 
+                <div class="mb-2">
+                    <label for="filterEmployee" class="small-label">Select by Employee:</label>
+                    <select id="filterEmployee" class="form-control" onchange="filterTable()">
+                        <option value="">-- All Employees --</option>
+                        @foreach (var emp in Model.Employees)
+                        {
+                            <option value="@emp.Value">@emp.Text</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="mb-1">
+                    <label for="filterStatus" class="small-label">Select by Status:</label>
+                    @Html.DropDownListFor(m => m.SelectedStatus,
+                        new SelectList(Model.Statuses, "Value", "Text"),
+                        "-- All Statuses --",
+                        new { id = "filterStatus", @class = "form-control", onchange = "filterTable()" })
+                </div>
             </div>
+
+            <!-- Status Panel -->
+            <div class="flex-child-element panel-filter">
+                <p class="fw-bold mb-2">Review Status</p>
+                <p class="mb-1">Total cases: <strong>@Model.ReviewItems.Count</strong></p>
+                <p class="mb-1">Pending cases: <strong>@Model.ReviewItems.Count(c => c.StatusCode == "Pending")</strong></p>
+                <p class="mb-1">Approved cases: <strong>@Model.ReviewItems.Count(c => c.StatusCode == "Approved")</strong></p>
+                <p class="mb-1">Disabled cases: <strong>@Model.ReviewItems.Count(c => c.StatusCode == "Disabled")</strong></p>
+
+                @if (Model.ReviewItems.Count(c => c.StatusCode == "Pending") == 0)
+                {
+                    <p class="status-resolved mt-3">All cases have been resolved!</p>
+                }
+                else
+                {
+                    <p class="status-pending mt-3">Please review all cases!</p>
+                }
+            </div>
+
+            <!-- Actions Panel -->
+            <div class="flex-child-element panel-actions">
+                <p class="fw-bold mb-3">Multiple Update of Selection</p>
+
+                <div class="d-flex flex-column gap-2 mb-3">
+                    <button id="btnApprove" type="button" class="btn btn-success" title="Approve the selected records with status Pending" onclick="approveSelected()">Approve Selection</button>
+                    <button id="btnDisable" type="button" class="btn btn-danger" title="Disable the selected records with status Pending" onclick="disableSelected()">Disable Selection</button>
+                    <button id="btnPending" type="button" class="btn btn-primary" title="Return the selected records to status Pending" onclick="pendingSelected()">Reset to Pending</button>
+                </div>
+
+                <div class="d-flex align-items-center mb-2">
+                    <img src="~/images/userManual.png" class="manual-icon" alt="User Manual" />
+                    <a href="~/files/qad user review web.pdf" title="Download" download>User Manual</a>
+                </div>
+
+                <p class="mb-0"><strong>Active Period: @Model.ActivePeriodName</strong></p>
+            </div>
+
         </div>
-        <div class="form-group col-12">        
-            <h4 class="text-center" style="margin-top:5px"> Working List </h4>
-            <div class="col-12 ml-1" style="padding:7px;">
-                <div class="table-responsive">
-                    <table id="WorkingList" class="table-striped tableFixHead table table-sm mb-0 pb-0 table-hover">
-                        <thead>
-                            <tr>
-                                <th style="width:15%">
-                                    Employee
-                                </th>
 
-                                <th style="width:10%">
-                                    Plant
-                                </th>
-                                <th style="width:15%">
-                                    System
-                                </th>
-                                <th style="width:20%">
-                                    User Group
-                                </th>
-                                <th style="width:10%">
-                                    Decision
-                                </th>
-                                <th style="width:20%">
-                                    Note
-                                </th>
-                                <th style="width:10%">
-                                    <input type="submit" value="Save" class="btn btn-warning Loader " title="Save your work" style="width:calc(100%)" id="btnSave" asp-area="" asp-controller="ReviewList" asp-action="Save" />
-                                </th>
-
-
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            @if (Model.ReviewLists.Count() != 0)
+        <!-- Working List Table -->
+        <div class="p-3">
+            <h5 class="page-title">Working List</h5>
+            <div class="working-list-scroll">
+                <table id="WorkingList" class="table table-striped table-sm table-hover mb-0">
+                    <thead>
+                        <tr>
+                            <th style="width:15%">Employee</th>
+                            <th style="width:8%">Plant</th>
+                            <th style="width:7%">System</th>
+                            <th style="width:20%">Role</th>
+                            <th style="width:10%">Status</th>
+                            <th style="width:20%">Comment</th>
+                            <th style="width:10%">
+                                <input type="submit" value="Save" class="btn btn-warning btn-sm Loader w-100" title="Save your work"
+                                       id="btnSave" />
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.ReviewItems.Count != 0)
+                        {
+                            @for (int i = 0; i < Model.ReviewItems.Count; i++)
                             {
-                                @for (int i = 0; i < Model.ReviewLists.Count; i++)
-                                {
-                                    <tr class="@Model.ReviewLists[i].Plant @Model.ReviewLists[i].Username @Model.ReviewLists[i].Decision">
-                                        <td style="width:15%" title="@Model.ReviewLists[i].Username">
-                                            @Html.DisplayFor(m => m.ReviewLists[i].Employee)
-                                        </td>
-
-                                        <td style="width:10%">
-                                            @Html.DisplayFor(m => m.ReviewLists[i].Plant)
-                                        </td>
-                                        <td style="width:15%">
-                                            @Html.DisplayFor(m => m.ReviewLists[i].System)
-                                        </td>
-
-                                        <td id="MenuDetails_id" style="width:20%">
-                                            @Html.DisplayFor(m => m.ReviewLists[i].UserGroupFullName)
-                                        </td>
-                                        <td id="DropdownDecision" style="width:10%">
-                                            @Html.DropDownListFor(m => m.ReviewLists[i].Decision, new List <SelectListItem>
-                                {
-                                new SelectListItem {Text ="Disable",Value="Disable"},
-                                new SelectListItem {Text ="Approved",Value="Approved"},
-                                new SelectListItem {Text ="Open",Value="Open"}
-                                }
-                                )
-                                        </td>
-                                        <td style="width:20%">
-                                            @Html.TextBoxFor(m => m.ReviewLists[i].Note)
-                                        </td>
-
-                                        <td style="width:10%">
-                                            <a title="Show the menus of the group" onclick="showMenuDetails('@Url.Action("MenuDetails","ReviewList", new{selectedGroup = @Model.ReviewLists[i].UserGroupFullName}, Context.Request.Scheme)','Menu Details List')" class="btn btn-secondary"> Details </a>
-                                        </td>
-                                        <td>
-                                            @Html.HiddenFor(m	=>	m.ReviewLists[i].Id)
-                                        </td>
-                                    </tr>
-                                }
-                            }
-                            else
-                            {
-                                <tr>
-                                    <td colspan="3" class="text-center">No Records Found!</td>
+                                <tr class="@Model.ReviewItems[i].Plant @Model.ReviewItems[i].AD_Username @Model.ReviewItems[i].StatusCode">
+                                    <td style="width:15%" title="@Model.ReviewItems[i].AD_Username">
+                                        @Html.DisplayFor(m => m.ReviewItems[i].EmployeeName)
+                                    </td>
+                                    <td style="width:8%">
+                                        @Html.DisplayFor(m => m.ReviewItems[i].Plant)
+                                    </td>
+                                    <td style="width:7%">
+                                        @Html.DisplayFor(m => m.ReviewItems[i].SourceSystem)
+                                    </td>
+                                    <td style="width:20%" title="@Model.ReviewItems[i].RoleDescription">
+                                        @Html.DisplayFor(m => m.ReviewItems[i].RoleCode)
+                                    </td>
+                                    <td class="decision-cell" style="width:10%">
+                                        @Html.DropDownListFor(m => m.ReviewItems[i].StatusCode, new List<SelectListItem>
+                                        {
+                                            new SelectListItem { Text = "Pending", Value = "Pending" },
+                                            new SelectListItem { Text = "Approved", Value = "Approved" },
+                                            new SelectListItem { Text = "Disabled", Value = "Disabled" }
+                                        })
+                                    </td>
+                                    <td style="width:20%">
+                                        @Html.TextBoxFor(m => m.ReviewItems[i].ReviewerComment)
+                                    </td>
+                                    <td style="width:10%">
+                                        <a title="Show the menus of the role"
+                                           onclick="showMenuDetails('@Url.Action("MenuDetails", "ReviewList", new { roleKey = Model.ReviewItems[i].RoleKey }, Context.Request.Scheme)', 'Menu Details')"
+                                           class="btn btn-secondary btn-sm w-100">Details</a>
+                                    </td>
+                                    <td>
+                                        @Html.HiddenFor(m => m.ReviewItems[i].ReviewKey)
+                                        @Html.HiddenFor(m => m.ReviewItems[i].RoleKey)
+                                    </td>
                                 </tr>
                             }
-                        </tbody>
-                    </table>
-                </div>
-            </div>          
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="7" class="text-center py-4">No Records Found!</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
         </div>
     }
 </div>
-
-
-
-
-@section Scripts
-    {
-
-    <script type="text/javascript">
-
-        function openSuccessModal(strMessage) {
-            var myDiv = document.getElementById("MyModalSuccessAlertBody");
-            myDiv.innerHTML = strMessage;
-            $('#myModalSuccess').modal('toggle');
-        }
-        $(document).ready(function () {
-            var msg = "@TempData["SuccessMessage"]";
-            if (msg)
-                openSuccessModal(msg);
-
-        });
-              
-        $(document).ready(function () {
-            $("#MenuDetails_id").click(function () {
-                var cellId = $(this).attr('id');
-                var cellTitle = $(this).attr('data-title');
-                var cellMessage = $(this).attr('data-message');
-                $.ajax({
-                    type: "GET",
-                    url: '/ReviewList/ShowMenuDetails',
-                    data: { 'id': cellId, 'title': cellTitle, 'message': cellMessage },
-                    success: function (data) {
-                        $("#modal-container").html(data);
-                        $("#modal").modal("show");
-                    }
-                });
-            });
-        });
-
-        $(function(){
-            $("#WorkingList tr").not("tr:first-child").tooltip();
-        });
-
-       
-
-
-      
-       
- 
-
-     
-    </script>
-    <script src="~/js/site.js"></script>
-    <!-- <script src="~/js/savechanges.js"></script>-->
-
- }
-
-
-
