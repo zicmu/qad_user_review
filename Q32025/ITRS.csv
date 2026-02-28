@@ -1,0 +1,1042 @@
+Group,Group Description,Domain,User ID,User Name
+AUMNT010,Audit Officer,IT01,elij,Jack Li
+AUMNT010,Audit Officer,IT01,epetkoz,Zivojin Petkovic
+AUMNT010,Audit Officer,IT01,ewangs,Shaoxun Wang
+AUMNT010,Audit Officer,IT01,ewuj,Jason Wu
+AUMNT010,Audit Officer,rs01,epetkoz,Zivojin Petkovic
+EDMNT010,EDI Maintenanc,IT01,einvoic,QAD e-invoicing
+EDMNT010,EDI Maintenanc,RS01,em2m,em2m
+ENENQ010,Bom/Routing Vi,IT01,eaccort,Tiziano Accornero
+ENENQ010,Bom/Routing Vi,IT01,ebaldag,Gualtiero Balda
+ENENQ010,Bom/Routing Vi,IT01,edeantp,Paolo De Antonio
+ENENQ010,Bom/Routing Vi,IT01,efascil,Laura Fasciolo
+ENMNT010,Bom/Routing,IT01,eaccort,Tiziano Accornero
+ENMNT010,Bom/Routing,IT01,eavalle,Egidio Avalle
+ENMNT010,Bom/Routing,IT01,ebaldag,Gualtiero Balda
+ENMNT010,Bom/Routing,IT01,edeantp,Paolo De Antonio
+ENMNT010,Bom/Routing,IT01,edesima,Asia De Simone
+ENMNT010,Bom/Routing,IT01,efascil,Laura Fasciolo
+ENMNT010,Bom/Routing,IT01,emartif,Fabio Martino
+ENMNT010,Bom/Routing,IT01,evaleni,Ilaria Nausica Valentino
+ENMNT010,Bom/Routing,RS01,ebabaa,Aleksandar Baba
+ENMNT010,Bom/Routing,RS01,ecirici,Ivan Ciric
+ENMNT010,Bom/Routing,RS01,egilezj,Jelena Gilezan
+ENMNT010,Bom/Routing,RS01,egrahob,Bojan Grahovac
+ENMNT010,Bom/Routing,RS01,emihajm,Marko Mihajlovic
+ENMNT010,Bom/Routing,RS01,emijata,Aleksandra Mijatovic
+ENMNT010,Bom/Routing,RS01,erimaih,Hermina Rimai
+ENMNT020,Eng. PCO  Gene,IT01,eaccort,Tiziano Accornero
+ENMNT020,Eng. PCO  Gene,IT01,eavalle,Egidio Avalle
+ENMNT020,Eng. PCO  Gene,IT01,ebaldag,Gualtiero Balda
+ENMNT020,Eng. PCO  Gene,IT01,edeantp,Paolo De Antonio
+ENMNT020,Eng. PCO  Gene,IT01,efascil,Laura Fasciolo
+ENMNT020,Eng. PCO  Gene,IT01,evaleni,Ilaria Nausica Valentino
+ENMNT020,Eng. PCO  Gene,RS01,ebabaa,Aleksandar Baba
+ENMNT020,Eng. PCO  Gene,RS01,ecirici,Ivan Ciric
+ENMNT020,Eng. PCO  Gene,RS01,emihajm,Marko Mihajlovic
+ENMNT020,Eng. PCO  Gene,rs01,emisicd,Dejan Misic
+ENMNT030,Item Mstr Supe,IT01,eaccort,Tiziano Accornero
+ENMNT030,Item Mstr Supe,IT01,ebaldag,Gualtiero Balda
+ENMNT030,Item Mstr Supe,IT01,edeantp,Paolo De Antonio
+ENMNT030,Item Mstr Supe,RS01,ebabaa,Aleksandar Baba
+ENMNT030,Item Mstr Supe,RS01,ecirici,Ivan Ciric
+ENMNT030,Item Mstr Supe,RS01,emihajm,Marko Mihajlovic
+ENMNT040,Eng. PCO Appro,IT01,eaccort,Tiziano Accornero
+ENMNT040,Eng. PCO Appro,IT01,ebaldag,Gualtiero Balda
+ENMNT040,Eng. PCO Appro,IT01,efascil,Laura Fasciolo
+ENMNT040,Eng. PCO Appro,RS01,ebabaa,Aleksandar Baba
+ENMNT040,Eng. PCO Appro,RS01,ecirici,Ivan Ciric
+ENMNT040,Eng. PCO Appro,RS01,emihajm,Marko Mihajlovic
+ENMNT040,Eng. PCO Appro,rs01,emisicd,Dejan Misic
+ENMNT050,Eng. PCO Items,IT01,eaccort,Tiziano Accornero
+ENMNT050,Eng. PCO Items,IT01,ebaldag,Gualtiero Balda
+ENMNT050,Eng. PCO Items,IT01,edeantp,Paolo De Antonio
+ENMNT050,Eng. PCO Items,IT01,efascil,Laura Fasciolo
+ENMNT050,Eng. PCO Items,RS01,ebabaa,Aleksandar Baba
+ENMNT050,Eng. PCO Items,RS01,ecirici,Ivan Ciric
+ENMNT050,Eng. PCO Items,RS01,emihajm,Marko Mihajlovic
+ENMNT050,Eng. PCO Items,rs01,emisicd,Dejan Misic
+FIENQ010,Gen Finance Da,IT01,egentaa,Alfredo Genta
+FIENQ010,Gen Finance Da,IT01,elij,Jack Li
+FIENQ010,Gen Finance Da,IT01,emanevm,Milan Manevski
+FIENQ010,Gen Finance Da,IT01,emilost,Teodora Milosevic
+FIENQ010,Gen Finance Da,IT01,eschala,Artjom Schaludinow
+FIENQ010,Gen Finance Da,IT01,etestap,Paola Testa
+FIENQ010,Gen Finance Da,IT01,ewuj,Jason Wu
+FIENQ010,Gen Finance Da,RS01,egrahob,Bojan Grahovac
+FIENQ010,Gen Finance Da,RS01,emanevm,Milan Manevski
+FIENQ010,Gen Finance Da,RS01,emilost,Teodora Milosevic
+FIENQ010,Gen Finance Da,RS01,epesicd,Dimitrije Pesic
+FIENQ010,Gen Finance Da,RS01,eschala,Artjom Schaludinow
+FIENQ010,Gen Finance Da,RS01,etestap,Paola Testa
+FIENQ020,GL Mgr Viewer,IT01,eavalle,Egidio Avalle
+FIENQ020,GL Mgr Viewer,IT01,ebrunof,Fiorenza Bruno
+FIENQ020,GL Mgr Viewer,IT01,ecastem,Matteo Castello
+FIENQ020,GL Mgr Viewer,IT01,ecozzoc,Corrado Cozzo
+FIENQ020,GL Mgr Viewer,IT01,edemicm,Marilena Demichelis
+FIENQ020,GL Mgr Viewer,IT01,edifela,"Di Felice, Andrea"
+FIENQ020,GL Mgr Viewer,IT01,edirenm,Marco Di Renzo
+FIENQ020,GL Mgr Viewer,IT01,edonada,Alberto Donadel
+FIENQ020,GL Mgr Viewer,IT01,efiorem,Marco Fioretta
+FIENQ020,GL Mgr Viewer,IT01,egentaa,Alfredo Genta
+FIENQ020,GL Mgr Viewer,IT01,eleoncf,Fabio Leoncini
+FIENQ020,GL Mgr Viewer,IT01,elombac,Cristiano Lombardi
+FIENQ020,GL Mgr Viewer,IT01,esalaa,Ambra Maria Sala
+FIENQ020,GL Mgr Viewer,IT01,escasse,Elia Scassillo
+FIENQ020,GL Mgr Viewer,IT01,etrapak,Katia Trapani
+FIENQ020,GL Mgr Viewer,IT01,evaleni,Ilaria Nausica Valentino
+FIENQ020,GL Mgr Viewer,RS01,earenaf,Francesca Arena
+FIENQ020,GL Mgr Viewer,RS01,ebartei,Ivona Barten
+FIENQ020,GL Mgr Viewer,RS01,ecileri,Igor Cilerdzic
+FIENQ020,GL Mgr Viewer,RS01,edjekom,Milka Djekovic
+FIENQ020,GL Mgr Viewer,RS01,edulijm,Mina Dulijan
+FIENQ020,GL Mgr Viewer,RS01,egarafa,Anjicka Garafijat
+FIENQ020,GL Mgr Viewer,RS01,egeorgs,Sonja Georgijev
+FIENQ020,GL Mgr Viewer,RS01,egilezj,Jelena Gilezan
+FIENQ020,GL Mgr Viewer,RS01,egrahob,Bojan Grahovac
+FIENQ020,GL Mgr Viewer,RS01,ekrstit,Tatiana Krstic Gacin
+FIENQ020,GL Mgr Viewer,RS01,emijata,Aleksandra Mijatovic
+FIENQ020,GL Mgr Viewer,RS01,emoenss,Stefan Moens
+FIENQ020,GL Mgr Viewer,RS01,epantis,Slavica Pantic
+FIENQ020,GL Mgr Viewer,RS01,eradovd,Dragana Radovanac
+FIENQ020,GL Mgr Viewer,RS01,erimaih,Hermina Rimai
+FIENQ020,GL Mgr Viewer,RS01,esaricj,Jelena Saric
+FIENQ030,GL Trans Oper,IT01,ecastem,Matteo Castello
+FIENQ030,GL Trans Oper,IT01,edonada,Alberto Donadel
+FIENQ030,GL Trans Oper,IT01,egentaa,Alfredo Genta
+FIENQ030,GL Trans Oper,IT01,elombac,Cristiano Lombardi
+FIENQ030,GL Trans Oper,IT01,esalaa,Ambra Maria Sala
+FIENQ030,GL Trans Oper,IT01,etrapak,Katia Trapani
+FIENQ030,GL Trans Oper,RS01,earenaf,Francesca Arena
+FIENQ030,GL Trans Oper,RS01,egrahob,Bojan Grahovac
+FIENQ040,GL Reporting V,IT01,ecastem,Matteo Castello
+FIENQ040,GL Reporting V,IT01,ecavalr,Roberta Cavallero
+FIENQ040,GL Reporting V,IT01,edemicm,Marilena Demichelis
+FIENQ040,GL Reporting V,IT01,edesima,Asia De Simone
+FIENQ040,GL Reporting V,IT01,edifela,"Di Felice, Andrea"
+FIENQ040,GL Reporting V,IT01,edirenm,Marco Di Renzo
+FIENQ040,GL Reporting V,IT01,edonada,Alberto Donadel
+FIENQ040,GL Reporting V,IT01,efiorem,Marco Fioretta
+FIENQ040,GL Reporting V,IT01,elij,Jack Li
+FIENQ040,GL Reporting V,IT01,elombac,Cristiano Lombardi
+FIENQ040,GL Reporting V,IT01,emartif,Fabio Martino
+FIENQ040,GL Reporting V,IT01,esalaa,Ambra Maria Sala
+FIENQ040,GL Reporting V,IT01,etrapak,Katia Trapani
+FIENQ040,GL Reporting V,IT01,ewuj,Jason Wu
+FIENQ040,GL Reporting V,RS01,earenaf,Francesca Arena
+FIENQ040,GL Reporting V,RS01,ebartei,Ivona Barten
+FIENQ040,GL Reporting V,RS01,edjekom,Milka Djekovic
+FIENQ040,GL Reporting V,RS01,edulijm,Mina Dulijan
+FIENQ040,GL Reporting V,RS01,egeorgs,Sonja Georgijev
+FIENQ040,GL Reporting V,RS01,egilezj,Jelena Gilezan
+FIENQ040,GL Reporting V,RS01,emijata,Aleksandra Mijatovic
+FIENQ040,GL Reporting V,RS01,epantis,Slavica Pantic
+FIENQ040,GL Reporting V,RS01,eradovd,Dragana Radovanac
+FIENQ040,GL Reporting V,RS01,erimaih,Hermina Rimai
+FIENQ040,GL Reporting V,RS01,esaricj,Jelena Saric
+FIENQ050,Tax Mgmt Viewe,IT01,egentaa,Alfredo Genta
+FIENQ050,Tax Mgmt Viewe,RS01,egrahob,Bojan Grahovac
+FIENQ060,Cashier A/R Vi,IT01,egentaa,Alfredo Genta
+FIENQ060,Cashier A/R Vi,RS01,egrahob,Bojan Grahovac
+FIENQ070,Cashier A/P Vi,IT01,egentaa,Alfredo Genta
+FIENQ070,Cashier A/P Vi,RS01,egrahob,Bojan Grahovac
+FIENQ080,Finance A/R Vi,IT01,egentaa,Alfredo Genta
+FIENQ080,Finance A/R Vi,RS01,egrahob,Bojan Grahovac
+FIENQ090,Finance A/P Vi,IT01,egentaa,Alfredo Genta
+FIENQ090,Finance A/P Vi,RS01,egrahob,Bojan Grahovac
+FIMNT010,Gen Finance Da,IT01,egentaa,Alfredo Genta
+FIMNT010,Gen Finance Da,IT01,etrapak,Katia Trapani
+FIMNT010,Gen Finance Da,RS01,beahrke,KENNETH BEAHRS
+FIMNT010,Gen Finance Da,RS01,earenaf,Francesca Arena
+FIMNT010,Gen Finance Da,RS01,egarafa,Anjicka Garafijat
+FIMNT010,Gen Finance Da,RS01,egrahob,Bojan Grahovac
+FIMNT010,Gen Finance Da,RS01,eradovd,Dragana Radovanac
+FIMNT010,Gen Finance Da,RS01,esaricj,Jelena Saric
+FIMNT010,Gen Finance Da,RS01,etepicm,Milana Tepic
+FIMNT020,GL Mgr,IT01,edesima,Asia De Simone
+FIMNT020,GL Mgr,IT01,edirenm,Marco Di Renzo
+FIMNT020,GL Mgr,IT01,efiorem,Marco Fioretta
+FIMNT020,GL Mgr,IT01,egentaa,Alfredo Genta
+FIMNT020,GL Mgr,IT01,emartif,Fabio Martino
+FIMNT020,GL Mgr,RS01,ebartei,Ivona Barten
+FIMNT020,GL Mgr,RS01,edjekom,Milka Djekovic
+FIMNT020,GL Mgr,RS01,edulijm,Mina Dulijan
+FIMNT020,GL Mgr,RS01,egeorgs,Sonja Georgijev
+FIMNT020,GL Mgr,RS01,egilezj,Jelena Gilezan
+FIMNT020,GL Mgr,RS01,egrahob,Bojan Grahovac
+FIMNT020,GL Mgr,RS01,emijata,Aleksandra Mijatovic
+FIMNT020,GL Mgr,RS01,epantis,Slavica Pantic
+FIMNT020,GL Mgr,RS01,eradovd,Dragana Radovanac
+FIMNT020,GL Mgr,RS01,erimaih,Hermina Rimai
+FIMNT020,GL Mgr,RS01,esaricj,Jelena Saric
+FIMNT030,GL Transaction,IT01,edemicm,Marilena Demichelis
+FIMNT030,GL Transaction,IT01,edesima,Asia De Simone
+FIMNT030,GL Transaction,IT01,edirenm,Marco Di Renzo
+FIMNT030,GL Transaction,IT01,efiorem,Marco Fioretta
+FIMNT030,GL Transaction,IT01,egentaa,Alfredo Genta
+FIMNT030,GL Transaction,IT01,emartif,Fabio Martino
+FIMNT030,GL Transaction,IT01,etrapak,Katia Trapani
+FIMNT030,GL Transaction,RS01,ebartei,Ivona Barten
+FIMNT030,GL Transaction,RS01,edjekom,Milka Djekovic
+FIMNT030,GL Transaction,RS01,edulijm,Mina Dulijan
+FIMNT030,GL Transaction,RS01,egeorgs,Sonja Georgijev
+FIMNT030,GL Transaction,RS01,egilezj,Jelena Gilezan
+FIMNT030,GL Transaction,RS01,egrahob,Bojan Grahovac
+FIMNT030,GL Transaction,RS01,epantis,Slavica Pantic
+FIMNT030,GL Transaction,RS01,eradovd,Dragana Radovanac
+FIMNT030,GL Transaction,RS01,erimaih,Hermina Rimai
+FIMNT030,GL Transaction,RS01,esaricj,Jelena Saric
+FIMNT040,GL Reporting,IT01,egentaa,Alfredo Genta
+FIMNT040,GL Reporting,RS01,egilezj,Jelena Gilezan
+FIMNT040,GL Reporting,RS01,egrahob,Bojan Grahovac
+FIMNT050,Tax Mgmt,IT01,edemicm,Marilena Demichelis
+FIMNT060,Cashier A/R,IT01,edemicm,Marilena Demichelis
+FIMNT060,Cashier A/R,IT01,egentaa,Alfredo Genta
+FIMNT060,Cashier A/R,IT01,etrapak,Katia Trapani
+FIMNT060,Cashier A/R,RS01,ebartei,Ivona Barten
+FIMNT060,Cashier A/R,RS01,edjekom,Milka Djekovic
+FIMNT060,Cashier A/R,RS01,edulijm,Mina Dulijan
+FIMNT060,Cashier A/R,RS01,egeorgs,Sonja Georgijev
+FIMNT060,Cashier A/R,rs01,egilezj,Jelena Gilezan
+FIMNT060,Cashier A/R,RS01,epantis,Slavica Pantic
+FIMNT060,Cashier A/R,RS01,eradovd,Dragana Radovanac
+FIMNT060,Cashier A/R,RS01,erimaih,Hermina Rimai
+FIMNT060,Cashier A/R,RS01,esaricj,Jelena Saric
+FIMNT070,Cashier A/P,IT01,edemicm,Marilena Demichelis
+FIMNT070,Cashier A/P,IT01,efiorem,Marco Fioretta
+FIMNT070,Cashier A/P,RS01,ebartei,Ivona Barten
+FIMNT070,Cashier A/P,RS01,edulijm,Mina Dulijan
+FIMNT070,Cashier A/P,RS01,egeorgs,Sonja Georgijev
+FIMNT070,Cashier A/P,rs01,egilezj,Jelena Gilezan
+FIMNT070,Cashier A/P,RS01,epantis,Slavica Pantic
+FIMNT070,Cashier A/P,RS01,eradovd,Dragana Radovanac
+FIMNT070,Cashier A/P,RS01,erimaih,Hermina Rimai
+FIMNT070,Cashier A/P,RS01,esaricj,Jelena Saric
+FIMNT080,Finance A/R,IT01,edemicm,Marilena Demichelis
+FIMNT080,Finance A/R,IT01,egentaa,Alfredo Genta
+FIMNT080,Finance A/R,IT01,etrapak,Katia Trapani
+FIMNT090,Finance A/P,IT01,edemicm,Marilena Demichelis
+FIMNT090,Finance A/P,IT01,efiorem,Marco Fioretta
+FIMNT090,Finance A/P,IT01,etrapak,Katia Trapani
+FIMNT090,Finance A/P,RS01,ebartei,Ivona Barten
+FIMNT090,Finance A/P,RS01,edjekom,Milka Djekovic
+FIMNT090,Finance A/P,RS01,edulijm,Mina Dulijan
+FIMNT090,Finance A/P,RS01,egarafa,Anjicka Garafijat
+FIMNT090,Finance A/P,RS01,egeorgs,Sonja Georgijev
+FIMNT090,Finance A/P,RS01,egilezj,Jelena Gilezan
+FIMNT090,Finance A/P,RS01,epantis,Slavica Pantic
+FIMNT090,Finance A/P,RS01,eradovd,Dragana Radovanac
+FIMNT090,Finance A/P,RS01,erimaih,Hermina Rimai
+FIMNT090,Finance A/P,RS01,esaricj,Jelena Saric
+FIMNT100,VOUCHER APPROV,IT01,ecozzoc,Corrado Cozzo
+FIMNT100,VOUCHER APPROV,RS01,ebertad,Darjan Berta
+FIMNT100,VOUCHER APPROV,RS01,ecileri,Igor Cilerdzic
+FIMNT100,VOUCHER APPROV,RS01,ecirici,Ivan Ciric
+FIMNT100,VOUCHER APPROV,RS01,egarafa,Anjicka Garafijat
+FIMNT100,VOUCHER APPROV,RS01,egilezj,Jelena Gilezan
+FIMNT100,VOUCHER APPROV,RS01,egrahob,Bojan Grahovac
+FIMNT100,VOUCHER APPROV,RS01,eivanim,Milan Ivanisevic
+FIMNT100,VOUCHER APPROV,RS01,ekrstit,Tatiana Krstic Gacin
+FIMNT100,VOUCHER APPROV,RS01,emoenss,Stefan Moens
+FIMNT100,VOUCHER APPROV,RS01,evulovn,Nenad Vulovic
+FIMNT110,GL and AUDIT d,IT01,edemicm,Marilena Demichelis
+FIMNT110,GL and AUDIT d,IT01,egentaa,Alfredo Genta
+FIMNT110,GL and AUDIT d,RS01,egrahob,Bojan Grahovac
+FIMNT120,GL Trans Post&,IT01,edemicm,Marilena Demichelis
+FIMNT120,GL Trans Post&,IT01,edesima,Asia De Simone
+FIMNT120,GL Trans Post&,IT01,efiorem,Marco Fioretta
+FIMNT120,GL Trans Post&,IT01,egentaa,Alfredo Genta
+FIMNT120,GL Trans Post&,IT01,emartif,Fabio Martino
+FIMNT120,GL Trans Post&,IT01,etrapak,Katia Trapani
+FIMNT120,GL Trans Post&,RS01,egilezj,Jelena Gilezan
+FIMNT120,GL Trans Post&,RS01,egrahob,Bojan Grahovac
+FIMNT120,GL Trans Post&,RS01,emijata,Aleksandra Mijatovic
+FIMNT130,Account Code,IT01,efiorem,Marco Fioretta
+FIMNT130,Account Code,IT01,egentaa,Alfredo Genta
+FIMNT130,Account Code,RS01,egilezj,Jelena Gilezan
+FIMNT130,Account Code,RS01,egrahob,Bojan Grahovac
+FIMNT130,Account Code,RS01,emijata,Aleksandra Mijatovic
+FIMNT140,Cost Center Ma,IT01,edesima,Asia De Simone
+FIMNT140,Cost Center Ma,IT01,edirenm,Marco Di Renzo
+FIMNT140,Cost Center Ma,IT01,emartif,Fabio Martino
+FIMNT140,Cost Center Ma,RS01,egilezj,Jelena Gilezan
+FIMNT140,Cost Center Ma,RS01,egrahob,Bojan Grahovac
+FIMNT140,Cost Center Ma,RS01,emijata,Aleksandra Mijatovic
+FIMNT150,GL Calendar,IT01,edesima,Asia De Simone
+FIMNT150,GL Calendar,IT01,efiorem,Marco Fioretta
+FIMNT150,GL Calendar,IT01,egentaa,Alfredo Genta
+FIMNT150,GL Calendar,IT01,emartif,Fabio Martino
+FIMNT150,GL Calendar,RS01,egilezj,Jelena Gilezan
+FIMNT150,GL Calendar,RS01,egrahob,Bojan Grahovac
+FIMNT150,GL Calendar,RS01,emijata,Aleksandra Mijatovic
+HRMNT010,HR Specialist,IT01,eassix2,Assistenti X2
+HRMNT010,HR Specialist,IT01,elamand,Davide La Manna
+HRMNT010,HR Specialist,IT01,eleoncf,Fabio Leoncini
+HRMNT010,HR Specialist,IT01,esorgep,Piero Sorge
+HRMNT010,HR Specialist,RS01,eavdici,Ivana Avdic
+INENQ020,Consignment Mg,IT01,ecasirm,Marco Casiraghi
+INENQ020,Consignment Mg,IT01,esalvar,Roberto Salvaggio
+INENQ020,Consignment Mg,RS01,ecasirm,Marco Casiraghi
+INMNT010,Inventory,IT01,ebrunof,Fiorenza Bruno
+INMNT010,Inventory,IT01,ecozzoc,Corrado Cozzo
+INMNT010,Inventory,RS01,ebertad,Darjan Berta
+INMNT010,Inventory,RS01,ecibarm,Maja Cibaric
+INMNT010,Inventory,RS01,efilipa,Aleksandra Filipas
+INMNT010,Inventory,RS01,eponocz,Zaklina Ponocko
+INMNT010,Inventory,RS01,eshipps,Generic Shipping
+INMNT010,Inventory,RS01,evulovn,Nenad Vulovic
+INMNT020,Consignment Mg,IT01,ebrkicj,Jovan Brkic
+INMNT020,Consignment Mg,IT01,egarafa,Anjicka Garafijat
+INMNT020,Consignment Mg,IT01,egattiv,Vanessa Gatti
+INMNT020,Consignment Mg,IT01,emogile,Elena Mogilevich
+INMNT020,Consignment Mg,IT01,esampar,Raffaella Sampaoli
+INMNT020,Consignment Mg,IT01,etelecm,Maura Telecco
+INMNT020,Consignment Mg,IT01,etepicm,Milana Tepic
+INMNT020,Consignment Mg,RS01,ebrkicj,Jovan Brkic
+INMNT020,Consignment Mg,RS01,egarafa,Anjicka Garafijat
+INMNT020,Consignment Mg,RS01,egruslj,Jelena Gruslav
+INMNT020,Consignment Mg,RS01,eradovd,Dragana Radovanac
+INMNT020,Consignment Mg,RS01,esaricj,Jelena Saric
+INMNT020,Consignment Mg,RS01,etepicm,Milana Tepic
+INMNT030,product line,IT01,edirenm,Marco Di Renzo
+INMNT040,Controller,IT01,edesima,Asia De Simone
+INMNT040,Controller,IT01,edirenm,Marco Di Renzo
+INMNT040,Controller,IT01,emartif,Fabio Martino
+INMNT040,Controller,RS01,egilezj,Jelena Gilezan
+INMNT040,Controller,RS01,egrahob,Bojan Grahovac
+INMNT040,Controller,RS01,emijata,Aleksandra Mijatovic
+INMNT040,Controller,RS01,erimaih,Hermina Rimai
+INMNT050,Costing,IT01,edesima,Asia De Simone
+INMNT050,Costing,IT01,edirenm,Marco Di Renzo
+INMNT050,Costing,IT01,emartif,Fabio Martino
+INMNT050,Costing,RS01,egilezj,Jelena Gilezan
+INMNT050,Costing,RS01,egrahob,Bojan Grahovac
+INMNT050,Costing,RS01,emijata,Aleksandra Mijatovic
+INMNT050,Costing,RS01,erimaih,Hermina Rimai
+INMNT060,Fixed Asset Mg,IT01,edesima,Asia De Simone
+INMNT060,Fixed Asset Mg,IT01,egentaa,Alfredo Genta
+INMNT060,Fixed Asset Mg,IT01,emartif,Fabio Martino
+INMNT060,Fixed Asset Mg,RS01,ebartei,Ivona Barten
+INMNT060,Fixed Asset Mg,RS01,edulijm,Mina Dulijan
+INMNT060,Fixed Asset Mg,RS01,egeorgs,Sonja Georgijev
+INMNT060,Fixed Asset Mg,RS01,egilezj,Jelena Gilezan
+INMNT060,Fixed Asset Mg,RS01,egrahob,Bojan Grahovac
+INMNT060,Fixed Asset Mg,RS01,emijata,Aleksandra Mijatovic
+INMNT060,Fixed Asset Mg,RS01,epantis,Slavica Pantic
+INMNT060,Fixed Asset Mg,RS01,eradovd,Dragana Radovanac
+INMNT060,Fixed Asset Mg,RS01,erimaih,Hermina Rimai
+INMNT060,Fixed Asset Mg,RS01,esaricj,Jelena Saric
+INMNT070,Inventory-Raw,IT01,eavalle,Egidio Avalle
+INMNT070,Inventory-Raw,IT01,ebolle1,Trasgo shipping 1
+INMNT070,Inventory-Raw,IT01,ebolle2,Trasgo Shipping 2
+INMNT070,Inventory-Raw,IT01,ebrunof,Fiorenza Bruno
+INMNT070,Inventory-Raw,IT01,ecozzoc,Corrado Cozzo
+INMNT070,Inventory-Raw,IT01,emaschc,Carlo Maschio
+INMNT070,Inventory-Raw,IT01,evaleni,Ilaria Nausica Valentino
+INMNT070,Inventory-Raw,RS01,ecileri,Igor Cilerdzic
+INMNT070,Inventory-Raw,RS01,egarafa,Anjicka Garafijat
+INMNT070,Inventory-Raw,RS01,ekrstit,Tatiana Krstic Gacin
+INMNT070,Inventory-Raw,RS01,emoenss,Stefan Moens
+INMNT090,Tag Count Entr,IT01,eassix2,Assistenti X2
+INMNT090,Tag Count Entr,IT01,eavalle,Egidio Avalle
+INMNT090,Tag Count Entr,IT01,edemicn,Nicole Demichelis
+INMNT090,Tag Count Entr,IT01,edesima,Asia De Simone
+INMNT090,Tag Count Entr,IT01,edirenm,Marco Di Renzo
+INMNT090,Tag Count Entr,IT01,eeccas,Stefania Ecca
+INMNT090,Tag Count Entr,IT01,efascil,Laura Fasciolo
+INMNT090,Tag Count Entr,IT01,emartif,Fabio Martino
+INMNT090,Tag Count Entr,IT01,emorelp,Paolo Morelli
+INMNT090,Tag Count Entr,IT01,esorgep,Piero Sorge
+INMNT090,Tag Count Entr,IT01,esucciy,Yuri Succi
+INMNT090,Tag Count Entr,IT01,evaleni,Ilaria Nausica Valentino
+INMNT090,Tag Count Entr,RS01,ebabicg,Gorica Babic
+INMNT090,Tag Count Entr,RS01,ebertad,Darjan Berta
+INMNT090,Tag Count Entr,RS01,ecibarm,Maja Cibaric
+INMNT090,Tag Count Entr,RS01,egrahob,Bojan Grahovac
+INMNT090,Tag Count Entr,RS01,ekovacb,Borko Kovac
+INMNT090,Tag Count Entr,RS01,emijata,Aleksandra Mijatovic
+INMNT090,Tag Count Entr,RS01,emiloss,Sasa Milosevic
+INMNT090,Tag Count Entr,RS01,eponocz,Zaklina Ponocko
+INMNT090,Tag Count Entr,RS01,eprodzr,Production Zrenjanin
+INMNT090,Tag Count Entr,RS01,erimaih,Hermina Rimai
+INMNT090,Tag Count Entr,RS01,estrbav,Vesna Strbac Brankov
+INMNT090,Tag Count Entr,RS01,evulovn,Nenad Vulovic
+INMNT100,Work Center Ma,IT01,edesima,Asia De Simone
+INMNT100,Work Center Ma,IT01,edirenm,Marco Di Renzo
+INMNT100,Work Center Ma,IT01,emartif,Fabio Martino
+INMNT100,Work Center Ma,RS01,egilezj,Jelena Gilezan
+INMNT100,Work Center Ma,RS01,egrahob,Bojan Grahovac
+INMNT100,Work Center Ma,RS01,emijata,Aleksandra Mijatovic
+INMNT110,Item Cost/Data,IT01,eaccort,Tiziano Accornero
+INMNT110,Item Cost/Data,IT01,ebaldag,Gualtiero Balda
+INMNT110,Item Cost/Data,IT01,edeantp,Paolo De Antonio
+INMNT110,Item Cost/Data,IT01,edesima,Asia De Simone
+INMNT110,Item Cost/Data,IT01,edirenm,Marco Di Renzo
+INMNT110,Item Cost/Data,IT01,emartif,Fabio Martino
+INMNT110,Item Cost/Data,RS01,ebabaa,Aleksandar Baba
+INMNT110,Item Cost/Data,RS01,ecirici,Ivan Ciric
+INMNT110,Item Cost/Data,RS01,egilezj,Jelena Gilezan
+INMNT110,Item Cost/Data,RS01,egrahob,Bojan Grahovac
+INMNT110,Item Cost/Data,RS01,emihajm,Marko Mihajlovic
+INMNT110,Item Cost/Data,RS01,emijata,Aleksandra Mijatovic
+INMNT110,Item Cost/Data,RS01,erimaih,Hermina Rimai
+INMNT120,Cost Roll-up,IT01,eaccort,Tiziano Accornero
+INMNT120,Cost Roll-up,IT01,ebaldag,Gualtiero Balda
+INMNT120,Cost Roll-up,IT01,edesima,Asia De Simone
+INMNT120,Cost Roll-up,IT01,edirenm,Marco Di Renzo
+INMNT120,Cost Roll-up,IT01,emartif,Fabio Martino
+INMNT120,Cost Roll-up,RS01,egilezj,Jelena Gilezan
+INMNT120,Cost Roll-up,RS01,egrahob,Bojan Grahovac
+INMNT120,Cost Roll-up,RS01,emijata,Aleksandra Mijatovic
+INMNT120,Cost Roll-up,RS01,erimaih,Hermina Rimai
+ITBSA010,BSA,eu01,emover,move system batch login
+ITBSA010,BSA,IT01,eboaref,Flavio Boaretto
+ITBSA010,BSA,IT01,ecapanr,Rosario Capano
+ITBSA010,BSA,IT01,efarkaa,Andras Farkas
+ITBSA010,BSA,IT01,einvoic,QAD e-invoicing
+ITBSA010,BSA,IT01,emanevm,Milan Manevski
+ITBSA010,BSA,IT01,emattif,Fabio Mattiuz
+ITBSA010,BSA,IT01,emilost,Teodora Milosevic
+ITBSA010,BSA,IT01,equarom,"Quarona, Marco"
+ITBSA010,BSA,IT01,eschala,Artjom Schaludinow
+ITBSA010,BSA,IT01,etestap,Paola Testa
+ITBSA010,BSA,IT01,mfg,Default User
+ITBSA010,BSA,IT01,Technolo,Technologent
+ITBSA010,BSA,RS01,eboaref,Flavio Boaretto
+ITBSA010,BSA,RS01,ebozovr,Radomir Bozovic
+ITBSA010,BSA,RS01,efarkaa,Andras Farkas
+ITBSA010,BSA,RS01,emanevm,Milan Manevski
+ITBSA010,BSA,RS01,emattif,Fabio Mattiuz
+ITBSA010,BSA,RS01,emilost,Teodora Milosevic
+ITBSA010,BSA,RS01,equarom,"Quarona, Marco"
+ITBSA010,BSA,RS01,eschala,Artjom Schaludinow
+ITBSA010,BSA,RS01,eskrgij,Jovica Skrgic
+ITBSA010,BSA,RS01,etestap,Paola Testa
+ITBSA010,BSA,se01,emover,move system batch login
+ITMNT010,IT Officer,EU01,emover,move system batch login
+ITMNT010,IT Officer,IT01,edifela,"Di Felice, Andrea"
+ITMNT010,IT Officer,IT01,eincarm,Matteo Incarnato
+ITMNT010,IT Officer,IT01,emover,move system batch login
+ITMNT010,IT Officer,IT01,equarom,"Quarona, Marco"
+ITMNT010,IT Officer,IT01,hartmaj,"Hartman, Andy J. EGI DB admin"
+ITMNT010,IT Officer,IT01,mfgbatit,MFG batch user - Italy
+ITMNT010,IT Officer,IT01,mfgbatus,MfgPro Batch ID
+ITMNT010,IT Officer,IT01,millega,"Miller, Greg A. EGI Glob.IT S"
+ITMNT010,IT Officer,IT01,tomanc,Charles Toman
+ITMNT010,IT Officer,RS01,edifela,"Di Felice, Andrea"
+ITMNT010,IT Officer,RS01,ekopris,Srdjan Koprivica
+ITMNT010,IT Officer,rs01,emover,move system batch login
+ITMNT010,IT Officer,RS01,hartmaj,"Hartman, Andy J. EGI DB admin"
+ITMNT010,IT Officer,RS01,mfgbatit,MFG batch user - Italy
+ITMNT010,IT Officer,RS01,mfgbatrs,MFG batch user - Serbia
+ITMNT010,IT Officer,rs01,mfgbatus,MfgPro Batch ID
+ITMNT010,IT Officer,RS01,millega,"Miller, Greg A. EGI Glob.IT S"
+ITMNT010,IT Officer,SE01,emover,move system batch login
+ITMNT020,CIM data Load,IT01,eaccort,Tiziano Accornero
+ITMNT020,CIM data Load,IT01,eavalle,Egidio Avalle
+ITMNT020,CIM data Load,IT01,ebaldag,Gualtiero Balda
+ITMNT020,CIM data Load,IT01,ecozzoc,Corrado Cozzo
+ITMNT020,CIM data Load,IT01,edeantp,Paolo De Antonio
+ITMNT020,CIM data Load,IT01,edesima,Asia De Simone
+ITMNT020,CIM data Load,IT01,edirenm,Marco Di Renzo
+ITMNT020,CIM data Load,IT01,efascil,Laura Fasciolo
+ITMNT020,CIM data Load,IT01,emartif,Fabio Martino
+ITMNT020,CIM data Load,IT01,emaschc,Carlo Maschio
+ITMNT020,CIM data Load,IT01,equarom,"Quarona, Marco"
+ITMNT020,CIM data Load,IT01,evaleni,Ilaria Nausica Valentino
+ITMNT020,CIM data Load,RS01,ebabaa,Aleksandar Baba
+ITMNT020,CIM data Load,rs01,ebertad,Darjan Berta
+ITMNT020,CIM data Load,RS01,ecibarm,Maja Cibaric
+ITMNT020,CIM data Load,RS01,ecirici,Ivan Ciric
+ITMNT020,CIM data Load,RS01,eculafd,Darko Culafic
+ITMNT020,CIM data Load,RS01,efilipa,Aleksandra Filipas
+ITMNT020,CIM data Load,RS01,eglisin,Ninoslav Glisin
+ITMNT020,CIM data Load,RS01,egrahob,Bojan Grahovac
+ITMNT020,CIM data Load,RS01,emihajm,Marko Mihajlovic
+ITMNT020,CIM data Load,rs01,emisicd,Dejan Misic
+ITMNT020,CIM data Load,RS01,epeicn,Nikola Peic
+ITMNT020,CIM data Load,RS01,eponocz,Zaklina Ponocko
+ITMNT020,CIM data Load,RS01,equarom,"Quarona, Marco"
+ITMNT020,CIM data Load,RS01,eshipps,Generic Shipping
+ITMNT020,CIM data Load,RS01,evulovn,Nenad Vulovic
+ITMNT030,IT Operator,IT01,epetkoz,Zivojin Petkovic
+ITMNT030,IT Operator,IT01,equarom,"Quarona, Marco"
+ITMNT030,IT Operator,RS01,elapadm,Mihael Lapadat
+ITMNT030,IT Operator,RS01,epetkoz,Zivojin Petkovic
+ITMNT030,IT Operator,RS01,escasse,Elia Scassillo
+p-batch,Batch User Gro,EU01,mfgbatus,MfgPro Batch ID
+p-batch,Batch User Gro,IT01,mfgbatit,MFG batch user - Italy
+p-batch,Batch User Gro,IT01,mfgbatus,MfgPro Batch ID
+p-batch,Batch User Gro,RS01,mfgbatit,MFG batch user - Italy
+p-batch,Batch User Gro,RS01,mfgbatrs,MFG batch user - Serbia
+p-batch,Batch User Gro,rs01,mfgbatus,MfgPro Batch ID
+p-batch,Batch User Gro,SE01,mfgbatus,MfgPro Batch ID
+PLMNT010,Scheduler,IT01,eavalle,Egidio Avalle
+PLMNT010,Scheduler,IT01,emaschc,Carlo Maschio
+PLMNT010,Scheduler,IT01,evaleni,Ilaria Nausica Valentino
+PLMNT010,Scheduler,rs01,ebertad,Darjan Berta
+PLMNT010,Scheduler,RS01,eculafd,Darko Culafic
+PLMNT010,Scheduler,RS01,eglisin,Ninoslav Glisin
+PLMNT010,Scheduler,RS01,epeicn,Nikola Peic
+PLMNT010,Scheduler,RS01,evulovn,Nenad Vulovic
+PLMNT020,MRP/CRP,IT01,eavalle,Egidio Avalle
+PLMNT020,MRP/CRP,IT01,efascil,Laura Fasciolo
+PLMNT020,MRP/CRP,IT01,emaschc,Carlo Maschio
+PLMNT020,MRP/CRP,IT01,evaleni,Ilaria Nausica Valentino
+PLMNT020,MRP/CRP,rs01,ebertad,Darjan Berta
+PLMNT020,MRP/CRP,RS01,eculafd,Darko Culafic
+PLMNT020,MRP/CRP,RS01,eglisin,Ninoslav Glisin
+PLMNT020,MRP/CRP,RS01,epeicn,Nikola Peic
+PLMNT020,MRP/CRP,RS01,evulovn,Nenad Vulovic
+PRENQ030,Prod Reporting,IT01,eavalle,Egidio Avalle
+PRENQ030,Prod Reporting,IT01,edeantp,Paolo De Antonio
+PRENQ030,Prod Reporting,IT01,efascil,Laura Fasciolo
+PRENQ030,Prod Reporting,IT01,emaschc,Carlo Maschio
+PRENQ030,Prod Reporting,IT01,evaleni,Ilaria Nausica Valentino
+PRMNT010,Quality Mgr,RS01,ebabicg,Gorica Babic
+PRMNT010,Quality Mgr,RS01,epejovm,Milan Pejovic
+PRMNT010,Quality Mgr,RS01,eselakm,Matija Selakovic
+PRMNT010,Quality Mgr,RS01,estrbav,Vesna Strbac Brankov
+PRMNT020,Quality Oper,IT01,edemicn,Nicole Demichelis
+PRMNT020,Quality Oper,IT01,eeccas,Stefania Ecca
+PRMNT020,Quality Oper,IT01,eferral,Lorenzo Ferraro
+PRMNT020,Quality Oper,IT01,elabq1,Lab q1
+PRMNT020,Quality Oper,RS01,ebabicg,Gorica Babic
+PRMNT020,Quality Oper,RS01,epejovm,Milan Pejovic
+PRMNT020,Quality Oper,RS01,eselakm,Matija Selakovic
+PRMNT020,Quality Oper,RS01,estrbav,Vesna Strbac Brankov
+PRMNT030,Prod Reporting,IT01,eassix2,Assistenti X2
+PRMNT030,Prod Reporting,IT01,eavalle,Egidio Avalle
+PRMNT030,Prod Reporting,IT01,edemicn,Nicole Demichelis
+PRMNT030,Prod Reporting,IT01,eeccas,Stefania Ecca
+PRMNT030,Prod Reporting,IT01,eleoncf,Fabio Leoncini
+PRMNT030,Prod Reporting,IT01,eperag,Gabriele Pera
+PRMNT030,Prod Reporting,IT01,esorgep,Piero Sorge
+PRMNT030,Prod Reporting,IT01,esucciy,Yuri Succi
+PRMNT030,Prod Reporting,IT01,evaleni,Ilaria Nausica Valentino
+PRMNT030,Prod Reporting,IT01,sci1pr01,SPARE
+PRMNT030,Prod Reporting,IT01,sci1pr02,SPARE
+PRMNT030,Prod Reporting,IT01,sci1pr03,SPARE
+PRMNT030,Prod Reporting,IT01,sci2pr01,CTC
+PRMNT030,Prod Reporting,IT01,sci2pr02,CTC
+PRMNT030,Prod Reporting,IT01,sci2pr03,ENAMELING Q2
+PRMNT030,Prod Reporting,IT01,sci2pr04,PAPER Q2
+PRMNT030,Prod Reporting,IT01,sci2pr05,CTC
+PRMNT030,Prod Reporting,IT01,sci2pr06,CTC
+PRMNT030,Prod Reporting,IT01,sci2pr07,SPARE Q2
+PRMNT030,Prod Reporting,IT01,sci2pr08,DRAWING Q2
+PRMNT030,Prod Reporting,IT01,sci2pr09,SPARE
+PRMNT030,Prod Reporting,IT01,sci2pr10,CTC Q2
+PRMNT030,Prod Reporting,IT01,sci2pr11,GLASS Q2-not used since 72022
+PRMNT030,Prod Reporting,IT01,sci2pr12,ENAMELLING Q2
+PRMNT030,Prod Reporting,IT01,sci2pr13,ENAMELING Q2
+PRMNT030,Prod Reporting,IT01,sci2pr14,SPARE Q2
+PRMNT030,Prod Reporting,IT01,sci2pr15,KONFORM Q2
+PRMNT030,Prod Reporting,IT01,sci2pr16,CTC
+PRMNT030,Prod Reporting,IT01,sci2pr17,SPARE
+PRMNT030,Prod Reporting,IT01,sci2pr18,ENAMELLING Q2
+PRMNT030,Prod Reporting,IT01,sci2pr19,CTC Q2
+PRMNT030,Prod Reporting,IT01,sci2pr20,ENAMELING Q2
+PRMNT030,Prod Reporting,IT01,sci2pr21,SPARE
+PRMNT030,Prod Reporting,IT01,sci2pr22,DRAWING Q2
+PRMNT030,Prod Reporting,IT01,sci2pr23,ENAMELING Q2
+PRMNT030,Prod Reporting,IT01,sci2pr24,CTC TRAVASO
+PRMNT030,Prod Reporting,RS01,ebabicg,Gorica Babic
+PRMNT030,Prod Reporting,rs01,ebertad,Darjan Berta
+PRMNT030,Prod Reporting,RS01,eculafd,Darko Culafic
+PRMNT030,Prod Reporting,RS01,eglisin,Ninoslav Glisin
+PRMNT030,Prod Reporting,RS01,ekovacb,Borko Kovac
+PRMNT030,Prod Reporting,RS01,emiloss,Sasa Milosevic
+PRMNT030,Prod Reporting,RS01,epeicn,Nikola Peic
+PRMNT030,Prod Reporting,RS01,epejovm,Milan Pejovic
+PRMNT030,Prod Reporting,RS01,eprodzr,Production Zrenjanin
+PRMNT030,Prod Reporting,RS01,eselakm,Matija Selakovic
+PRMNT030,Prod Reporting,RS01,estrbav,Vesna Strbac Brankov
+PRMNT030,Prod Reporting,RS01,evulovn,Nenad Vulovic
+PRMNT030,Prod Reporting,RS01,scs1pr01,PACK ZR
+PRMNT030,Prod Reporting,RS01,scs1pr02,SPARE ZR
+PRMNT030,Prod Reporting,RS01,scs1pr03,DRAWING REPORTING ZR
+PRMNT030,Prod Reporting,RS01,scs1pr04,ROD CONSUMPTION ZR
+PRMNT030,Prod Reporting,RS01,scs1pr05,scs1pr05
+PRMNT030,Prod Reporting,RS01,scs1pr06,scs1pr06
+PRMNT040,Work Order mai,IT01,eaccort,Tiziano Accornero
+PRMNT040,Work Order mai,IT01,eavalle,Egidio Avalle
+PRMNT040,Work Order mai,IT01,ebaldag,Gualtiero Balda
+PRMNT040,Work Order mai,IT01,efascil,Laura Fasciolo
+PRMNT040,Work Order mai,IT01,eleoncf,Fabio Leoncini
+PRMNT040,Work Order mai,IT01,evaleni,Ilaria Nausica Valentino
+PRMNT040,Work Order mai,rs01,ebertad,Darjan Berta
+PRMNT040,Work Order mai,RS01,ecibarm,Maja Cibaric
+PRMNT040,Work Order mai,RS01,eculafd,Darko Culafic
+PRMNT040,Work Order mai,RS01,efilipa,Aleksandra Filipas
+PRMNT040,Work Order mai,RS01,eglisin,Ninoslav Glisin
+PRMNT040,Work Order mai,RS01,epeicn,Nikola Peic
+PRMNT040,Work Order mai,RS01,eponocz,Zaklina Ponocko
+PRMNT040,Work Order mai,RS01,eshipps,Generic Shipping
+PRMNT040,Work Order mai,RS01,evulovn,Nenad Vulovic
+PRMNT050,Prod Reporting,IT01,edirenm,Marco Di Renzo
+PRMNT050,Prod Reporting,IT01,efascil,Laura Fasciolo
+PRMNT050,Prod Reporting,IT01,eleoncf,Fabio Leoncini
+PRMNT050,Prod Reporting,IT01,emorelp,Paolo Morelli
+PRMNT050,Prod Reporting,rs01,ebertad,Darjan Berta
+PRMNT050,Prod Reporting,RS01,eculafd,Darko Culafic
+PRMNT050,Prod Reporting,RS01,eglisin,Ninoslav Glisin
+PRMNT050,Prod Reporting,RS01,epeicn,Nikola Peic
+PRMNT050,Prod Reporting,RS01,evulovn,Nenad Vulovic
+PRMNT060,Work Order Reo,IT01,eassix2,Assistenti X2
+PRMNT060,Work Order Reo,IT01,esorgep,Piero Sorge
+PRMNT060,Work Order Reo,IT01,esucciy,Yuri Succi
+PUENQ030,Requisition Ap,IT01,ebrunof,Fiorenza Bruno
+PUENQ030,Requisition Ap,IT01,ecastem,Matteo Castello
+PUENQ030,Requisition Ap,IT01,egarafa,Anjicka Garafijat
+PUENQ030,Requisition Ap,IT01,elombac,Cristiano Lombardi
+PUENQ030,Requisition Ap,IT01,equarom,"Quarona, Marco"
+PUENQ030,Requisition Ap,IT01,esalaa,Ambra Maria Sala
+PUENQ030,Requisition Ap,IT01,etepicm,Milana Tepic
+PUENQ040,Receiving View,IT01,ecicalv,Vito Cicala
+PUENQ040,Receiving View,IT01,edifela,"Di Felice, Andrea"
+PUENQ040,Receiving View,IT01,egentaa,Alfredo Genta
+PUENQ050,Purchase Order,IT01,ebrkicj,Jovan Brkic
+PUENQ050,Purchase Order,IT01,ecicalv,Vito Cicala
+PUENQ050,Purchase Order,IT01,edifela,"Di Felice, Andrea"
+PUENQ050,Purchase Order,IT01,edonada,Alberto Donadel
+PUENQ050,Purchase Order,IT01,egentaa,Alfredo Genta
+PUENQ050,Purchase Order,IT01,elombac,Cristiano Lombardi
+PUENQ050,Purchase Order,IT01,esalaa,Ambra Maria Sala
+PUENQ060,Supplier Mstr,IT01,ebrunof,Fiorenza Bruno
+PUENQ060,Supplier Mstr,IT01,ecozzoc,Corrado Cozzo
+PUENQ060,Supplier Mstr,IT01,edemicm,Marilena Demichelis
+PUENQ060,Supplier Mstr,IT01,edonada,Alberto Donadel
+PUENQ060,Supplier Mstr,IT01,efiorem,Marco Fioretta
+PUENQ060,Supplier Mstr,IT01,egentaa,Alfredo Genta
+PUENQ060,Supplier Mstr,IT01,elombac,Cristiano Lombardi
+PUENQ060,Supplier Mstr,IT01,emanevm,Milan Manevski
+PUENQ060,Supplier Mstr,IT01,emilost,Teodora Milosevic
+PUENQ060,Supplier Mstr,IT01,etrapak,Katia Trapani
+PUENQ060,Supplier Mstr,RS01,ebartei,Ivona Barten
+PUENQ060,Supplier Mstr,RS01,ecileri,Igor Cilerdzic
+PUENQ060,Supplier Mstr,RS01,edulijm,Mina Dulijan
+PUENQ060,Supplier Mstr,RS01,egarafa,Anjicka Garafijat
+PUENQ060,Supplier Mstr,RS01,egeorgs,Sonja Georgijev
+PUENQ060,Supplier Mstr,RS01,egilezj,Jelena Gilezan
+PUENQ060,Supplier Mstr,RS01,egrahob,Bojan Grahovac
+PUENQ060,Supplier Mstr,RS01,ekrstit,Tatiana Krstic Gacin
+PUENQ060,Supplier Mstr,RS01,emanevm,Milan Manevski
+PUENQ060,Supplier Mstr,RS01,emijata,Aleksandra Mijatovic
+PUENQ060,Supplier Mstr,RS01,emilost,Teodora Milosevic
+PUENQ060,Supplier Mstr,RS01,emoenss,Stefan Moens
+PUENQ060,Supplier Mstr,RS01,epantis,Slavica Pantic
+PUENQ060,Supplier Mstr,RS01,eradovd,Dragana Radovanac
+PUENQ060,Supplier Mstr,RS01,erimaih,Hermina Rimai
+PUENQ060,Supplier Mstr,RS01,esaricj,Jelena Saric
+PUENQ060,Supplier Mstr,RS01,eskrgij,Jovica Skrgic
+PUMNT010,Supplier Sched,IT01,ebrunof,Fiorenza Bruno
+PUMNT010,Supplier Sched,IT01,ecozzoc,Corrado Cozzo
+PUMNT010,Supplier Sched,IT01,eravioa,Anna Raviola
+PUMNT010,Supplier Sched,RS01,ebertad,Darjan Berta
+PUMNT010,Supplier Sched,RS01,ecileri,Igor Cilerdzic
+PUMNT010,Supplier Sched,RS01,ecozzoc,Corrado Cozzo
+PUMNT010,Supplier Sched,RS01,egarafa,Anjicka Garafijat
+PUMNT010,Supplier Sched,RS01,ekrstit,Tatiana Krstic Gacin
+PUMNT010,Supplier Sched,RS01,emoenss,Stefan Moens
+PUMNT010,Supplier Sched,RS01,evulovn,Nenad Vulovic
+PUMNT020,Requisitioning,IT01,ebrkicj,Jovan Brkic
+PUMNT020,Requisitioning,IT01,ebrunof,Fiorenza Bruno
+PUMNT020,Requisitioning,IT01,ecastem,Matteo Castello
+PUMNT020,Requisitioning,IT01,ecozzoc,Corrado Cozzo
+PUMNT020,Requisitioning,IT01,edonada,Alberto Donadel
+PUMNT020,Requisitioning,IT01,egarafa,Anjicka Garafijat
+PUMNT020,Requisitioning,IT01,eincarm,Matteo Incarnato
+PUMNT020,Requisitioning,IT01,elombac,Cristiano Lombardi
+PUMNT020,Requisitioning,IT01,equarom,"Quarona, Marco"
+PUMNT020,Requisitioning,IT01,esalaa,Ambra Maria Sala
+PUMNT020,Requisitioning,IT01,escasse,Elia Scassillo
+PUMNT020,Requisitioning,IT01,etepicm,Milana Tepic
+PUMNT020,Requisitioning,RS01,ecileri,Igor Cilerdzic
+PUMNT020,Requisitioning,RS01,egarafa,Anjicka Garafijat
+PUMNT020,Requisitioning,RS01,egruslj,Jelena Gruslav
+PUMNT020,Requisitioning,RS01,ekrstit,Tatiana Krstic Gacin
+PUMNT020,Requisitioning,RS01,emoenss,Stefan Moens
+PUMNT020,Requisitioning,RS01,ereceps,Generic Receiving
+PUMNT030,Requisition Ap,IT01,ecicalv,Vito Cicala
+PUMNT030,Requisition Ap,IT01,ecozzoc,Corrado Cozzo
+PUMNT030,Requisition Ap,IT01,edifela,"Di Felice, Andrea"
+PUMNT030,Requisition Ap,IT01,egavazp,Paolo Gavazza
+PUMNT030,Requisition Ap,IT01,egentaa,Alfredo Genta
+PUMNT030,Requisition Ap,RS01,ecileri,Igor Cilerdzic
+PUMNT030,Requisition Ap,RS01,egarafa,Anjicka Garafijat
+PUMNT030,Requisition Ap,RS01,ekrstit,Tatiana Krstic Gacin
+PUMNT030,Requisition Ap,RS01,emoenss,Stefan Moens
+PUMNT040,Receiving,IT01,ebolle2,Trasgo Shipping 2
+PUMNT040,Receiving,IT01,ebrkicj,Jovan Brkic
+PUMNT040,Receiving,IT01,ebrunof,Fiorenza Bruno
+PUMNT040,Receiving,IT01,ecavalr,Roberta Cavallero
+PUMNT040,Receiving,IT01,ecibarm,Maja Cibaric
+PUMNT040,Receiving,IT01,ecozzoc,Corrado Cozzo
+PUMNT040,Receiving,IT01,edonada,Alberto Donadel
+PUMNT040,Receiving,IT01,egarafa,Anjicka Garafijat
+PUMNT040,Receiving,IT01,eincarm,Matteo Incarnato
+PUMNT040,Receiving,IT01,elombac,Cristiano Lombardi
+PUMNT040,Receiving,IT01,emaschc,Carlo Maschio
+PUMNT040,Receiving,IT01,eponocz,Zaklina Ponocko
+PUMNT040,Receiving,IT01,equarom,"Quarona, Marco"
+PUMNT040,Receiving,IT01,ereceps,Generic Receiving
+PUMNT040,Receiving,IT01,esalaa,Ambra Maria Sala
+PUMNT040,Receiving,IT01,escasse,Elia Scassillo
+PUMNT040,Receiving,IT01,eshipps,Generic Shipping
+PUMNT040,Receiving,IT01,etepicm,Milana Tepic
+PUMNT040,Receiving,RS01,ebertad,Darjan Berta
+PUMNT040,Receiving,RS01,ecileri,Igor Cilerdzic
+PUMNT040,Receiving,RS01,ecozzoc,Corrado Cozzo
+PUMNT040,Receiving,RS01,eculafd,Darko Culafic
+PUMNT040,Receiving,RS01,egarafa,Anjicka Garafijat
+PUMNT040,Receiving,RS01,egruslj,Jelena Gruslav
+PUMNT040,Receiving,RS01,ekrstit,Tatiana Krstic Gacin
+PUMNT040,Receiving,RS01,emoenss,Stefan Moens
+PUMNT040,Receiving,RS01,epeicn,Nikola Peic
+PUMNT040,Receiving,RS01,eponocz,Zaklina Ponocko
+PUMNT040,Receiving,RS01,ereceps,Generic Receiving
+PUMNT040,Receiving,RS01,evulovn,Nenad Vulovic
+PUMNT050,Purchase Order,IT01,ebrunof,Fiorenza Bruno
+PUMNT050,Purchase Order,IT01,ecavalr,Roberta Cavallero
+PUMNT050,Purchase Order,IT01,ecozzoc,Corrado Cozzo
+PUMNT050,Purchase Order,RS01,ecileri,Igor Cilerdzic
+PUMNT050,Purchase Order,RS01,ecozzoc,Corrado Cozzo
+PUMNT050,Purchase Order,RS01,eculafd,Darko Culafic
+PUMNT050,Purchase Order,RS01,egarafa,Anjicka Garafijat
+PUMNT050,Purchase Order,RS01,ekrstit,Tatiana Krstic Gacin
+PUMNT050,Purchase Order,RS01,emoenss,Stefan Moens
+PUMNT050,Purchase Order,RS01,epeicn,Nikola Peic
+PUMNT050,Purchase Order,RS01,eponocz,Zaklina Ponocko
+PUMNT050,Purchase Order,RS01,ereceps,Generic Receiving
+PUMNT060,Supplier Mstr,IT01,efiorem,Marco Fioretta
+PUMNT060,Supplier Mstr,IT01,etrapak,Katia Trapani
+PUMNT060,Supplier Mstr,RS01,ecileri,Igor Cilerdzic
+PUMNT060,Supplier Mstr,RS01,egarafa,Anjicka Garafijat
+PUMNT060,Supplier Mstr,RS01,ekrstit,Tatiana Krstic Gacin
+PUMNT060,Supplier Mstr,RS01,emijata,Aleksandra Mijatovic
+PUMNT060,Supplier Mstr,RS01,emoenss,Stefan Moens
+PUMNT060,Supplier Mstr,RS01,eponocz,Zaklina Ponocko
+PUMNT070,Supp Mtl  Cont,IT01,ebrunof,Fiorenza Bruno
+PUMNT070,Supp Mtl  Cont,IT01,ecozzoc,Corrado Cozzo
+PUMNT070,Supp Mtl  Cont,RS01,ecileri,Igor Cilerdzic
+PUMNT070,Supp Mtl  Cont,RS01,ekrstit,Tatiana Krstic Gacin
+PUMNT070,Supp Mtl  Cont,RS01,emoenss,Stefan Moens
+qadadmin,QAD admin,EU01,edifela,"Di Felice, Andrea"
+qadadmin,QAD admin,EU01,millega,"Miller, Greg A. EGI Glob.IT S"
+qadadmin,QAD admin,IT01,edifela,"Di Felice, Andrea"
+qadadmin,QAD admin,IT01,equarom,"Quarona, Marco"
+qadadmin,QAD admin,It01,escasse,Elia Scassillo
+qadadmin,QAD admin,IT01,hartmaj,"Hartman, Andy J. EGI DB admin"
+qadadmin,QAD admin,IT01,mfgge,Rapid-e
+qadadmin,QAD admin,IT01,millega,"Miller, Greg A. EGI Glob.IT S"
+qadadmin,QAD admin,RS01,edifela,"Di Felice, Andrea"
+qadadmin,QAD admin,RS01,equarom,"Quarona, Marco"
+qadadmin,QAD admin,RS01,hartmaj,"Hartman, Andy J. EGI DB admin"
+qadadmin,QAD admin,RS01,millega,"Miller, Greg A. EGI Glob.IT S"
+qadadmin,QAD admin,SE01,edifela,"Di Felice, Andrea"
+qadadmin,QAD admin,SE01,millega,"Miller, Greg A. EGI Glob.IT S"
+SAENQ010,Install base V,IT01,eguedes,Sabrina Guede
+SAENQ010,Install base V,IT01,elieses,Sara Liese
+SAENQ020,Invoicing View,IT01,ebrunof,Fiorenza Bruno
+SAENQ020,Invoicing View,IT01,ecozzoc,Corrado Cozzo
+SAENQ020,Invoicing View,IT01,eguedes,Sabrina Guede
+SAENQ020,Invoicing View,IT01,elieses,Sara Liese
+SAENQ020,Invoicing View,IT01,esalvar,Roberto Salvaggio
+SAENQ020,Invoicing View,RS01,ebertad,Darjan Berta
+SAENQ020,Invoicing View,RS01,ecibarm,Maja Cibaric
+SAENQ020,Invoicing View,RS01,ecileri,Igor Cilerdzic
+SAENQ020,Invoicing View,RS01,efilipa,Aleksandra Filipas
+SAENQ020,Invoicing View,RS01,ekrstit,Tatiana Krstic Gacin
+SAENQ020,Invoicing View,RS01,emoenss,Stefan Moens
+SAENQ020,Invoicing View,RS01,eponocz,Zaklina Ponocko
+SAENQ020,Invoicing View,RS01,ereceps,Generic Receiving
+SAENQ020,Invoicing View,RS01,eshipps,Generic Shipping
+SAENQ020,Invoicing View,RS01,evulovn,Nenad Vulovic
+SAENQ030,Sales order Vi,IT01,eaccort,Tiziano Accornero
+SAENQ030,Sales order Vi,IT01,ebaldag,Gualtiero Balda
+SAENQ030,Sales order Vi,IT01,ecasirm,Marco Casiraghi
+SAENQ030,Sales order Vi,IT01,eguedes,Sabrina Guede
+SAENQ030,Sales order Vi,IT01,elieses,Sara Liese
+SAENQ030,Sales order Vi,IT01,esalvar,Roberto Salvaggio
+SAENQ040,Customer Mstr,IT01,ebrkicj,Jovan Brkic
+SAENQ040,Customer Mstr,IT01,ebrunof,Fiorenza Bruno
+SAENQ040,Customer Mstr,IT01,edemicm,Marilena Demichelis
+SAENQ040,Customer Mstr,IT01,efiorem,Marco Fioretta
+SAENQ040,Customer Mstr,IT01,egarafa,Anjicka Garafijat
+SAENQ040,Customer Mstr,IT01,egattiv,Vanessa Gatti
+SAENQ040,Customer Mstr,IT01,egentaa,Alfredo Genta
+SAENQ040,Customer Mstr,IT01,eguedes,Sabrina Guede
+SAENQ040,Customer Mstr,IT01,elieses,Sara Liese
+SAENQ040,Customer Mstr,IT01,emanevm,Milan Manevski
+SAENQ040,Customer Mstr,IT01,emilost,Teodora Milosevic
+SAENQ040,Customer Mstr,IT01,emogile,Elena Mogilevich
+SAENQ040,Customer Mstr,IT01,esalvar,Roberto Salvaggio
+SAENQ040,Customer Mstr,IT01,esampar,Raffaella Sampaoli
+SAENQ040,Customer Mstr,IT01,etelecm,Maura Telecco
+SAENQ040,Customer Mstr,IT01,etepicm,Milana Tepic
+SAENQ040,Customer Mstr,IT01,etestap,Paola Testa
+SAENQ040,Customer Mstr,IT01,etrapak,Katia Trapani
+SAENQ040,Customer Mstr,RS01,ebrkicj,Jovan Brkic
+SAENQ040,Customer Mstr,RS01,egarafa,Anjicka Garafijat
+SAENQ040,Customer Mstr,RS01,egrahob,Bojan Grahovac
+SAENQ040,Customer Mstr,RS01,egruslj,Jelena Gruslav
+SAENQ040,Customer Mstr,RS01,emanevm,Milan Manevski
+SAENQ040,Customer Mstr,RS01,emilost,Teodora Milosevic
+SAENQ040,Customer Mstr,RS01,eradovd,Dragana Radovanac
+SAENQ040,Customer Mstr,RS01,esaricj,Jelena Saric
+SAENQ040,Customer Mstr,RS01,eskrgij,Jovica Skrgic
+SAENQ040,Customer Mstr,RS01,etepicm,Milana Tepic
+SAENQ040,Customer Mstr,RS01,etestap,Paola Testa
+SAENQ050,Customer Sched,IT01,eguedes,Sabrina Guede
+SAENQ050,Customer Sched,IT01,elieses,Sara Liese
+SAENQ060,Customer price,IT01,eguedes,Sabrina Guede
+SAENQ060,Customer price,IT01,elieses,Sara Liese
+SAENQ070,Sales Quote Vi,IT01,eguedes,Sabrina Guede
+SAENQ070,Sales Quote Vi,IT01,elieses,Sara Liese
+SAENQ080,Intersite tran,IT01,ecibarm,Maja Cibaric
+SAENQ080,Intersite tran,IT01,eguedes,Sabrina Guede
+SAENQ080,Intersite tran,IT01,elieses,Sara Liese
+SAENQ080,Intersite tran,IT01,eponocz,Zaklina Ponocko
+SAENQ080,Intersite tran,IT01,ereceps,Generic Receiving
+SAENQ080,Intersite tran,IT01,eshipps,Generic Shipping
+SAENQ080,Intersite tran,RS01,ecibarm,Maja Cibaric
+SAENQ080,Intersite tran,RS01,efilipa,Aleksandra Filipas
+SAENQ080,Intersite tran,RS01,eponocz,Zaklina Ponocko
+SAENQ080,Intersite tran,RS01,ereceps,Generic Receiving
+SAENQ080,Intersite tran,RS01,eshipps,Generic Shipping
+SAENQ090,Sales  commiss,IT01,ecasirm,Marco Casiraghi
+SAENQ090,Sales  commiss,IT01,eguedes,Sabrina Guede
+SAENQ090,Sales  commiss,IT01,elieses,Sara Liese
+SAENQ090,Sales  commiss,IT01,esalvar,Roberto Salvaggio
+SAENQ090,Sales  commiss,RS01,ecasirm,Marco Casiraghi
+SAENQ100,Cust Mtl Contr,IT01,ebrkicj,Jovan Brkic
+SAENQ100,Cust Mtl Contr,IT01,egentaa,Alfredo Genta
+SAENQ100,Cust Mtl Contr,RS01,egrahob,Bojan Grahovac
+SAENQ120,Shipments View,IT01,eguedes,Sabrina Guede
+SAENQ120,Shipments View,IT01,elabq2,Lab q2
+SAENQ120,Shipments View,IT01,elieses,Sara Liese
+SAENQ120,Shipments View,IT01,eravioa,Anna Raviola
+SAENQ120,Shipments View,IT01,esalvar,Roberto Salvaggio
+SAMNT010,Install Base,IT01,ebrkicj,Jovan Brkic
+SAMNT010,Install Base,IT01,ecavalr,Roberta Cavallero
+SAMNT010,Install Base,IT01,egarafa,Anjicka Garafijat
+SAMNT010,Install Base,IT01,egentaa,Alfredo Genta
+SAMNT010,Install Base,IT01,etepicm,Milana Tepic
+SAMNT010,Install Base,IT01,etrapak,Katia Trapani
+SAMNT010,Install Base,RS01,ebrkicj,Jovan Brkic
+SAMNT010,Install Base,RS01,egarafa,Anjicka Garafijat
+SAMNT010,Install Base,RS01,egilezj,Jelena Gilezan
+SAMNT010,Install Base,RS01,egruslj,Jelena Gruslav
+SAMNT010,Install Base,RS01,epeicn,Nikola Peic
+SAMNT010,Install Base,RS01,eponocz,Zaklina Ponocko
+SAMNT010,Install Base,RS01,eradovd,Dragana Radovanac
+SAMNT010,Install Base,RS01,erimaih,Hermina Rimai
+SAMNT010,Install Base,RS01,esaricj,Jelena Saric
+SAMNT010,Install Base,RS01,etepicm,Milana Tepic
+SAMNT020,Invoicing,IT01,ebrkicj,Jovan Brkic
+SAMNT020,Invoicing,IT01,ebrunof,Fiorenza Bruno
+SAMNT020,Invoicing,IT01,ecavalr,Roberta Cavallero
+SAMNT020,Invoicing,IT01,egarafa,Anjicka Garafijat
+SAMNT020,Invoicing,IT01,egattiv,Vanessa Gatti
+SAMNT020,Invoicing,IT01,egentaa,Alfredo Genta
+SAMNT020,Invoicing,IT01,emogile,Elena Mogilevich
+SAMNT020,Invoicing,IT01,esampar,Raffaella Sampaoli
+SAMNT020,Invoicing,IT01,etelecm,Maura Telecco
+SAMNT020,Invoicing,IT01,etepicm,Milana Tepic
+SAMNT020,Invoicing,IT01,etrapak,Katia Trapani
+SAMNT020,Invoicing,RS01,ebartei,Ivona Barten
+SAMNT020,Invoicing,RS01,ebrkicj,Jovan Brkic
+SAMNT020,Invoicing,RS01,edjekom,Milka Djekovic
+SAMNT020,Invoicing,RS01,edulijm,Mina Dulijan
+SAMNT020,Invoicing,RS01,egarafa,Anjicka Garafijat
+SAMNT020,Invoicing,RS01,egeorgs,Sonja Georgijev
+SAMNT020,Invoicing,RS01,egilezj,Jelena Gilezan
+SAMNT020,Invoicing,RS01,egruslj,Jelena Gruslav
+SAMNT020,Invoicing,RS01,epantis,Slavica Pantic
+SAMNT020,Invoicing,RS01,eradovd,Dragana Radovanac
+SAMNT020,Invoicing,RS01,erimaih,Hermina Rimai
+SAMNT020,Invoicing,RS01,esaricj,Jelena Saric
+SAMNT020,Invoicing,RS01,etepicm,Milana Tepic
+SAMNT030,Sales Order,IT01,ebrkicj,Jovan Brkic
+SAMNT030,Sales Order,IT01,egarafa,Anjicka Garafijat
+SAMNT030,Sales Order,IT01,egattiv,Vanessa Gatti
+SAMNT030,Sales Order,IT01,emogile,Elena Mogilevich
+SAMNT030,Sales Order,IT01,esampar,Raffaella Sampaoli
+SAMNT030,Sales Order,IT01,etelecm,Maura Telecco
+SAMNT030,Sales Order,IT01,etepicm,Milana Tepic
+SAMNT030,Sales Order,RS01,beahrke,KENNETH BEAHRS
+SAMNT030,Sales Order,RS01,ebrkicj,Jovan Brkic
+SAMNT030,Sales Order,RS01,egarafa,Anjicka Garafijat
+SAMNT030,Sales Order,RS01,egruslj,Jelena Gruslav
+SAMNT030,Sales Order,RS01,eradovd,Dragana Radovanac
+SAMNT030,Sales Order,RS01,esaricj,Jelena Saric
+SAMNT030,Sales Order,RS01,etepicm,Milana Tepic
+SAMNT040,Customer Mstr,IT01,efiorem,Marco Fioretta
+SAMNT040,Customer Mstr,IT01,etrapak,Katia Trapani
+SAMNT040,Customer Mstr,RS01,ebrkicj,Jovan Brkic
+SAMNT040,Customer Mstr,RS01,egarafa,Anjicka Garafijat
+SAMNT040,Customer Mstr,RS01,eradovd,Dragana Radovanac
+SAMNT040,Customer Mstr,RS01,esaricj,Jelena Saric
+SAMNT040,Customer Mstr,RS01,etepicm,Milana Tepic
+SAMNT050,Customer Sched,IT01,ebrkicj,Jovan Brkic
+SAMNT050,Customer Sched,IT01,egarafa,Anjicka Garafijat
+SAMNT050,Customer Sched,IT01,egattiv,Vanessa Gatti
+SAMNT050,Customer Sched,IT01,emogile,Elena Mogilevich
+SAMNT050,Customer Sched,IT01,esampar,Raffaella Sampaoli
+SAMNT050,Customer Sched,IT01,etelecm,Maura Telecco
+SAMNT050,Customer Sched,IT01,etepicm,Milana Tepic
+SAMNT050,Customer Sched,RS01,ebrkicj,Jovan Brkic
+SAMNT050,Customer Sched,RS01,egarafa,Anjicka Garafijat
+SAMNT050,Customer Sched,RS01,eradovd,Dragana Radovanac
+SAMNT050,Customer Sched,RS01,esaricj,Jelena Saric
+SAMNT050,Customer Sched,RS01,etepicm,Milana Tepic
+SAMNT060,Customer price,IT01,ebrkicj,Jovan Brkic
+SAMNT060,Customer price,IT01,egarafa,Anjicka Garafijat
+SAMNT060,Customer price,IT01,egattiv,Vanessa Gatti
+SAMNT060,Customer price,IT01,emogile,Elena Mogilevich
+SAMNT060,Customer price,IT01,esampar,Raffaella Sampaoli
+SAMNT060,Customer price,IT01,etelecm,Maura Telecco
+SAMNT060,Customer price,IT01,etepicm,Milana Tepic
+SAMNT060,Customer price,RS01,ebrkicj,Jovan Brkic
+SAMNT060,Customer price,RS01,egarafa,Anjicka Garafijat
+SAMNT060,Customer price,RS01,egruslj,Jelena Gruslav
+SAMNT060,Customer price,RS01,eradovd,Dragana Radovanac
+SAMNT060,Customer price,RS01,esaricj,Jelena Saric
+SAMNT060,Customer price,RS01,etepicm,Milana Tepic
+SAMNT070,Sales Quote Mg,IT01,ebrkicj,Jovan Brkic
+SAMNT070,Sales Quote Mg,IT01,egarafa,Anjicka Garafijat
+SAMNT070,Sales Quote Mg,IT01,egattiv,Vanessa Gatti
+SAMNT070,Sales Quote Mg,IT01,emogile,Elena Mogilevich
+SAMNT070,Sales Quote Mg,IT01,esampar,Raffaella Sampaoli
+SAMNT070,Sales Quote Mg,IT01,etelecm,Maura Telecco
+SAMNT070,Sales Quote Mg,IT01,etepicm,Milana Tepic
+SAMNT070,Sales Quote Mg,RS01,ebrkicj,Jovan Brkic
+SAMNT070,Sales Quote Mg,RS01,egarafa,Anjicka Garafijat
+SAMNT070,Sales Quote Mg,RS01,egruslj,Jelena Gruslav
+SAMNT070,Sales Quote Mg,RS01,eradovd,Dragana Radovanac
+SAMNT070,Sales Quote Mg,RS01,esaricj,Jelena Saric
+SAMNT070,Sales Quote Mg,RS01,etepicm,Milana Tepic
+SAMNT080,Intersite tran,IT01,ebolle2,Trasgo Shipping 2
+SAMNT080,Intersite tran,IT01,ebrkicj,Jovan Brkic
+SAMNT080,Intersite tran,IT01,egarafa,Anjicka Garafijat
+SAMNT080,Intersite tran,IT01,esijanj,Jelena Sijan
+SAMNT080,Intersite tran,IT01,etepicm,Milana Tepic
+SAMNT080,Intersite tran,RS01,ebrkicj,Jovan Brkic
+SAMNT080,Intersite tran,RS01,egarafa,Anjicka Garafijat
+SAMNT080,Intersite tran,RS01,egruslj,Jelena Gruslav
+SAMNT080,Intersite tran,RS01,eradovd,Dragana Radovanac
+SAMNT080,Intersite tran,RS01,esaricj,Jelena Saric
+SAMNT080,Intersite tran,RS01,etepicm,Milana Tepic
+SAMNT090,Sales  commiss,IT01,ebrkicj,Jovan Brkic
+SAMNT090,Sales  commiss,IT01,efiorem,Marco Fioretta
+SAMNT090,Sales  commiss,IT01,egarafa,Anjicka Garafijat
+SAMNT090,Sales  commiss,IT01,etepicm,Milana Tepic
+SAMNT090,Sales  commiss,RS01,ebartei,Ivona Barten
+SAMNT090,Sales  commiss,RS01,ebrkicj,Jovan Brkic
+SAMNT090,Sales  commiss,RS01,edulijm,Mina Dulijan
+SAMNT090,Sales  commiss,RS01,egarafa,Anjicka Garafijat
+SAMNT090,Sales  commiss,RS01,egeorgs,Sonja Georgijev
+SAMNT090,Sales  commiss,RS01,egilezj,Jelena Gilezan
+SAMNT090,Sales  commiss,RS01,egrahob,Bojan Grahovac
+SAMNT090,Sales  commiss,RS01,egruslj,Jelena Gruslav
+SAMNT090,Sales  commiss,RS01,epantis,Slavica Pantic
+SAMNT090,Sales  commiss,RS01,eradovd,Dragana Radovanac
+SAMNT090,Sales  commiss,RS01,erimaih,Hermina Rimai
+SAMNT090,Sales  commiss,RS01,esaricj,Jelena Saric
+SAMNT090,Sales  commiss,RS01,etepicm,Milana Tepic
+SAMNT100,Cust Mtl Contr,IT01,ebrunof,Fiorenza Bruno
+SAMNT100,Cust Mtl Contr,IT01,ecavalr,Roberta Cavallero
+SAMNT100,Cust Mtl Contr,IT01,ecozzoc,Corrado Cozzo
+SAMNT100,Cust Mtl Contr,RS01,ebertad,Darjan Berta
+SAMNT100,Cust Mtl Contr,RS01,ecileri,Igor Cilerdzic
+SAMNT100,Cust Mtl Contr,RS01,ecozzoc,Corrado Cozzo
+SAMNT100,Cust Mtl Contr,RS01,egarafa,Anjicka Garafijat
+SAMNT100,Cust Mtl Contr,RS01,ekrstit,Tatiana Krstic Gacin
+SAMNT100,Cust Mtl Contr,RS01,emoenss,Stefan Moens
+SAMNT100,Cust Mtl Contr,RS01,evulovn,Nenad Vulovic
+SAMNT120,Shipments,IT01,ebolle2,Trasgo Shipping 2
+SAMNT120,Shipments,IT01,ecavalr,Roberta Cavallero
+SAMNT120,Shipments,IT01,ecibarm,Maja Cibaric
+SAMNT120,Shipments,IT01,eponocz,Zaklina Ponocko
+SAMNT120,Shipments,IT01,ereceps,Generic Receiving
+SAMNT120,Shipments,IT01,eshipps,Generic Shipping
+SAMNT120,Shipments,RS01,ebertad,Darjan Berta
+SAMNT120,Shipments,RS01,ecibarm,Maja Cibaric
+SAMNT120,Shipments,RS01,efilipa,Aleksandra Filipas
+SAMNT120,Shipments,RS01,egruslj,Jelena Gruslav
+SAMNT120,Shipments,RS01,eponocz,Zaklina Ponocko
+SAMNT120,Shipments,RS01,ereceps,Generic Receiving
+SAMNT120,Shipments,RS01,eshipps,Generic Shipping
+SAMNT120,Shipments,RS01,evulovn,Nenad Vulovic
+SAMNT130,RMA,IT01,ebolle2,Trasgo Shipping 2
+SAMNT130,RMA,IT01,ebrunof,Fiorenza Bruno
+SAMNT130,RMA,IT01,ecavalr,Roberta Cavallero
+SAMNT130,RMA,IT01,egentaa,Alfredo Genta
+SAMNT130,RMA,IT01,etrapak,Katia Trapani
+SAMNT130,RMA,RS01,eculafd,Darko Culafic
+SAMNT130,RMA,RS01,egruslj,Jelena Gruslav
+SAMNT130,RMA,RS01,epeicn,Nikola Peic
+SAMNT130,RMA,RS01,eponocz,Zaklina Ponocko
+SAMNT130,RMA,RS01,ereceps,Generic Receiving
+SAMNT140,Analysis Code,IT01,ebrkicj,Jovan Brkic
+SAMNT140,Analysis Code,IT01,ebrunof,Fiorenza Bruno
+SAMNT140,Analysis Code,IT01,ecozzoc,Corrado Cozzo
+SAMNT140,Analysis Code,IT01,egarafa,Anjicka Garafijat
+SAMNT140,Analysis Code,IT01,egattiv,Vanessa Gatti
+SAMNT140,Analysis Code,IT01,emogile,Elena Mogilevich
+SAMNT140,Analysis Code,IT01,esampar,Raffaella Sampaoli
+SAMNT140,Analysis Code,IT01,etelecm,Maura Telecco
+SAMNT140,Analysis Code,IT01,etepicm,Milana Tepic
+SAMNT140,Analysis Code,RS01,ebrkicj,Jovan Brkic
+SAMNT140,Analysis Code,RS01,ecileri,Igor Cilerdzic
+SAMNT140,Analysis Code,RS01,egarafa,Anjicka Garafijat
+SAMNT140,Analysis Code,RS01,egruslj,Jelena Gruslav
+SAMNT140,Analysis Code,RS01,ekrstit,Tatiana Krstic Gacin
+SAMNT140,Analysis Code,RS01,emoenss,Stefan Moens
+SAMNT140,Analysis Code,RS01,eradovd,Dragana Radovanac
+SAMNT140,Analysis Code,RS01,esaricj,Jelena Saric
+SAMNT140,Analysis Code,RS01,etepicm,Milana Tepic
+SAMNT150,Interco,RS01,ebolle1,Trasgo shipping 1
+SAMNT150,Interco,RS01,ebolle2,Trasgo Shipping 2
+SAMNT150,Interco,RS01,ecibarm,Maja Cibaric
+SAMNT150,Interco,RS01,efilipa,Aleksandra Filipas
+SAMNT150,Interco,RS01,eponocz,Zaklina Ponocko
+SAMNT150,Interco,RS01,ereceps,Generic Receiving
+SAMNT150,Interco,RS01,eshipps,Generic Shipping
+SAMNT170,Interco German,IT01,ebrkicj,Jovan Brkic
+SAMNT170,Interco German,IT01,ebrunof,Fiorenza Bruno
+SAMNT170,Interco German,IT01,ecozzoc,Corrado Cozzo
+SAMNT170,Interco German,IT01,egarafa,Anjicka Garafijat
+SAMNT170,Interco German,IT01,etepicm,Milana Tepic
+SAMNT180,Proforma,RS01,ebertad,Darjan Berta
+SAMNT180,Proforma,RS01,ecibarm,Maja Cibaric
+SAMNT180,Proforma,RS01,efilipa,Aleksandra Filipas
+SAMNT180,Proforma,RS01,eponocz,Zaklina Ponocko
+SAMNT180,Proforma,RS01,ereceps,Generic Receiving
+SAMNT180,Proforma,RS01,eshipps,Generic Shipping
+SAMNT180,Proforma,RS01,evulovn,Nenad Vulovic
+SAMNT190,Shipments- Ser,IT01,efilipa,Aleksandra Filipas
+sxcyber,Cyberquery Run,IT01,blummd,"Blum, Mike D. EGI Sr DB admin"
+sxcyber,Cyberquery Run,IT01,maureak,"Maurer, Adrienne K. EGI Sr BS"
+sxcyber,Cyberquery Run,IT01,thompdj,"Thompson, Dale J."
+uidesign,UI Configurabl,IT01,blummd,"Blum, Mike D. EGI Sr DB admin"
+uidesign,UI Configurabl,IT01,emattif,Fabio Mattiuz
+uidesign,UI Configurabl,IT01,esqueca,Adriano Squecco
+uidesign,UI Configurabl,IT01,hearodb,"Hearon, D. Bruce EGI Sr DB ad"
+uidesign,UI Configurabl,IT01,mfgge,Rapid-e
+uidesign,UI Configurabl,IT01,Technolo,Technologent
+uidesign,UI Configurabl,RS01,emattif,Fabio Mattiuz
+uidesign,UI Configurabl,RS01,Technolo,Technologent
+uidesign,UI Configurabl,SE01,bixleje,"Bixler, Janet E."
+END OF REPORT,,,,
+,,,,
+,,,,
+Report Path : 36.3.5,,,,
+Report Name : User Group Inquiry,,,,
+Program Name: mgurgpiq.p 1+,,,,
+Report Date : 09/30/25,,,,
+,,,,
+,,,,
+,,,,
+Report Criteria not found,,,,

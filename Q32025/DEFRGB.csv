@@ -1,0 +1,1921 @@
+Group,Group Description,Domain,User ID,User Name
+adm,SYSTEM ADMINIS,conso,mfgus,QAD-Italy User Account US
+adm,SYSTEM ADMINIS,EF,eboehli,Ingolf Böhle
+adm,SYSTEM ADMINIS,ef,egrimms,Sascha Grimm
+adm,SYSTEM ADMINIS,EF,esorreg,Giorgia Sorrentino
+adm,SYSTEM ADMINIS,EF,estuckl,Laurentius Stuckenberg IT DE
+adm,SYSTEM ADMINIS,QAD,edoerra,"Albrecht Dörrie, IT DE /Test"
+AUMNT010,Audit Group,CONSO,epetkoz,Zivojin Petkovic
+AUMNT010,Audit Group,DE,elij,Jack Li
+AUMNT010,Audit Group,DE,epetkoz,Zivojin Petkovic
+AUMNT010,Audit Group,DE,ewangs,Shaoxun Wang
+AUMNT010,Audit Group,EF,epetkoz,Zivojin Petkovic
+AUMNT010,Audit Group,FR,epetkoz,Zivojin Petkovic
+AUMNT010,Audit Group,GH,epetkoz,Zivojin Petkovic
+AUMNT010,Audit Group,IT,epetkoz,Zivojin Petkovic
+DECO01,DE Controlling,conso,atltax,Anup Patel
+DECO01,DE Controlling,Conso,ebloemf,Florian Blömecke
+DECO01,DE Controlling,conso,ebrehmo,Olga Brehm
+DECO01,DE Controlling,conso,edolero,Oksana Dolereit
+DECO01,DE Controlling,conso,egerolj,Justin Gerold - Praktikant Ac
+DECO01,DE Controlling,CONSO,ehoelst,Thorsten Hölscher
+DECO01,DE Controlling,CONSO,eleem,Mikeil Lee
+DECO01,DE Controlling,conso,eleep,Peter Lee
+DECO01,DE Controlling,CONSO,epavlor,Rolf Pavlowski
+DECO01,DE Controlling,CONSO,eschaea,"Alexandra, Schäfer-Schweitzer"
+DECO01,DE Controlling,CONSO,eschmas,Stefan Schmale
+DECO01,DE Controlling,CONSO,eschusj,"Josef Schuster, Controller At"
+DECO01,DE Controlling,conso,eusrfb,fb_usr
+DECO01,DE Controlling,conso,evorwem,Maik Vorwerk - L&K - Financia
+DECO01,DE Controlling,conso,ewestrk,"Ken Westrick, Atlanta, VP cor"
+DECO01,DE Controlling,CONSO,ewilmen,Nicolas Wilmes
+DECO01,DE Controlling,conso,ewittmj,Jan Wittmer
+DECO01,DE Controlling,DE,atltax,Anup Patel
+DECO01,DE Controlling,DE,ehoelst,Thorsten Hölscher
+DECO01,DE Controlling,EF,ehoelst,Thorsten Hölscher
+DECO50,DE Controlling,DE,ebelled,Dietmar Beller - External L&K
+DECO50,DE Controlling,DE,egarafa,Anjicka Garafijat
+DECO50,DE Controlling,DE,ehoelst,Thorsten Hölscher
+DECO50,DE Controlling,DE,ekrctmp,Temporary Account for Control
+DECO50,DE Controlling,DE,ekrstit,Tatjana Krstic Gacin
+DECO50,DE Controlling,DE,elees,Sandra Lee
+DECO50,DE Controlling,DE,emoenss,Stefan Moens
+DECO50,DE Controlling,DE,eotta1,Anna Ott
+DECO50,DE Controlling,DE,eprakrc,Praktikant Kupfer-Controlling
+DECO50,DE Controlling,DE,equazzt,Touria El-Quazzaz
+DECO50,DE Controlling,de,esaurei,Irina Saure
+DECO50,DE Controlling,DE,ewinted,Dieter Winter
+DECO50,DE Controlling,DE,invbra01,Inventur Bramsche 01
+DECO50,DE Controlling,DE,invbra02,Inventur Bramsche 02
+DECO50,DE Controlling,EF,ehoelst,Thorsten Hölscher
+DECO50,DE Controlling,EF,ekrctmp,Temporary Account for Control
+DECO50,DE Controlling,EF,ewinted,Dieter Winter
+DECO50,DE Controlling,IT,ebelled,Dietmar Beller - External L&K
+DECO50,DE Controlling,IT,eloncsm,Maria Cristina Loncsar
+DECO50,DE Controlling,it,emoenss,Stefan Moens
+DECO50,DE Controlling,IT,equazzt,Touria El-Quazzaz
+DECO50,DE Controlling,it,esaurei,Irina Saure
+DECO50,DE Controlling,it,esomier,"Ronny Somieski, Junior Contro"
+DECP50,DE Copper User,DE,ebelled,Dietmar Beller - External L&K
+DECP50,DE Copper User,DE,egarafa,Anjicka Garafijat
+DECP50,DE Copper User,DE,ehoelst,Thorsten Hölscher
+DECP50,DE Copper User,DE,ekrstit,Tatjana Krstic Gacin
+DECP50,DE Copper User,DE,emoenss,Stefan Moens
+DECP50,DE Copper User,DE,eotta1,Anna Ott
+DECP50,DE Copper User,DE,eprakrc,Praktikant Kupfer-Controlling
+DECP50,DE Copper User,DE,equazzt,Touria El-Quazzaz
+DECP50,DE Copper User,de,esaurei,Irina Saure
+DECR50,Article Creati,DE,erohdem,Maximilian Rohde
+DEEC50,Ecommerce,conso,mfgus,QAD-Italy User Account US
+DEEC50,Ecommerce,DE,emesses,Sylvia Messerli
+DEEC50,Ecommerce,DE,mfgus,QAD-Italy User Account US
+DEEC50,Ecommerce,fr,egrimms,Sascha Grimm
+DEEC50,Ecommerce,FR,esorreg,Giorgia Sorrentino
+DEEC50,Ecommerce,FR,estuckl,Laurentius Stuckenberg IT DE
+DEEC50,Ecommerce,FR,mfgus,QAD-Italy User Account US
+DEER30,DE Empty. Pack,DE,efischs,Sebastian Fischer
+DEER30,DE Empty. Pack,DE,ekehln,Nicolas Kehl
+DEER30,DE Empty. Pack,DE,erohdem,Maximilian Rohde
+DEER30,DE Empty. Pack,DE,erudim,Michael Rudi
+DEER30,DE Empty. Pack,DE,eruntep,Peter Runte
+DEER30,DE Empty. Pack,DE,eseifec,Claudia Seifert
+DEER30,DE Empty. Pack,DE,etrampn,Nicolas Trampedach
+DEER50,DE Empty Pack.,DE,ebeckei,Ines Becker
+DEER50,DE Empty Pack.,DE,edanloh,"Heidi Danlowski, BM-Logistik"
+DEER50,DE Empty Pack.,DE,eglazes,"Susanne Glazel, BM-Logistik"
+DEER50,DE Empty Pack.,de,egrassm,Manfred Grass
+DEER50,DE Empty Pack.,DE,ehartmm,Manuela Hartmann - BM Arolsen
+DEER50,DE Empty Pack.,DE,ejennec,Claus Jennewein
+DEER50,DE Empty Pack.,DE,emiddej,"Jens Middendorf, BM-Logistik"
+DEER50,DE Empty Pack.,DE,emorgen,NicoMorgret WrongAccountUse e
+DEER50,DE Empty Pack.,DE,emorgrn,Nico Morgret
+DEER50,DE Empty Pack.,DE,epfized,"Daniel Pfizenmaier, BM-Logist"
+DEER50,DE Empty Pack.,DE,eseifec,Claudia Seifert
+DEER50,DE Empty Pack.,DE,ethillf,"Thill, Florian, BM-Logistik"
+DEER50,DE Empty Pack.,de,evoelkd,"Daniel Voelkle, BM-Logistik"
+DEER50,DE Empty Pack.,de,ewiemes,Steffen Wiemeler
+DEER50,DE Empty Pack.,de,ewulfd,Dominik Wulf
+DEER50,DE Empty Pack.,DE,eziemsa,Alexander Ziems - BM
+DEFI00,DE Finance Mgr,conso,epavlor,Rolf Pavlowski
+DEFI00,DE Finance Mgr,DE,edolero,Oksana Dolereit
+DEFI00,DE Finance Mgr,DE,eleep,Peter Lee
+DEFI00,DE Finance Mgr,DE,evorwem,Maik Vorwerk - L&K - Financia
+DEFI00,DE Finance Mgr,DE,ewittmj,Jan Wittmer
+DEFI00,DE Finance Mgr,FR,edolero,Oksana Dolereit
+DEFI00,DE Finance Mgr,FR,eleep,Peter Lee
+DEFI00,DE Finance Mgr,FR,epavlor,Rolf Pavlowski
+DEFI00,DE Finance Mgr,FR,evorwem,Maik Vorwerk - L&K - Financia
+DEFI00,DE Finance Mgr,GH,edolero,Oksana Dolereit
+DEFI00,DE Finance Mgr,GH,epavlor,Rolf Pavlowski
+DEFI00,DE Finance Mgr,GH,evorwem,Maik Vorwerk - L&K - Financia
+DEFI00,DE Finance Mgr,GH,ewittmj,Jan Wittmer
+DEFI00,DE Finance Mgr,IT,edolero,Oksana Dolereit
+DEFI00,DE Finance Mgr,IT,eleep,Peter Lee
+DEFI00,DE Finance Mgr,IT,epavlor,Rolf Pavlowski
+DEFI00,DE Finance Mgr,IT,evorwem,Maik Vorwerk - L&K - Financia
+DEFI00,DE Finance Mgr,PT,edolero,Oksana Dolereit
+DEFI00,DE Finance Mgr,PT,eleep,Peter Lee
+DEFI00,DE Finance Mgr,PT,epavlor,Rolf Pavlowski
+DEFI00,DE Finance Mgr,PT,evorwem,Maik Vorwerk - L&K - Financia
+DEFI01,DE Finance Man,conso,atltax,Anup Patel
+DEFI01,DE Finance Man,Conso,ebloemf,Florian Blömecke
+DEFI01,DE Finance Man,conso,ebrehmo,Olga Brehm
+DEFI01,DE Finance Man,conso,edolero,Oksana Dolereit
+DEFI01,DE Finance Man,conso,egerolj,Justin Gerold - Praktikant Ac
+DEFI01,DE Finance Man,CONSO,eleem,Mikeil Lee
+DEFI01,DE Finance Man,conso,eleep,Peter Lee
+DEFI01,DE Finance Man,CONSO,eschaea,"Alexandra, Schäfer-Schweitzer"
+DEFI01,DE Finance Man,CONSO,eschmas,Stefan Schmale
+DEFI01,DE Finance Man,CONSO,eschusj,"Josef Schuster, Controller At"
+DEFI01,DE Finance Man,conso,eusrfb,fb_usr
+DEFI01,DE Finance Man,conso,evorwem,Maik Vorwerk - L&K - Financia
+DEFI01,DE Finance Man,conso,ewestrk,"Ken Westrick, Atlanta, VP cor"
+DEFI01,DE Finance Man,CONSO,ewilmen,Nicolas Wilmes
+DEFI01,DE Finance Man,conso,ewittmj,Jan Wittmer
+DEFI01,DE Finance Man,DE,atltax,Anup Patel
+DEFI01,DE Finance Man,DE,ebloemf,Florian Blömecke
+DEFI01,DE Finance Man,DE,ebrehmo,Olga Brehm
+DEFI01,DE Finance Man,DE,edjekom,Milka Djekovic
+DEFI01,DE Finance Man,DE,edolero,Oksana Dolereit
+DEFI01,DE Finance Man,DE,edulijm,Mina Dulijan
+DEFI01,DE Finance Man,DE,egentaa,Alfredo Genta
+DEFI01,DE Finance Man,DE,egeorgs,Sonja Georgijev
+DEFI01,DE Finance Man,DE,egerolj,Justin Gerold - Praktikant Ac
+DEFI01,DE Finance Man,DE,egilezj,"Gilezan, Jelena"
+DEFI01,DE Finance Man,DE,eiwania,Arthur Iwaniak
+DEFI01,DE Finance Man,DE,eleem,Mikeil Lee
+DEFI01,DE Finance Man,DE,eleep,Peter Lee
+DEFI01,DE Finance Man,DE,eradovd,Dragana Radovanac
+DEFI01,DE Finance Man,DE,esaricj,Jelena Saric
+DEFI01,DE Finance Man,DE,eschaea,"Alexandra, Schäfer-Schweitzer"
+DEFI01,DE Finance Man,DE,eschmas,Stefan Schmale
+DEFI01,DE Finance Man,DE,etaxaud,External Tax Auditor
+DEFI01,DE Finance Man,DE,etrapak,Katia Trapani
+DEFI01,DE Finance Man,DE,eusrfb,fb_usr
+DEFI01,DE Finance Man,DE,evorwem,Maik Vorwerk - L&K - Financia
+DEFI01,DE Finance Man,DE,ewilmen,Nicolas Wilmes
+DEFI01,DE Finance Man,EF,edolero,Oksana Dolereit
+DEFI01,DE Finance Man,ef,eleep,Peter Lee
+DEFI01,DE Finance Man,EF,epavlor,Rolf Pavlowski
+DEFI01,DE Finance Man,EF,evorwem,Maik Vorwerk - L&K - Financia
+DEFI01,DE Finance Man,EF,ewittmj,Jan Wittmer
+DEFI01,DE Finance Man,it,edolero,Oksana Dolereit
+DEFI01,DE Finance Man,IT,eleep,Peter Lee
+DEFI01,DE Finance Man,IT,evorwem,Maik Vorwerk - L&K - Financia
+DEFI50,DE Finance Use,DE,ebloemf,Florian Blömecke
+DEFI50,DE Finance Use,de,ebrehmo,Olga Brehm
+DEFI50,DE Finance Use,DE,edjekom,Milka Djekovic
+DEFI50,DE Finance Use,DE,edolero,Oksana Dolereit
+DEFI50,DE Finance Use,DE,edulijm,Mina Dulijan
+DEFI50,DE Finance Use,DE,egentaa,Alfredo Genta
+DEFI50,DE Finance Use,DE,egeorgs,Sonja Georgijev
+DEFI50,DE Finance Use,DE,egerolj,Justin Gerold - Praktikant Ac
+DEFI50,DE Finance Use,DE,egilezj,"Gilezan, Jelena"
+DEFI50,DE Finance Use,DE,eiwania,Arthur Iwaniak
+DEFI50,DE Finance Use,DE,eleem,Mikeil Lee
+DEFI50,DE Finance Use,DE,eleep,Peter Lee
+DEFI50,DE Finance Use,DE,enasemm,Melanie Nasemann
+DEFI50,DE Finance Use,DE,eradovd,Dragana Radovanac
+DEFI50,DE Finance Use,DE,esaricj,Jelena Saric
+DEFI50,DE Finance Use,DE,eschaea,"Alexandra, Schäfer-Schweitzer"
+DEFI50,DE Finance Use,DE,eschmas,Stefan Schmale
+DEFI50,DE Finance Use,DE,etaxaud,External Tax Auditor
+DEFI50,DE Finance Use,DE,etrapak,Katia Trapani
+DEFI50,DE Finance Use,DE,eusrfb,fb_usr
+DEFI50,DE Finance Use,DE,evorwem,Maik Vorwerk - L&K - Financia
+DEFI50,DE Finance Use,DE,ewilmen,Nicolas Wilmes
+DEFI50,DE Finance Use,DE,ewittmj,Jan Wittmer
+DEFI50,DE Finance Use,EF,ebloemf,Florian Blömecke
+DEFI50,DE Finance Use,ef,ebrehmo,Olga Brehm
+DEFI50,DE Finance Use,EF,edjekom,Milka Djekovic
+DEFI50,DE Finance Use,EF,edolero,Oksana Dolereit
+DEFI50,DE Finance Use,EF,edulijm,Mina Dulijan
+DEFI50,DE Finance Use,EF,egentaa,Alfredo Genta
+DEFI50,DE Finance Use,EF,egeorgs,Sonja Georgijev
+DEFI50,DE Finance Use,ef,egerolj,Justin Gerold - Praktikant Ac
+DEFI50,DE Finance Use,EF,egilezj,"Gilezan, Jelena"
+DEFI50,DE Finance Use,EF,eiwania,Arthur Iwaniak
+DEFI50,DE Finance Use,EF,eleem,Mikeil Lee
+DEFI50,DE Finance Use,ef,eleep,Peter Lee
+DEFI50,DE Finance Use,EF,enasemm,Melanie Nasemann
+DEFI50,DE Finance Use,EF,epavlor,Rolf Pavlowski
+DEFI50,DE Finance Use,EF,eradovd,Dragana Radovanac
+DEFI50,DE Finance Use,EF,esaricj,Jelena Saric
+DEFI50,DE Finance Use,EF,eschaea,"Alexandra, Schäfer-Schweitzer"
+DEFI50,DE Finance Use,EF,eschmas,Stefan Schmale
+DEFI50,DE Finance Use,EF,eschwan,Nicole Schwabauer
+DEFI50,DE Finance Use,EF,eshaabb,Bashar Shaaban / Finance Arol
+DEFI50,DE Finance Use,EF,etaxaud,External Tax Auditor
+DEFI50,DE Finance Use,EF,eusrfb,fb_usr
+DEFI50,DE Finance Use,EF,evorwem,Maik Vorwerk - L&K - Financia
+DEFI50,DE Finance Use,EF,ewilmen,Nicolas Wilmes
+DEFI50,DE Finance Use,EF,ewittmj,Jan Wittmer
+DEFI50,DE Finance Use,it,edolero,Oksana Dolereit
+DEFI50,DE Finance Use,IT,eleep,Peter Lee
+DEFI50,DE Finance Use,IT,evorwem,Maik Vorwerk - L&K - Financia
+DEFI70,DE Finance Tra,DE,beahrke,"Kenneth E., Beahrs"
+DEHQ01,DE Headquarter,DE,elauree,Eric Laurent
+DEITSA50,Italy sales us,de,ebrkicj,"JOVAN BRKIC, Serbia"
+DEITSA50,Italy sales us,de,efraczr,Rafael Fraczek
+DEITSA50,Italy sales us,DE,egarafa,Anjicka Garafijat
+DEITSA50,Italy sales us,DE,eradovd,Dragana Radovanac
+DEITSA50,Italy sales us,DE,esampar,Raffaella Sampaoli
+DEITSA50,Italy sales us,DE,esaricj,Jelena Saric
+DEITSA50,Italy sales us,DE,etelecm,Maura TELECCO
+DEITSA50,Italy sales us,it,ehuhnk,Kristina Huhn
+DEITSA50,Italy sales us,IT,eleffls,"Sebastian Leffler, BM-Logisti"
+DEITSA50,Italy sales us,it,ewagnee,"Ewgenia Wagner, BM-Logistik"
+DELO01,DE Logistics M,DE,ebeckei,Ines Becker
+DELO01,DE Logistics M,DE,ebossej,Jens Bosse
+DELO01,DE Logistics M,de,egrassm,Manfred Grass
+DELO01,DE Logistics M,DE,egrunes,Sirka Grunert
+DELO01,DE Logistics M,DE,ejennec,Claus Jennewein
+DELO01,DE Logistics M,DE,ejennef,Frederic Jennewein
+DELO01,DE Logistics M,DE,ekreutm,Marco Kreutzburg
+DELO01,DE Logistics M,DE,emorgen,NicoMorgret WrongAccountUse e
+DELO01,DE Logistics M,DE,emorgrn,Nico Morgret
+DELO01,DE Logistics M,DE,eteschr,Roland Tesch
+DELO01,DE Logistics M,de,ewiemes,Steffen Wiemeler
+DELO01,DE Logistics M,de,ewulfd,Dominik Wulf
+DELO01,DE Logistics M,DE,ezielip,Przemyslaw Zielinski
+DELO01,DE Logistics M,IT,ezielip,Przemyslaw Zielinski
+DELO50,DE Logistics U,DE,ebeckei,Ines Becker
+DELO50,DE Logistics U,de,efischw,Walter Fischhaupt
+DELO50,DE Logistics U,de,egermek,Kerstin von Germeten
+DELO50,DE Logistics U,DE,egoebem,Mathias Göbel
+DELO50,DE Logistics U,de,egrassm,Manfred Grass
+DELO50,DE Logistics U,DE,ejennec,Claus Jennewein
+DELO50,DE Logistics U,DE,ekreutm,Marco Kreutzburg
+DELO50,DE Logistics U,DE,erudim,Michael Rudi
+DELO50,DE Logistics U,DE,eruntep,Peter Runte
+DELO50,DE Logistics U,DE,eschluc,Christian Schlueter
+DELO50,DE Logistics U,DE,esekr,Robert Sek
+DELO50,DE Logistics U,DE,eteschr,Roland Tesch
+DELO50,DE Logistics U,DE,etrampn,Nicolas Trampedach
+DELO50,DE Logistics U,DE,ewagnem,Martin Wagner
+DELO50,DE Logistics U,de,ewiemes,Steffen Wiemeler
+DELO50,DE Logistics U,DE,ewulfd,Dominik Wulf
+DELO50,DE Logistics U,DE,ezielip,Przemyslaw Zielinski
+DELO50,DE Logistics U,DE,rdepu,"RF Express, DE, Purchase"
+DELO50,DE Logistics U,IT,ezielip,Przemyslaw Zielinski
+DEMT01,DE Maint/Repai,de,ebossej,Jens Bosse
+DEMT01,DE Maint/Repai,DE,emittef,Florian Mittermaier
+DEMT01,DE Maint/Repai,DE,espichj,Joachim Spichal
+DEMT01,DE Maint/Repai,de,evahleg,Gerrit Vahle
+DEMT01,DE Maint/Repai,de,eviesem,Markus Viesehon
+DEMT01,DE Maint/Repai,DE,evieset,Tobias Viesehon
+DEMT01,DE Maint/Repai,DE,ewachst,Thomas Wachs
+demt02,DE Maint/Repai,DE,ecoelhm,Manuel Coelho
+demt02,DE Maint/Repai,de,eerdwih,Heinz Erdwien
+demt02,DE Maint/Repai,DE,ejoachj,Josef Joachimmeyer
+demt02,DE Maint/Repai,DE,ekleing,Gerd Kleinschnittger
+demt02,DE Maint/Repai,de,ekolkmh,Herrmann Kolkmann
+demt02,DE Maint/Repai,DE,emittef,Florian Mittermaier
+demt02,DE Maint/Repai,DE,epollom,Marcel Pollok
+demt02,DE Maint/Repai,de,eviesem,Markus Viesehon
+demt02,DE Maint/Repai,DE,evieset,Tobias Viesehon
+demt02,DE Maint/Repai,DE,ewachst,Thomas Wachs
+demt02,DE Maint/Repai,DE,ewuellt,Thilo Wueller
+DEMT50,DE Maint/Repai,de,ebaierk,Karsten Baier
+DEMT50,DE Maint/Repai,DE,ebenkea,Alexander Benke
+DEMT50,DE Maint/Repai,DE,ecoelhm,Manuel Coelho
+DEMT50,DE Maint/Repai,DE,eheinep,Patrick Heinemann
+DEMT50,DE Maint/Repai,DE,ejoachj,Josef Joachimmeyer
+DEMT50,DE Maint/Repai,DE,ekleing,Gerd Kleinschnittger
+DEMT50,DE Maint/Repai,de,ekolkmh,Herrmann Kolkmann
+DEMT50,DE Maint/Repai,DE,emittef,Florian Mittermaier
+DEMT50,DE Maint/Repai,DE,epollom,Marcel Pollok
+DEMT50,DE Maint/Repai,DE,erohdem,Maximilian Rohde
+DEMT50,DE Maint/Repai,de,evahleg,Gerrit Vahle
+DEMT50,DE Maint/Repai,DE,eviesem,Markus Viesehon
+DEMT50,DE Maint/Repai,DE,evieset,Tobias Viesehon
+DEMT50,DE Maint/Repai,DE,ewachst,Thomas Wachs
+DEMT50,DE Maint/Repai,DE,ewuellt,Thilo Wueller
+DEMT70,Coswin Interfa,DE,ekleing,Gerd Kleinschnittger
+DEPJM50,Project Manage,DE,ematzg,Gregor Matz
+DEPJM50,Project Manage,DE,esaurei,Irina Saure
+DEPP50,DE Productionp,DE,ebastrf,Friedrich Bastron
+DEPP50,DE Productionp,DE,ebeckei,Ines Becker
+DEPP50,DE Productionp,DE,ebossej,Jens Bosse
+DEPP50,DE Productionp,DE,echawzr,Robert Chawziuk
+DEPP50,DE Productionp,DE,efischs,Sebastian Fischer
+DEPP50,DE Productionp,DE,efotc,Christian Fot
+DEPP50,DE Productionp,DE,egrassm,Manfred Grass
+DEPP50,DE Productionp,DE,egrunes,Sirka Grunert
+DEPP50,DE Productionp,DE,ejennec,Claus Jennewein
+DEPP50,DE Productionp,DE,ejennef,Frederic Jennewein
+DEPP50,DE Productionp,de,ekehln,Nicolas Kehl
+DEPP50,DE Productionp,DE,ekoehnb,Beate Köhne
+DEPP50,DE Productionp,de,ekoernm,"Matthias Körner, Prod Plannin"
+DEPP50,DE Productionp,DE,elampee,Ernst Lampe
+DEPP50,DE Productionp,DE,emorgen,NicoMorgret WrongAccountUse e
+DEPP50,DE Productionp,DE,emorgrn,Nico Morgret
+DEPP50,DE Productionp,DE,enavem,Marcel Nave
+DEPP50,DE Productionp,DE,eobermd,Dirk Obermeier
+DEPP50,DE Productionp,DE,erothf,Felix Roth
+DEPP50,DE Productionp,DE,erudim,Michael Rudi
+DEPP50,DE Productionp,DE,eruntep,Peter Runte
+DEPP50,DE Productionp,DE,eschluc,Christian Schlueter
+DEPP50,DE Productionp,DE,eschmij,Jakob Schmik
+DEPP50,DE Productionp,DE,eseifec,Claudia Seifert
+DEPP50,DE Productionp,de,esilvai,Ingo da Silva
+DEPP50,DE Productionp,de,ewagnem,Martin Wagner
+DEPP50,DE Productionp,de,ewiemes,Steffen Wiemeler
+DEPP50,DE Productionp,de,ewulfd,Dominik Wulf
+DEPP60,DE Productionp,DE,ebastrf,Friedrich Bastron
+DEPP60,DE Productionp,de,efotc,Christian Fot
+DEPP60,DE Productionp,DE,ekoernm,"Matthias Körner, Prod Plannin"
+DEPP60,DE Productionp,DE,eschluc,Christian Schlueter
+DEPP60,DE Productionp,DE,esilvai,Ingo da Silva
+DEPR01,DE Production,DE,echawzr,Robert Chawziuk
+DEPR01,DE Production,DE,efotc,Christian Fot
+DEPR50,DE Production,DE,ebackhc,Christian Backhaus
+DEPR50,DE Production,DE,edannea,Andy Dannenberg
+DEPR50,DE Production,de,edelard,Denis Delaruelle
+DEPR50,DE Production,de,eelsens,Silke Elsenberg
+DEPR50,DE Production,DE,efotc,Christian Fot
+DEPR50,DE Production,DE,egerolc,Carsten Gerold
+DEPR50,DE Production,DE,eiacova,Andre Iacovelli
+DEPR50,DE Production,de,ekerlm,"Frau Marlene Elborg-Kerl, CI"
+DEPR50,DE Production,de,elampeh,Helmut Lampe
+DEPR50,DE Production,DE,elampew,"Werner Lampe, Production"
+DEPR50,DE Production,DE,eottes,Sebastian Otte
+DEPR50,DE Production,DE,eroemem,Marcel Römer
+DEPR50,DE Production,DE,erohdem,Maximilian Rohde
+DEPR50,DE Production,DE,eschluc,Christian Schlueter
+DEPR50,DE Production,DE,escholn,"Norbert Scholz, Producktion"
+DEPR50,DE Production,de,estracd,Dirk Stracke
+DEPR50,DE Production,DE,eunruhe,Eduard Unruh
+DEPTSA50,PT and FR sale,DE,ebrandl,Lurdes Brandao
+DEPTSA50,PT and FR sale,DE,echofff,"Fabrice CHOFFART, FR Logistic"
+DEPTSA50,PT and FR sale,DE,ecostaa,"Andreia Costa, Finance"
+DEPTSA50,PT and FR sale,DE,ecunhai,Isabel Cunha
+DEPTSA50,PT and FR sale,DE,efariam,Michelle Faria
+DEPTSA50,PT and FR sale,DE,egoirem,"Marie Line GOIRE, FR Supply C"
+DEPTSA50,PT and FR sale,DE,egoncam,"Marcela Goncalves, Technical"
+DEPTSA50,PT and FR sale,DE,eguimac,Carlos Guimares IT PT
+DEPTSA50,PT and FR sale,DE,emartia,Anabela Martins
+DEPTSA50,PT and FR sale,DE,emartij,Julia Martins Barbosa
+DEPTSA50,PT and FR sale,DE,ematzg,Gregor Matz
+DEPTSA50,PT and FR sale,DE,enetoj,Joao Neto
+DEPTSA50,PT and FR sale,DE,erenaub,"Bertrand RENAUD, FR Sales FO"
+DEPTSA50,PT and FR sale,DE,esousas,Sandra Sousa
+DEPU10,DE Purchasing,DE,egardem,Michael Garden
+DEPU10,DE Purchasing,de,enasemm,Melanie Nasemann
+DEPU10,DE Purchasing,DE,eneubaa,Antje Neubauer
+DEPU10,DE Purchasing,DE,enieden,Nils Niedermeyer
+DEPU10,DE Purchasing,DE,epagelt,Torsten Pagels
+DEPU10,DE Purchasing,DE,eplatzs,Steffen Platzeck
+DEPU10,DE Purchasing,DE,esprens,Silvia Sprenger
+DEPU20,DE Requisition,DE,earnold,Denis Arnold
+DEPU20,DE Requisition,DE,ebackhc,Christian Backhaus
+DEPU20,DE Requisition,DE,ebagana,Andreas Baganz
+DEPU20,DE Requisition,DE,ebaginv,Valentina Baginski
+DEPU20,DE Requisition,DE,ebaierk,Karsten Baier
+DEPU20,DE Requisition,DE,ebartsb,Boris Bodo Bartsch - HSE
+DEPU20,DE Requisition,DE,ebastrf,Friedrich Bastron
+DEPU20,DE Requisition,DE,ebattif,Fabrizio Battista-never logge
+DEPU20,DE Requisition,DE,ebeblij,Jonas Beblik
+DEPU20,DE Requisition,DE,ebeckei,Ines Becker
+DEPU20,DE Requisition,DE,ebeckms,Stefan Beckmöller
+DEPU20,DE Requisition,DE,ebeides,Sascha Beiderwellen
+DEPU20,DE Requisition,DE,ebenkea,Alexander Benke
+DEPU20,DE Requisition,DE,eboehlk,"Bohler, Kevin - Lacklager"
+DEPU20,DE Requisition,DE,eboehmm,Marcus Böhme
+DEPU20,DE Requisition,DE,ebossej,Jens Bosse
+DEPU20,DE Requisition,DE,ebrkicj,"JOVAN BRKIC, Serbia"
+DEPU20,DE Requisition,DE,ebrueca,Armin Brücher
+DEPU20,DE Requisition,DE,eburlak,Burlakow Konstantin
+DEPU20,DE Requisition,DE,echawzr,Robert Chawziuk
+DEPU20,DE Requisition,DE,ecobany,Yuecel Coban
+DEPU20,DE Requisition,DE,ecoelhm,Manuel Coelho
+DEPU20,DE Requisition,DE,edannea,Andy Dannenberg
+DEPU20,DE Requisition,DE,edelard,Denis Delaruelle
+DEPU20,DE Requisition,de,edibowm,Maren Dibowski
+DEPU20,DE Requisition,DE,edjekom,Milka Djekovic
+DEPU20,DE Requisition,DE,edoerrm,Martin Doerrie
+DEPU20,DE Requisition,DE,edolero,Oksana Dolereit
+DEPU20,DE Requisition,DE,edulijm,Mina Dulijan
+DEPU20,DE Requisition,DE,eeiskaf,Florian Eiskamp
+DEPU20,DE Requisition,de,eelsens,Silke Elsenberg
+DEPU20,DE Requisition,DE,efischs,Sebastian Fischer
+DEPU20,DE Requisition,de,efotc,Christian Fot
+DEPU20,DE Requisition,DE,efotw,Willi Fot
+DEPU20,DE Requisition,DE,efunkef,Frank Funke
+DEPU20,DE Requisition,DE,egarafa,Anjicka Garafijat
+DEPU20,DE Requisition,DE,egardem,Michael Garden
+DEPU20,DE Requisition,DE,egentaa,Alfredo Genta
+DEPU20,DE Requisition,DE,egeorgs,Sonja Georgijev
+DEPU20,DE Requisition,DE,egerolc,Carsten Gerold
+DEPU20,DE Requisition,DE,egoebem,Mathias Göbel
+DEPU20,DE Requisition,DE,egolday,Yvonne Goldapp
+DEPU20,DE Requisition,DE,egrassm,Manfred Grass
+DEPU20,DE Requisition,DE,egreged,Denis Greger
+DEPU20,DE Requisition,DE,egrossa,Alexander Gross
+DEPU20,DE Requisition,DE,eguedes,Sabrina Guede
+DEPU20,DE Requisition,DE,ehaasea,Ann-Christin Haase
+DEPU20,DE Requisition,DE,eheinep,Patrick Heinemann
+DEPU20,DE Requisition,DE,eholths,Solveig Holthaus
+DEPU20,DE Requisition,DE,ehuelsb,Benedikt Hülsken
+DEPU20,DE Requisition,DE,eiacova,Andre Iacovelli
+DEPU20,DE Requisition,DE,eisenbn,Nalan Isenberg
+DEPU20,DE Requisition,DE,ejennec,Claus Jennewein
+DEPU20,DE Requisition,DE,ejoachj,Josef Joachimmeyer
+DEPU20,DE Requisition,DE,ejoestj,Jakob Joest
+DEPU20,DE Requisition,DE,ekammer,Rochus Kammer-never logged in
+DEPU20,DE Requisition,DE,ekampej,Jens Kamper
+DEPU20,DE Requisition,DE,ekerlf,Fabian Kerl
+DEPU20,DE Requisition,DE,ekleing,Gerd Kleinschnittger
+DEPU20,DE Requisition,DE,ekohlsp,Pius Kohlschein
+DEPU20,DE Requisition,DE,ekolkmh,Herrmann Kolkmann
+DEPU20,DE Requisition,DE,ekreiey,Yvonne Kreienbrink
+DEPU20,DE Requisition,DE,ekreutm,Marco Kreutzburg
+DEPU20,DE Requisition,DE,ekuehnt,Thorsten Kuehn
+DEPU20,DE Requisition,DE,elafera,"Angelika Lafere-Weyrauch, Qua"
+DEPU20,DE Requisition,DE,elampeh,Helmut Lampe
+DEPU20,DE Requisition,DE,elieses,Sarah Liese
+DEPU20,DE Requisition,DE,elinnea,Andre Linnenbruegger
+DEPU20,DE Requisition,DE,eloetzm,Marcel Loetzer
+DEPU20,DE Requisition,de,eloncsm,Maria Cristina Loncsar
+DEPU20,DE Requisition,DE,emanevm,Milan Manevski
+DEPU20,DE Requisition,DE,emaulh,Hermann Maul
+DEPU20,DE Requisition,DE,emesses,Sylvia Messerli
+DEPU20,DE Requisition,DE,emeyerh,"Hans-Rüdiger Meyer, Quality"
+DEPU20,DE Requisition,DE,emeyerr,Hans-Rüdiger Meyer
+DEPU20,DE Requisition,DE,emilost,Teodora Milosevic
+DEPU20,DE Requisition,DE,emittef,Florian Mittermaier
+DEPU20,DE Requisition,DE,emorgen,NicoMorgret WrongAccountUse e
+DEPU20,DE Requisition,DE,emorgrn,Nico Morgret
+DEPU20,DE Requisition,de,enasemm,Melanie Nasemann
+DEPU20,DE Requisition,DE,enavem,Marcel Nave
+DEPU20,DE Requisition,DE,eneubaa,Antje Neubauer
+DEPU20,DE Requisition,DE,enieden,Nils Niedermeyer
+DEPU20,DE Requisition,DE,eobermd,Dirk Obermeier
+DEPU20,DE Requisition,DE,eolberf,Frank Olbertz
+DEPU20,DE Requisition,DE,eotta,Anna Ott
+DEPU20,DE Requisition,DE,eottes,Sebastian Otte
+DEPU20,DE Requisition,DE,epagelt,Torsten Pagels
+DEPU20,DE Requisition,DE,epawlot,Timo Pawlowski
+DEPU20,DE Requisition,DE,epeetej,Joyce Peeters
+DEPU20,DE Requisition,DE,epeschj,Juergen Pesch
+DEPU20,DE Requisition,DE,eplatzs,Steffen Platzeck
+DEPU20,DE Requisition,DE,epollom,Marcel Pollok
+DEPU20,DE Requisition,DE,epolzej,Jonas Polzer
+DEPU20,DE Requisition,DE,equazzt,Touria El-Quazzaz
+DEPU20,DE Requisition,DE,eradovd,Dragana Radovanac
+DEPU20,DE Requisition,DE,erecks,Sascha Reck
+DEPU20,DE Requisition,DE,ereicha,Annemarie Reichenborn
+DEPU20,DE Requisition,DE,eriedlh,Heinz Riedler
+DEPU20,DE Requisition,DE,eroemem,Marcel Römer
+DEPU20,DE Requisition,DE,erohdem,Maximilian Rohde
+DEPU20,DE Requisition,DE,erothf,Felix Roth
+DEPU20,DE Requisition,DE,erudim,Michael Rudi
+DEPU20,DE Requisition,DE,eruntep,Peter Runte
+DEPU20,DE Requisition,DE,esaengc,Christin Sänger
+DEPU20,DE Requisition,DE,esaricj,Jelena Saric
+DEPU20,DE Requisition,DE,eschaab,Birgit Schaake
+DEPU20,DE Requisition,DE,eschaea,"Alexandra, Schäfer-Schweitzer"
+DEPU20,DE Requisition,DE,eschala,Artjom Schaludinow
+DEPU20,DE Requisition,DE,eschalm,Marc Schaller
+DEPU20,DE Requisition,DE,eschefs,Sascha Scheffel
+DEPU20,DE Requisition,DE,eschluc,Christian Schlueter
+DEPU20,DE Requisition,DE,eschmij,Jakob Schmik
+DEPU20,DE Requisition,DE,eschnas,Sarah Schnapke
+DEPU20,DE Requisition,DE,eschwam,Martin Schwarz
+DEPU20,DE Requisition,DE,eschwarm,Martin Schwarz
+DEPU20,DE Requisition,DE,eseelim,Klaus Seeligmann
+DEPU20,DE Requisition,DE,eseifec,Claudia Seifert
+DEPU20,DE Requisition,DE,esilvai,Ingo da Silva
+DEPU20,DE Requisition,DE,eskrgij,Jovica Skrgic
+DEPU20,DE Requisition,DE,esmolkj,Jörg-Henner Smolka
+DEPU20,DE Requisition,DE,esorreg,Giorgia Sorrentino
+DEPU20,DE Requisition,DE,espanga,Andre Spangenberg
+DEPU20,DE Requisition,DE,espichj,Joachim Spichal
+DEPU20,DE Requisition,DE,espoidf,Fabian Spoida
+DEPU20,DE Requisition,DE,esprens,Silvia Sprenger
+DEPU20,DE Requisition,DE,estracd,Dirk Stracke
+DEPU20,DE Requisition,DE,eszlacr,Roman Szlachta
+DEPU20,DE Requisition,DE,eszymcd,Denis Szymczyk
+DEPU20,DE Requisition,DE,etabelr,Ruben Tabeling
+DEPU20,DE Requisition,DE,etepicm,Milana Tepic sales assistant
+DEPU20,DE Requisition,DE,etrapak,Katia Trapani
+DEPU20,DE Requisition,DE,euhlmar,Ralf Uhlmannsiek
+DEPU20,DE Requisition,DE,evahleg,Gerrit Vahle
+DEPU20,DE Requisition,DE,evantha,Anthony Van Thurenhout
+DEPU20,DE Requisition,DE,eviesem,Markus Viesehon
+DEPU20,DE Requisition,DE,evieset,Tobias Viesehon
+DEPU20,DE Requisition,DE,evorwem,Maik Vorwerk - L&K - Financia
+DEPU20,DE Requisition,DE,ewachst,Thomas Wachs
+DEPU20,DE Requisition,DE,ewagnem,Martin Wagner
+DEPU20,DE Requisition,DE,ewesslb,Bodil Wessling
+DEPU20,DE Requisition,DE,eweymah,Henrik Weymann
+DEPU20,DE Requisition,DE,ewiemac,Celik Wiemann
+DEPU20,DE Requisition,DE,ewiemes,Steffen Wiemeler
+DEPU20,DE Requisition,DE,ewissen,Nick Wissels
+DEPU20,DE Requisition,DE,ewuellt,Thilo Wueller
+DEPU20,DE Requisition,de,ewulfd,Dominik Wulf
+DEPU20,DE Requisition,DE,ewustrj,Jens Wustrack
+DEPU20,DE Requisition,DE,ezenkep,Patrick Zenke
+DEPU20,DE Requisition,DE,ezentnv,Viktor Zentner
+DEPU20,DE Requisition,DE,ezielip,Przemyslaw Zielinski
+DEPU30,DE Purchase Ap,DE,egardem,Michael Garden
+DEPU30,DE Purchase Ap,DE,ehugend,"Dieter Hugenschütt, Purchasin"
+DEPU30,DE Purchase Ap,de,enasemm,Melanie Nasemann
+DEPU30,DE Purchase Ap,DE,eneubaa,Antje Neubauer
+DEPU30,DE Purchase Ap,DE,enieden,Nils Niedermeyer
+DEPU30,DE Purchase Ap,DE,eniemai,Imke Niemann
+DEPU30,DE Purchase Ap,DE,epagelt,Torsten Pagels
+DEPU30,DE Purchase Ap,DE,eplatzs,Steffen Platzeck
+DEPU30,DE Purchase Ap,DE,esprens,Silvia Sprenger
+DEPU40,DE Requisition,DE,ebagana,Andreas Baganz
+DEPU40,DE Requisition,DE,ebaginv,Valentina Baginski
+DEPU40,DE Requisition,DE,ebeblij,Jonas Beblik
+DEPU40,DE Requisition,DE,ebeckms,Stefan Beckmöller
+DEPU40,DE Requisition,DE,ebelled,Dietmar Beller - External L&K
+DEPU40,DE Requisition,DE,eborstk,Klaus Borstner
+DEPU40,DE Requisition,DE,ebossej,Jens Bosse
+DEPU40,DE Requisition,DE,edibowm,Maren Dibowski
+DEPU40,DE Requisition,DE,efunkef,Frank Funke
+DEPU40,DE Requisition,DE,egardem,Michael Garden
+DEPU40,DE Requisition,DE,egerolc,Carsten Gerold
+DEPU40,DE Requisition,DE,egrunes,Sirka Grunert
+DEPU40,DE Requisition,DE,eheinep,Patrick Heinemann
+DEPU40,DE Requisition,DE,ehoelst,Thorsten Hölscher
+DEPU40,DE Requisition,DE,ehuelsb,Benedikt Hülsken
+DEPU40,DE Requisition,DE,ejoachj,Josef Joachimmeyer
+DEPU40,DE Requisition,DE,ejovanj,Jane Jovanoski
+DEPU40,DE Requisition,DE,ekehln,Nicolas Kehl
+DEPU40,DE Requisition,DE,ekleinb,Bjoern Kleindienst
+DEPU40,DE Requisition,DE,ekolkmh,Herrmann Kolkmann
+DEPU40,DE Requisition,DE,ekreutm,Marco Kreutzburg
+DEPU40,DE Requisition,DE,elampeh,Helmut Lampe
+DEPU40,DE Requisition,DE,elauree,Eric Laurent
+DEPU40,DE Requisition,DE,eleep,Peter Lee
+DEPU40,DE Requisition,DE,elegerd,"Denis Leger, Director, Global"
+DEPU40,DE Requisition,DE,emarjas,Sasa Marjanovic
+DEPU40,DE Requisition,DE,emittef,Florian Mittermaier
+DEPU40,DE Requisition,DE,emoenss,Stefan Moens
+DEPU40,DE Requisition,de,enasemm,Melanie Nasemann
+DEPU40,DE Requisition,DE,eneubaa,Antje Neubauer
+DEPU40,DE Requisition,DE,enieden,Nils Niedermeyer
+DEPU40,DE Requisition,DE,epeschj,Juergen Pesch
+DEPU40,DE Requisition,DE,eplatzs,Steffen Platzeck
+DEPU40,DE Requisition,DE,epollom,Marcel Pollok
+DEPU40,DE Requisition,DE,ereicha,Annemarie Reichenborn
+DEPU40,DE Requisition,DE,eriedlh,Heinz Riedler
+DEPU40,DE Requisition,DE,esaengc,Christin Sänger
+DEPU40,DE Requisition,DE,esaurei,Irina Saure
+DEPU40,DE Requisition,DE,eschluc,Christian Schlueter
+DEPU40,DE Requisition,DE,eschmij,Jakob Schmik
+DEPU40,DE Requisition,DE,eseifec,Claudia Seifert
+DEPU40,DE Requisition,DE,esekr,Robert Sek
+DEPU40,DE Requisition,DE,esilvai,Ingo da Silva
+DEPU40,DE Requisition,DE,esmolkj,Jörg-Henner Smolka
+DEPU40,DE Requisition,DE,espichj,Joachim Spichal
+DEPU40,DE Requisition,DE,esprens,Silvia Sprenger
+DEPU40,DE Requisition,DE,estracd,Dirk Stracke
+DEPU40,DE Requisition,DE,etabelr,Ruben Tabeling
+DEPU40,DE Requisition,DE,eteschr,Roland Tesch
+DEPU40,DE Requisition,DE,etrampn,Nicolas Trampedach
+DEPU40,DE Requisition,DE,evahleg,Gerrit Vahle
+DEPU40,DE Requisition,DE,eviesem,Markus Viesehon
+DEPU40,DE Requisition,DE,evieset,Tobias Viesehon
+DEPU40,DE Requisition,DE,evorwem,Maik Vorwerk - L&K - Financia
+DEPU40,DE Requisition,DE,ewachst,Thomas Wachs
+DEPU40,DE Requisition,DE,ewiemes,Steffen Wiemeler
+DEPU40,DE Requisition,DE,ewissen,Nick Wissels
+DEPU40,DE Requisition,DE,ewuellt,Thilo Wueller
+DEPU40,DE Requisition,de,ewulfd,Dominik Wulf
+DEPU40,DE Requisition,DE,ezentnv,Viktor Zentner
+DEPU50,DE Purchase Us,de,ebaierk,Karsten Baier
+DEPU50,DE Purchase Us,de,ebeides,Sascha Beiderwellen
+DEPU50,DE Purchase Us,DE,ebenkea,Alexander Benke
+DEPU50,DE Purchase Us,DE,eboehlk,"Bohler, Kevin - Lacklager"
+DEPU50,DE Purchase Us,de,ebossej,Jens Bosse
+DEPU50,DE Purchase Us,de,edaume,"Eugenie Daum, Sales Assistant"
+DEPU50,DE Purchase Us,DE,edevosr,René de Vos
+DEPU50,DE Purchase Us,de,edicker,"Reinhard Dicke, Internal Logi"
+DEPU50,DE Purchase Us,DE,efischs,Sebastian Fischer
+DEPU50,DE Purchase Us,DE,egardem,Michael Garden
+DEPU50,DE Purchase Us,de,egrunes,Sirka Grunert
+DEPU50,DE Purchase Us,DE,ehaasea,Ann-Christin Haase
+DEPU50,DE Purchase Us,DE,ehongw,Wonki Hong
+DEPU50,DE Purchase Us,DE,ehugend,"Dieter Hugenschütt, Purchasin"
+DEPU50,DE Purchase Us,DE,ekleinb,Bjoern Kleindienst
+DEPU50,DE Purchase Us,DE,ekreutm,Marco Kreutzburg
+DEPU50,DE Purchase Us,de,emeyera,"Anne Meyer, Prod Planning"
+DEPU50,DE Purchase Us,DE,emintzk,Katharina Mintzlaff
+DEPU50,DE Purchase Us,de,emoelld,"Daniela Moeller, Shipping"
+DEPU50,DE Purchase Us,de,enasemm,Melanie Nasemann
+DEPU50,DE Purchase Us,DE,eneubaa,Antje Neubauer
+DEPU50,DE Purchase Us,DE,enieden,Nils Niedermeyer
+DEPU50,DE Purchase Us,de,eniemai,Imke Niemann
+DEPU50,DE Purchase Us,DE,eolberf,Frank Olbertz
+DEPU50,DE Purchase Us,DE,epagelt,Torsten Pagels
+DEPU50,DE Purchase Us,DE,epeschj,Juergen Pesch
+DEPU50,DE Purchase Us,DE,eplatzs,Steffen Platzeck
+DEPU50,DE Purchase Us,DE,epolzej,Jonas Polzer
+DEPU50,DE Purchase Us,DE,eriedlh,Heinz Riedler
+DEPU50,DE Purchase Us,DE,erohrbk,"Katja Rohrbach, purchasing"
+DEPU50,DE Purchase Us,DE,erothf,Felix Roth
+DEPU50,DE Purchase Us,DE,erudim,Michael Rudi
+DEPU50,DE Purchase Us,DE,eruntep,Peter Runte
+DEPU50,DE Purchase Us,DE,eschmij,Jakob Schmik
+DEPU50,DE Purchase Us,DE,eschwam,Martin Schwarz
+DEPU50,DE Purchase Us,DE,eschwef,Friedrich Schweitzer
+DEPU50,DE Purchase Us,DE,eseeboa,Annalena Seebold
+DEPU50,DE Purchase Us,DE,esprens,Silvia Sprenger
+DEPU50,DE Purchase Us,DE,eszlacr,Roman Szlachta
+DEPU50,DE Purchase Us,DE,eteschr,Roland Tesch
+DEPU50,DE Purchase Us,de,evahleg,Gerrit Vahle
+DEPU50,DE Purchase Us,DE,evantha,Anthony Van Thurenhout
+DEPU50,DE Purchase Us,de,ewurstg,"Gabriele Wurst, shipping"
+DEPU50,DE Purchase Us,DE,ezentnv,Viktor Zentner
+DEPU50,DE Purchase Us,DE,ezielip,Przemyslaw Zielinski
+DEPU60,DE Purchase RF,de,rdepu,"RF Express, DE, Purchase"
+DEPU70,DE Purchase Tr,DE,ebackhc,Christian Backhaus
+DEPU70,DE Purchase Tr,DE,ebagana,Andreas Baganz
+DEPU70,DE Purchase Tr,DE,ebaginv,Valentina Baginski
+DEPU70,DE Purchase Tr,de,ebaierk,Karsten Baier
+DEPU70,DE Purchase Tr,DE,ebeckei,Ines Becker
+DEPU70,DE Purchase Tr,DE,ebeides,Sascha Beiderwellen
+DEPU70,DE Purchase Tr,DE,ebenkea,Alexander Benke
+DEPU70,DE Purchase Tr,DE,ebielj,"Jörg Biel, Quality"
+DEPU70,DE Purchase Tr,DE,ebossej,Jens Bosse
+DEPU70,DE Purchase Tr,DE,ebueckm,Martin Bücker ProdPlanung Bra
+DEPU70,DE Purchase Tr,de,eburyd,"Deborah Bury, production plan"
+DEPU70,DE Purchase Tr,DE,ecalmed,Detlev Calmer
+DEPU70,DE Purchase Tr,de,ecebrim,"Mario Cebrian, Quality"
+DEPU70,DE Purchase Tr,DE,ecoelhm,Manuel Coelho
+DEPU70,DE Purchase Tr,DE,edannea,Andy Dannenberg
+DEPU70,DE Purchase Tr,DE,edelard,Denis Delaruelle
+DEPU70,DE Purchase Tr,de,edevosr,René de Vos
+DEPU70,DE Purchase Tr,DE,edicker,"Reinhard Dicke, Internal Logi"
+DEPU70,DE Purchase Tr,DE,edolero,Oksana Dolereit
+DEPU70,DE Purchase Tr,de,eelsens,Silke Elsenberg
+DEPU70,DE Purchase Tr,de,eemmera,"Alexander Emmer, GE IT"
+DEPU70,DE Purchase Tr,DE,eerdwih,Heinz Erdwien
+DEPU70,DE Purchase Tr,de,efischw,Walter Fischhaupt
+DEPU70,DE Purchase Tr,DE,efotc,Christian Fot
+DEPU70,DE Purchase Tr,DE,egerolc,Carsten Gerold
+DEPU70,DE Purchase Tr,DE,egoebem,Mathias Göbel
+DEPU70,DE Purchase Tr,DE,egolday,Yvonne Goldapp
+DEPU70,DE Purchase Tr,DE,egoldmh,Hartmut Goldmann
+DEPU70,DE Purchase Tr,DE,egrassm,Manfred Grass
+DEPU70,DE Purchase Tr,de,egrimms,Sascha Grimm
+DEPU70,DE Purchase Tr,DE,egrossa,Alexander Gross
+DEPU70,DE Purchase Tr,DE,egrunes,Sirka Grunert
+DEPU70,DE Purchase Tr,DE,ehahnea,"Axel Hahnel, BM-Logistik"
+DEPU70,DE Purchase Tr,DE,eheinep,Patrick Heinemann
+DEPU70,DE Purchase Tr,DE,ehoelst,Thorsten Hölscher
+DEPU70,DE Purchase Tr,de,ehonerh,Heike Honerkamp
+DEPU70,DE Purchase Tr,DE,ehuelsb,Benedikt Hülsken
+DEPU70,DE Purchase Tr,DE,ehugend,"Dieter Hugenschütt, Purchasin"
+DEPU70,DE Purchase Tr,DE,ehuhnk,Kristina Huhn
+DEPU70,DE Purchase Tr,DE,ehuhnk01,"Karsten Huhn, Quality"
+DEPU70,DE Purchase Tr,DE,eiacova,Andre Iacovelli
+DEPU70,DE Purchase Tr,DE,ejennec,Claus Jennewein
+DEPU70,DE Purchase Tr,DE,ejennef,Frederic Jennewein
+DEPU70,DE Purchase Tr,DE,ejoachj,Josef Joachimmeyer
+DEPU70,DE Purchase Tr,DE,ejoestj,Jakob Joest
+DEPU70,DE Purchase Tr,de,ejoostw,"Werner Joost, BM-Logistik"
+DEPU70,DE Purchase Tr,DE,ejovanj,Jane Jovanoski
+DEPU70,DE Purchase Tr,DE,ekaffka,"Andreas Kaffka, MT Bramsche"
+DEPU70,DE Purchase Tr,DE,ekammaa,"Anita Kammann, Quality"
+DEPU70,DE Purchase Tr,DE,ekampej,Jens Kamper
+DEPU70,DE Purchase Tr,de,ekehln,Nicolas Kehl
+DEPU70,DE Purchase Tr,de,ekerlm,"Frau Marlene Elborg-Kerl, CI"
+DEPU70,DE Purchase Tr,DE,ekleing,Gerd Kleinschnittger
+DEPU70,DE Purchase Tr,DE,ekoehnb,Beate Köhne
+DEPU70,DE Purchase Tr,de,ekohlsf,"Frank Kohls, Bramsche"
+DEPU70,DE Purchase Tr,DE,ekohlsp,Pius Kohlschein
+DEPU70,DE Purchase Tr,de,ekolkmh,Herrmann Kolkmann
+DEPU70,DE Purchase Tr,de,ekottoa,André Kottowski
+DEPU70,DE Purchase Tr,DE,ekreiey,Yvonne Kreienbrink
+DEPU70,DE Purchase Tr,DE,elampee,Ernst Lampe
+DEPU70,DE Purchase Tr,de,elampeh,Helmut Lampe
+DEPU70,DE Purchase Tr,DE,elampew,"Werner Lampe, Production"
+DEPU70,DE Purchase Tr,DE,elangem,"Manfred Langenkamp, Maint. Br"
+DEPU70,DE Purchase Tr,DE,eleep,Peter Lee
+DEPU70,DE Purchase Tr,DE,eloncsm,Maria Cristina Loncsar
+DEPU70,DE Purchase Tr,DE,emeyera,"Anne Meyer, Prod Planning"
+DEPU70,DE Purchase Tr,DE,emeyerr,Hans-Rüdiger Meyer
+DEPU70,DE Purchase Tr,DE,emittef,Florian Mittermaier
+DEPU70,DE Purchase Tr,DE,emorgen,NicoMorgret WrongAccountUse e
+DEPU70,DE Purchase Tr,DE,emorgrn,Nico Morgret
+DEPU70,DE Purchase Tr,DE,enavem,Marcel Nave
+DEPU70,DE Purchase Tr,DE,eneubaa,Antje Neubauer
+DEPU70,DE Purchase Tr,DE,eottes,Sebastian Otte
+DEPU70,DE Purchase Tr,de,epavlor,Rolf Pavlowski
+DEPU70,DE Purchase Tr,DE,epawlot,Timo Pawlowski
+DEPU70,DE Purchase Tr,DE,epollom,Marcel Pollok
+DEPU70,DE Purchase Tr,de,eprakme,Praktikant Einkauf
+DEPU70,DE Purchase Tr,DE,equazzt,Touria El-Quazzaz
+DEPU70,DE Purchase Tr,DE,equehlj,Jonas Quehl
+DEPU70,DE Purchase Tr,DE,ereicha,Annemarie Reichenborn
+DEPU70,DE Purchase Tr,DE,erestr,"Ronja Rest, Azubi IT"
+DEPU70,DE Purchase Tr,DE,eroemem,Marcel Römer
+DEPU70,DE Purchase Tr,DE,erohdem,Maximilian Rohde
+DEPU70,DE Purchase Tr,DE,erohmam,"Michael Rohmann, Polishing"
+DEPU70,DE Purchase Tr,DE,erothf,Felix Roth
+DEPU70,DE Purchase Tr,DE,eschluc,Christian Schlueter
+DEPU70,DE Purchase Tr,DE,eschmij,Jakob Schmik
+DEPU70,DE Purchase Tr,DE,eschnas,Sarah Schnapke
+DEPU70,DE Purchase Tr,DE,escholn,"Norbert Scholz, Producktion"
+DEPU70,DE Purchase Tr,DE,eschwam,Martin Schwarz
+DEPU70,DE Purchase Tr,DE,eseelim,Klaus Seeligmann
+DEPU70,DE Purchase Tr,de,eseifec,Claudia Seifert
+DEPU70,DE Purchase Tr,DE,esekr,Robert Sek
+DEPU70,DE Purchase Tr,DE,esellh,Hans-Peter Sell
+DEPU70,DE Purchase Tr,DE,esmolkj,Jörg-Henner Smolka
+DEPU70,DE Purchase Tr,DE,espanga,Andre Spangenberg
+DEPU70,DE Purchase Tr,DE,espoidf,Fabian Spoida
+DEPU70,DE Purchase Tr,de,estracd,Dirk Stracke
+DEPU70,DE Purchase Tr,DE,estriep,Peter Strieder
+DEPU70,DE Purchase Tr,DE,estuckl,Laurentius Stuckenberg IT DE
+DEPU70,DE Purchase Tr,DE,etalkes,"Stefanie Talke, Projektingeni"
+DEPU70,DE Purchase Tr,DE,euhlmar,Ralf Uhlmannsiek
+DEPU70,DE Purchase Tr,DE,eunruhe,Eduard Unruh
+DEPU70,DE Purchase Tr,de,evahleg,Gerrit Vahle
+DEPU70,DE Purchase Tr,DE,eviesem,Markus Viesehon
+DEPU70,DE Purchase Tr,DE,evieset,Tobias Viesehon
+DEPU70,DE Purchase Tr,DE,evorwem,Maik Vorwerk - L&K - Financia
+DEPU70,DE Purchase Tr,DE,ewachst,Thomas Wachs
+DEPU70,DE Purchase Tr,DE,eweberc,"Christian Weber, Quality Arol"
+DEPU70,DE Purchase Tr,DE,ewedelc,Christof Wedell Papierlager
+DEPU70,DE Purchase Tr,DE,ewettea,Anna-Lena Wette CI Arolsen
+DEPU70,DE Purchase Tr,DE,eweymah,Henrik Weymann
+DEPU70,DE Purchase Tr,DE,ewiechs,"Susanne Wiechmann, Quality"
+DEPU70,DE Purchase Tr,DE,ewiemac,Celik Wiemann
+DEPU70,DE Purchase Tr,de,ewiemes,Steffen Wiemeler
+DEPU70,DE Purchase Tr,DE,ewissen,Nick Wissels
+DEPU70,DE Purchase Tr,DE,ewittel,Ludger Wittekind
+DEPU70,DE Purchase Tr,DE,ewittmj,Jan Wittmer
+DEPU70,DE Purchase Tr,de,ewormm,Mario Worm
+DEPU70,DE Purchase Tr,DE,ewuellt,Thilo Wueller
+DEPU70,DE Purchase Tr,de,ewulfd,Dominik Wulf
+DEPU70,DE Purchase Tr,de,ewustrj,Jens Wustrack
+DEPU70,DE Purchase Tr,DE,ezentnv,Viktor Zentner
+DEPU80,DE Req/PO Appr,DE,edolero,Oksana Dolereit
+DEPU80,DE Req/PO Appr,de,egardem,Michael Garden
+DEPU80,DE Req/PO Appr,DE,ehoelst,Thorsten Hölscher
+DEPU80,DE Req/PO Appr,DE,eleep,Peter Lee
+DEPU80,DE Req/PO Appr,DE,epagelt,Torsten Pagels
+DEPU80,DE Req/PO Appr,DE,eplatzs,Steffen Platzeck
+DEPU80,DE Req/PO Appr,DE,evorwem,Maik Vorwerk - L&K - Financia
+DEPU80,DE Req/PO Appr,DE,ewittmj,Jan Wittmer
+DEPU90,PO Receipts,DE,emaulh,Hermann Maul
+DEPU90,PO Receipts,DE,eschwarm,Martin Schwarz
+DEPU90,PO Receipts,DE,etabelr,Ruben Tabeling
+DEPU9M,Vendor Contrac,DE,ebloemf,Florian Blömecke
+DEPU9M,Vendor Contrac,DE,ebrehmo,Olga Brehm
+DEPU9M,Vendor Contrac,DE,edjekom,Milka Djekovic
+DEPU9M,Vendor Contrac,DE,edolero,Oksana Dolereit
+DEPU9M,Vendor Contrac,DE,edulijm,Mina Dulijan
+DEPU9M,Vendor Contrac,de,egardem,Michael Garden
+DEPU9M,Vendor Contrac,DE,egentaa,Alfredo Genta
+DEPU9M,Vendor Contrac,DE,egeorgs,Sonja Georgijev
+DEPU9M,Vendor Contrac,DE,egerolj,Justin Gerold - Praktikant Ac
+DEPU9M,Vendor Contrac,DE,egilezj,"Gilezan, Jelena"
+DEPU9M,Vendor Contrac,DE,eiwania,Arthur Iwaniak
+DEPU9M,Vendor Contrac,DE,eleem,Mikeil Lee
+DEPU9M,Vendor Contrac,DE,eleep,Peter Lee
+DEPU9M,Vendor Contrac,DE,enasemm,Melanie Nasemann
+DEPU9M,Vendor Contrac,DE,eneubaa,Antje Neubauer
+DEPU9M,Vendor Contrac,DE,enieden,Nils Niedermeyer
+DEPU9M,Vendor Contrac,DE,epagelt,Torsten Pagels
+DEPU9M,Vendor Contrac,DE,eplatzs,Steffen Platzeck
+DEPU9M,Vendor Contrac,DE,eradovd,Dragana Radovanac
+DEPU9M,Vendor Contrac,DE,esaricj,Jelena Saric
+DEPU9M,Vendor Contrac,DE,eschaea,"Alexandra, Schäfer-Schweitzer"
+DEPU9M,Vendor Contrac,DE,eschmas,Stefan Schmale
+DEPU9M,Vendor Contrac,DE,esprens,Silvia Sprenger
+DEPU9M,Vendor Contrac,DE,etaxaud,External Tax Auditor
+DEPU9M,Vendor Contrac,DE,etrapak,Katia Trapani
+DEPU9M,Vendor Contrac,DE,eusrfb,fb_usr
+DEPU9M,Vendor Contrac,DE,evorwem,Maik Vorwerk - L&K - Financia
+DEPU9M,Vendor Contrac,DE,ewilmen,Nicolas Wilmes
+DEPU9M,Vendor Contrac,DE,ewittmj,Jan Wittmer
+DEPU9V,Vendor Contrac,DE,ebagana,Andreas Baganz
+DEPU9V,Vendor Contrac,DE,ebaginv,Valentina Baginski
+DEPU9V,Vendor Contrac,DE,ebeckms,Stefan Beckmöller
+DEPU9V,Vendor Contrac,DE,ebelled,Dietmar Beller - External L&K
+DEPU9V,Vendor Contrac,DE,ebossej,Jens Bosse
+DEPU9V,Vendor Contrac,DE,edolero,Oksana Dolereit
+DEPU9V,Vendor Contrac,DE,efunkef,Frank Funke
+DEPU9V,Vendor Contrac,DE,egarafa,Anjicka Garafijat
+DEPU9V,Vendor Contrac,de,egardem,Michael Garden
+DEPU9V,Vendor Contrac,DE,egerolc,Carsten Gerold
+DEPU9V,Vendor Contrac,DE,egrossa,Alexander Gross
+DEPU9V,Vendor Contrac,DE,egrunes,Sirka Grunert
+DEPU9V,Vendor Contrac,DE,ehoelst,Thorsten Hölscher
+DEPU9V,Vendor Contrac,DE,ehuelsb,Benedikt Hülsken
+DEPU9V,Vendor Contrac,DE,ejoachj,Josef Joachimmeyer
+DEPU9V,Vendor Contrac,DE,ejoestj,Jakob Joest
+DEPU9V,Vendor Contrac,DE,ekleinb,Bjoern Kleindienst
+DEPU9V,Vendor Contrac,DE,ekohlsp,Pius Kohlschein
+DEPU9V,Vendor Contrac,de,ekrstit,Tatjana Krstic Gacin
+DEPU9V,Vendor Contrac,DE,eleep,Peter Lee
+DEPU9V,Vendor Contrac,DE,emittef,Florian Mittermaier
+DEPU9V,Vendor Contrac,DE,emoenss,Stefan Moens
+DEPU9V,Vendor Contrac,DE,enasemm,Melanie Nasemann
+DEPU9V,Vendor Contrac,DE,eneubaa,Antje Neubauer
+DEPU9V,Vendor Contrac,DE,enieden,Nils Niedermeyer
+DEPU9V,Vendor Contrac,DE,eolberf,Frank Olbertz
+DEPU9V,Vendor Contrac,DE,eotta1,Anna Ott
+DEPU9V,Vendor Contrac,DE,epagelt,Torsten Pagels
+DEPU9V,Vendor Contrac,DE,epavlor,Rolf Pavlowski
+DEPU9V,Vendor Contrac,DE,epawlot,Timo Pawlowski
+DEPU9V,Vendor Contrac,DE,epeschj,Juergen Pesch
+DEPU9V,Vendor Contrac,DE,eplatzs,Steffen Platzeck
+DEPU9V,Vendor Contrac,DE,ereicha,Annemarie Reichenborn
+DEPU9V,Vendor Contrac,DE,eriedlh,Heinz Riedler
+DEPU9V,Vendor Contrac,DE,eschluc,Christian Schlueter
+DEPU9V,Vendor Contrac,DE,eschnas,Sarah Schnapke
+DEPU9V,Vendor Contrac,DE,espichj,Joachim Spichal
+DEPU9V,Vendor Contrac,DE,esprens,Silvia Sprenger
+DEPU9V,Vendor Contrac,DE,evahleg,Gerrit Vahle
+DEPU9V,Vendor Contrac,DE,eviesem,Markus Viesehon
+DEPU9V,Vendor Contrac,DE,evieset,Tobias Viesehon
+DEPU9V,Vendor Contrac,DE,evorwem,Maik Vorwerk - L&K - Financia
+DEPU9V,Vendor Contrac,DE,ewachst,Thomas Wachs
+DEPU9V,Vendor Contrac,DE,ewiemes,Steffen Wiemeler
+DEPU9V,Vendor Contrac,DE,ewissen,Nick Wissels
+DEPU9V,Vendor Contrac,DE,ewittmj,Jan Wittmer
+DEPU9V,Vendor Contrac,DE,ewuellt,Thilo Wueller
+DEPU9V,Vendor Contrac,de,ewulfd,Dominik Wulf
+DEPU9V,Vendor Contrac,DE,ezenkep,Patrick Zenke
+DEQT141,DE Quality Us.,DE,egolday,Yvonne Goldapp
+DEQT141,DE Quality Us.,DE,egoldmh,Hartmut Goldmann
+DEQT141,DE Quality Us.,de,ewagnem,Martin Wagner
+DEQT50,DE Quality Use,DE,ebagana,Andreas Baganz
+DEQT50,DE Quality Use,DE,ebaginv,Valentina Baginski
+DEQT50,DE Quality Use,DE,ebielj,"Jörg Biel, Quality"
+DEQT50,DE Quality Use,DE,ecalmed,Detlev Calmer
+DEQT50,DE Quality Use,DE,edammes,"Steffen Dammer, Quality"
+DEQT50,DE Quality Use,DE,edelard,Denis Delaruelle
+DEQT50,DE Quality Use,DE,efotc,Christian Fot
+DEQT50,DE Quality Use,DE,egerolc,Carsten Gerold
+DEQT50,DE Quality Use,DE,egolday,Yvonne Goldapp
+DEQT50,DE Quality Use,DE,egoldmh,Hartmut Goldmann
+DEQT50,DE Quality Use,DE,egreged,Denis Greger
+DEQT50,DE Quality Use,DE,egrossa,Alexander Gross
+DEQT50,DE Quality Use,DE,ehuelsb,Benedikt Hülsken
+DEQT50,DE Quality Use,DE,ehuhnk01,"Karsten Huhn, Quality"
+DEQT50,DE Quality Use,DE,ejoestj,Jakob Joest
+DEQT50,DE Quality Use,DE,ejovanj,Jane Jovanoski
+DEQT50,DE Quality Use,DE,ekampej,Jens Kamper
+DEQT50,DE Quality Use,de,ekehln,Nicolas Kehl
+DEQT50,DE Quality Use,DE,ekohlsp,Pius Kohlschein
+DEQT50,DE Quality Use,DE,ekreiey,Yvonne Kreienbrink
+DEQT50,DE Quality Use,DE,eloetzm,Marcel Loetzer
+DEQT50,DE Quality Use,DE,emeyerr,Hans-Rüdiger Meyer
+DEQT50,DE Quality Use,DE,emuellm,"Marcel Müller, Q Arolsen"
+DEQT50,DE Quality Use,DE,enavem,Marcel Nave
+DEQT50,DE Quality Use,DE,epawlot,Timo Pawlowski
+DEQT50,DE Quality Use,DE,epeetej,Joyce Peeters
+DEQT50,DE Quality Use,de,epraav,Praktikant AV
+DEQT50,DE Quality Use,DE,ereicha,Annemarie Reichenborn
+DEQT50,DE Quality Use,DE,eschefs,Sascha Scheffel
+DEQT50,DE Quality Use,DE,eschnas,Sarah Schnapke
+DEQT50,DE Quality Use,DE,espanga,Andre Spangenberg
+DEQT50,DE Quality Use,DE,espoidf,Fabian Spoida
+DEQT50,DE Quality Use,DE,estaiga,"Adrian Staigl, Quality"
+DEQT50,DE Quality Use,DE,etalkes,"Stefanie Talke, Projektingeni"
+DEQT50,DE Quality Use,DE,ewagnem,Martin Wagner
+DEQT50,DE Quality Use,DE,eweberc,"Christian Weber, Quality Arol"
+DEQT50,DE Quality Use,DE,eweymah,Henrik Weymann
+DEQT50,DE Quality Use,DE,ewiemac,Celik Wiemann
+DEQT50,DE Quality Use,DE,ewissen,Nick Wissels
+DEQT50,DE Quality Use,DE,ewittel,Ludger Wittekind
+DEQT50,DE Quality Use,DE,ewustrj,Jens Wustrack
+DESA40,DE SALES USER,de,efraczr,Rafael Fraczek
+DESA40,DE SALES USER,DE,eguedes,Sabrina Guede
+DESA40,DE SALES USER,DE,elieses,Sarah Liese
+DESA40,DE SALES USER,DE,eotta,Anna Ott
+DESA40,DE SALES USER,DE,eschaab,Birgit Schaake
+DESA50,DE Sales Users,DE,eboehmm,Marcus Böhme
+DESA50,DE Sales Users,de,ebrkicj,"JOVAN BRKIC, Serbia"
+DESA50,DE Sales Users,DE,edaume,"Eugenie Daum, Sales Assistant"
+DESA50,DE Sales Users,DE,efanol,Luca Fano
+DESA50,DE Sales Users,DE,efossij,Jean-Baptiste Fossier
+DESA50,DE Sales Users,de,efraczr,Rafael Fraczek
+DESA50,DE Sales Users,DE,egarafa,Anjicka Garafijat
+DESA50,DE Sales Users,DE,eguedes,Sabrina Guede
+DESA50,DE Sales Users,de,eholths,Solveig Holthaus
+DESA50,DE Sales Users,DE,ehornt,Thomas Horn
+DESA50,DE Sales Users,de,eisenbn,Nalan Isenberg
+DESA50,DE Sales Users,DE,elangej1,Joachim Langer
+DESA50,DE Sales Users,DE,elauree,Eric Laurent
+DESA50,DE Sales Users,DE,elegerd,"Denis Leger, Director, Global"
+DESA50,DE Sales Users,DE,elieses,Sarah Liese
+DESA50,DE Sales Users,DE,ematzg,Gregor Matz
+DESA50,DE Sales Users,DE,emesses,Sylvia Messerli
+DESA50,DE Sales Users,DE,eotta,Anna Ott
+DESA50,DE Sales Users,de,epetkos,Stojan Petkovic
+DESA50,DE Sales Users,DE,eradovd,Dragana Radovanac
+DESA50,DE Sales Users,de,erenaub,"Bertrand RENAUD, FR Sales FO"
+DESA50,DE Sales Users,de,esaengc,Christin Sänger
+DESA50,DE Sales Users,DE,esaricj,Jelena Saric
+DESA50,DE Sales Users,DE,eschaab,Birgit Schaake
+DESA50,DE Sales Users,DE,esijanj,Jelena Sijan
+DESA50,DE Sales Users,DE,etepicm,Milana Tepic sales assistant
+DESA50,DE Sales Users,IT,egrunes,Sirka Grunert
+DESA50,DE Sales Users,it,ehonerh,Heike Honerkamp
+DESA50,DE Sales Users,it,ehuhnk,Kristina Huhn
+DESA50,DE Sales Users,IT,eloncsm,Maria Cristina Loncsar
+DESA50,DE Sales Users,it,eoderwj,"Jan Oderwald, Sales"
+DESA50,DE Sales Users,it,equazzt,Touria El-Quazzaz
+DESA50,DE Sales Users,it,esaurei,Irina Saure
+DESA50,DE Sales Users,it,eseifec,Claudia Seifert
+DESA65,Invoice Reprin,DE,egeorgs,Sonja Georgijev
+DESA90,DE Sales Limit,DE,ebridgm,Mark Bridge; GH Purchase
+DESA90,DE Sales Limit,DE,egreenp,"Paula Green, GH Purchase"
+DESA90,DE Sales Limit,DE,ehaddod,"Danny Haddock, Huyton GH"
+DESA90,DE Sales Limit,de,emitchg,"Gill Mitchell, GH Sales"
+DESA90,DE Sales Limit,DE,eomaraf,"Frances Omara, GH Purchase"
+DESA90,DE Sales Limit,DE,eshineg,Gina Shine
+DESH01,DE Stock Manag,DE,ekreutm,Marco Kreutzburg
+DESH01,DE Stock Manag,DE,eteschr,Roland Tesch
+DESH01,DE Stock Manag,DE,ewiemes,Steffen Wiemeler
+DESH01,DE Stock Manag,de,ewulfd,Dominik Wulf
+DESH30,Essex empl. ou,DE,esandrl,Lucia SANDRONE
+DESH30,Essex empl. ou,DE,eventug,Gemma VENTURINO
+DESH40,DE Ship Sales,DE,efischs,Sebastian Fischer
+DESH40,DE Ship Sales,DE,egrunes,Sirka Grunert
+DESH40,DE Ship Sales,de,ehonerh,Heike Honerkamp
+DESH40,DE Ship Sales,DE,ehuhnk,Kristina Huhn
+DESH40,DE Ship Sales,DE,erudim,Michael Rudi
+DESH40,DE Ship Sales,DE,eruntep,Peter Runte
+DESH40,DE Ship Sales,DE,eseifec,Claudia Seifert
+DESH50,DE Shipping Us,DE,ebastrf,Friedrich Bastron
+DESH50,DE Shipping Us,DE,ebeckei,Ines Becker
+DESH50,DE Shipping Us,de,ebossej,Jens Bosse
+DESH50,DE Shipping Us,DE,ebuhlm,Michael Buhl Supply Chain Mgr
+DESH50,DE Shipping Us,de,eburyd,"Deborah Bury, production plan"
+DESH50,DE Shipping Us,de,edicker,"Reinhard Dicke, Internal Logi"
+DESH50,DE Shipping Us,de,efischs,Sebastian Fischer
+DESH50,DE Shipping Us,de,efotc,Christian Fot
+DESH50,DE Shipping Us,de,egermek,Kerstin von Germeten
+DESH50,DE Shipping Us,DE,egrassm,Manfred Grass
+DESH50,DE Shipping Us,DE,egrunes,Sirka Grunert
+DESH50,DE Shipping Us,DE,ehahnea,"Axel Hahnel, BM-Logistik"
+DESH50,DE Shipping Us,DE,ehartmm,Manuela Hartmann - BM Arolsen
+DESH50,DE Shipping Us,de,ehonerh,Heike Honerkamp
+DESH50,DE Shipping Us,DE,ehongw,Wonki Hong
+DESH50,DE Shipping Us,DE,ehuhnk,Kristina Huhn
+DESH50,DE Shipping Us,DE,ejennec,Claus Jennewein
+DESH50,DE Shipping Us,DE,ejennef,Frederic Jennewein
+DESH50,DE Shipping Us,DE,ekreutm,Marco Kreutzburg
+DESH50,DE Shipping Us,de,elackl,User f. Varnish consumption
+DESH50,DE Shipping Us,de,emeiros,"Sylvaine MEIROTTI, FR Logist."
+DESH50,DE Shipping Us,de,emeyera,"Anne Meyer, Prod Planning"
+DESH50,DE Shipping Us,DE,emoelld,"Daniela Moeller, Shipping"
+DESH50,DE Shipping Us,DE,emorgen,NicoMorgret WrongAccountUse e
+DESH50,DE Shipping Us,DE,emorgrn,Nico Morgret
+DESH50,DE Shipping Us,DE,equazzt,Touria El-Quazzaz
+DESH50,DE Shipping Us,DE,equehlj,Jonas Quehl
+DESH50,DE Shipping Us,DE,erudim,Michael Rudi
+DESH50,DE Shipping Us,DE,eruntep,Peter Runte
+DESH50,DE Shipping Us,DE,eschmim,Maximilian Schmidt
+DESH50,DE Shipping Us,DE,eseeboa,Annalena Seebold
+DESH50,DE Shipping Us,de,eseifec,Claudia Seifert
+DESH50,DE Shipping Us,de,esilvai,Ingo da Silva
+DESH50,DE Shipping Us,DE,eszlacr,Roman Szlachta
+DESH50,DE Shipping Us,DE,eteschr,Roland Tesch
+DESH50,DE Shipping Us,DE,ethillf,"Thill, Florian, BM-Logistik"
+DESH50,DE Shipping Us,DE,etrampn,Nicolas Trampedach
+DESH50,DE Shipping Us,DE,evanhen,"Nico Van Herzele, BM-Logistik"
+DESH50,DE Shipping Us,DE,ewettea,Anna-Lena Wette CI Arolsen
+DESH50,DE Shipping Us,de,ewiemes,Steffen Wiemeler
+DESH50,DE Shipping Us,DE,ewienep,"Petra Wienecke, Versand Arols"
+DESH50,DE Shipping Us,de,ewulfd,Dominik Wulf
+DESH50,DE Shipping Us,de,ewurstg,"Gabriele Wurst, shipping"
+DESH50,DE Shipping Us,DE,ezielip,Przemyslaw Zielinski
+DESH50,DE Shipping Us,DE,rdepu,"RF Express, DE, Purchase"
+DESH50,DE Shipping Us,DE,rdesh,"RF Express, DE, Shipping"
+DESH60,DE Shipping Ex,DE,ecanakm,"Melanie Canak, ZEKIC"
+DESH60,DE Shipping Ex,DE,edanloh,"Heidi Danlowski, BM-Logistik"
+DESH60,DE Shipping Ex,DE,eglatzs,"Susanne Glazel, BM-Logistik"
+DESH60,DE Shipping Ex,de,eglazes,"Susanne Glazel, BM-Logistik"
+DESH60,DE Shipping Ex,DE,egradl,"Larissa Grad, BM-Logistik"
+DESH60,DE Shipping Ex,DE,ehahnea,"Axel Hahnel, BM-Logistik"
+DESH60,DE Shipping Ex,DE,ehartmm,Manuela Hartmann - BM Arolsen
+DESH60,DE Shipping Ex,DE,eiglesm,"Mario Iglesias, BM-Logistik"
+DESH60,DE Shipping Ex,DE,ejoostw,"Werner Joost, BM-Logistik"
+DESH60,DE Shipping Ex,De,ejostw,"Werner Jost, BM-Logistik"
+DESH60,DE Shipping Ex,DE,ekleing1,"Gabriele Kleine, BM-Logistik"
+DESH60,DE Shipping Ex,DE,ekoepks,"Sabrina Koepke, Siersack, DE"
+DESH60,DE Shipping Ex,DE,eleffls,"Sebastian Leffler, BM-Logisti"
+DESH60,DE Shipping Ex,DE,emeiroh,"Holger Meirose, BM-Logistik"
+DESH60,DE Shipping Ex,DE,emiddej,"Jens Middendorf, BM-Logistik"
+DESH60,DE Shipping Ex,DE,epfized,"Daniel Pfizenmaier, BM-Logist"
+DESH60,DE Shipping Ex,de,epiechk,Katharina Piechaczek
+DESH60,DE Shipping Ex,DE,eplatea,"Axel Plate Bergh. Bram, DE Lo"
+DESH60,DE Shipping Ex,DE,equehlj,Jonas Quehl
+DESH60,DE Shipping Ex,DE,estracb,"Beate Stracke, BM-Logistik"
+DESH60,DE Shipping Ex,DE,ethillf,"Thill, Florian, BM-Logistik"
+DESH60,DE Shipping Ex,DE,etrienj,"Julia Trienen, Berghegger, Br"
+DESH60,DE Shipping Ex,DE,evanhen,"Nico Van Herzele, BM-Logistik"
+DESH60,DE Shipping Ex,DE,evoelkd,"Daniel Voelkle, BM-Logistik"
+DESH60,DE Shipping Ex,DE,ewagnee,"Ewgenia Wagner, BM-Logistik"
+DESH60,DE Shipping Ex,DE,ewarda,Alina Ward
+DESH60,DE Shipping Ex,DE,ezekovg,"Gina Zekovic , BM-Logistik"
+DESH60,DE Shipping Ex,DE,eziemsa,Alexander Ziems - BM
+DESH60,DE Shipping Ex,IT,ecanakm,"Melanie Canak, ZEKIC"
+DESH60,DE Shipping Ex,IT,ekoepks,"Sabrina Koepke, Siersack, DE"
+DESH60,DE Shipping Ex,IT,eleffls,"Sebastian Leffler, BM-Logisti"
+DESH60,DE Shipping Ex,IT,ewagnee,"Ewgenia Wagner, BM-Logistik"
+DFIMNT10,GL Setup - Acc,DE,ebloemf,Florian Blömecke
+DFIMNT10,GL Setup - Acc,DE,edjekom,Milka Djekovic
+DFIMNT10,GL Setup - Acc,DE,edolero,Oksana Dolereit
+DFIMNT10,GL Setup - Acc,DE,edulijm,Mina Dulijan
+DFIMNT10,GL Setup - Acc,DE,egentaa,Alfredo Genta
+DFIMNT10,GL Setup - Acc,DE,egeorgs,Sonja Georgijev
+DFIMNT10,GL Setup - Acc,DE,eleem,Mikeil Lee
+DFIMNT10,GL Setup - Acc,DE,eradovd,Dragana Radovanac
+DFIMNT10,GL Setup - Acc,DE,esaricj,Jelena Saric
+DFIMNT10,GL Setup - Acc,DE,eschmas,Stefan Schmale
+DFIMNT10,GL Setup - Acc,DE,etaxaud,External Tax Auditor
+DFIMNT10,GL Setup - Acc,DE,etrapak,Katia Trapani
+DFIMNT10,GL Setup - Acc,DE,evorwem,Maik Vorwerk - L&K - Financia
+DFIMNT10,GL Setup - Acc,DE,ewilmen,Nicolas Wilmes
+DFIMNT20,GL Setup - Cos,DE,ebloemf,Florian Blömecke
+DFIMNT20,GL Setup - Cos,DE,edjekom,Milka Djekovic
+DFIMNT20,GL Setup - Cos,DE,edulijm,Mina Dulijan
+DFIMNT20,GL Setup - Cos,DE,egentaa,Alfredo Genta
+DFIMNT20,GL Setup - Cos,DE,egeorgs,Sonja Georgijev
+DFIMNT20,GL Setup - Cos,DE,ekrctmp,Temporary Account for Control
+DFIMNT20,GL Setup - Cos,DE,eleem,Mikeil Lee
+DFIMNT20,GL Setup - Cos,DE,elees,Sandra Lee
+DFIMNT20,GL Setup - Cos,DE,eradovd,Dragana Radovanac
+DFIMNT20,GL Setup - Cos,DE,esaricj,Jelena Saric
+DFIMNT20,GL Setup - Cos,DE,eschmas,Stefan Schmale
+DFIMNT20,GL Setup - Cos,DE,etaxaud,External Tax Auditor
+DFIMNT20,GL Setup - Cos,DE,etrapak,Katia Trapani
+DFIMNT20,GL Setup - Cos,DE,ewilmen,Nicolas Wilmes
+DFIMNT20,GL Setup - Cos,DE,ewinted,Dieter Winter
+DFIMNT20,GL Setup - Cos,DE,mfgbatch,QAD Batch User
+DFIMNT30,GL Transaction,CONSO,egentaa,Alfredo Genta
+DFIMNT30,GL Transaction,CONSO,egrahob,Bojan Grahovac
+DFIMNT30,GL Transaction,DE,ebloemf,Florian Blömecke
+DFIMNT30,GL Transaction,DE,ebrehmo,Olga Brehm
+DFIMNT30,GL Transaction,DE,edjekom,Milka Djekovic
+DFIMNT30,GL Transaction,DE,edulijm,Mina Dulijan
+DFIMNT30,GL Transaction,DE,egentaa,Alfredo Genta
+DFIMNT30,GL Transaction,DE,egeorgs,Sonja Georgijev
+DFIMNT30,GL Transaction,DE,egerolj,Justin Gerold - Praktikant Ac
+DFIMNT30,GL Transaction,DE,egilezj,"Gilezan, Jelena"
+DFIMNT30,GL Transaction,DE,eiwania,Arthur Iwaniak
+DFIMNT30,GL Transaction,DE,eleem,Mikeil Lee
+DFIMNT30,GL Transaction,DE,eradovd,Dragana Radovanac
+DFIMNT30,GL Transaction,DE,esaricj,Jelena Saric
+DFIMNT30,GL Transaction,DE,eschaea,"Alexandra, Schäfer-Schweitzer"
+DFIMNT30,GL Transaction,DE,eschmas,Stefan Schmale
+DFIMNT30,GL Transaction,DE,etaxaud,External Tax Auditor
+DFIMNT30,GL Transaction,DE,etrapak,Katia Trapani
+DFIMNT30,GL Transaction,DE,ewilmen,Nicolas Wilmes
+DFIMNT30,GL Transaction,DE,mfgbatch,QAD Batch User
+DFIMNT50,Cashier A/P,DE,ebloemf,Florian Blömecke
+DFIMNT50,Cashier A/P,DE,ebrehmo,Olga Brehm
+DFIMNT50,Cashier A/P,DE,edjekom,Milka Djekovic
+DFIMNT50,Cashier A/P,DE,edulijm,Mina Dulijan
+DFIMNT50,Cashier A/P,DE,egentaa,Alfredo Genta
+DFIMNT50,Cashier A/P,DE,egeorgs,Sonja Georgijev
+DFIMNT50,Cashier A/P,DE,egerolj,Justin Gerold - Praktikant Ac
+DFIMNT50,Cashier A/P,DE,egilezj,"Gilezan, Jelena"
+DFIMNT50,Cashier A/P,DE,eiwania,Arthur Iwaniak
+DFIMNT50,Cashier A/P,DE,eleem,Mikeil Lee
+DFIMNT50,Cashier A/P,DE,eradovd,Dragana Radovanac
+DFIMNT50,Cashier A/P,DE,esaricj,Jelena Saric
+DFIMNT50,Cashier A/P,DE,eschaea,"Alexandra, Schäfer-Schweitzer"
+DFIMNT50,Cashier A/P,DE,eschmas,Stefan Schmale
+DFIMNT50,Cashier A/P,DE,etaxaud,External Tax Auditor
+DFIMNT50,Cashier A/P,DE,etrapak,Katia Trapani
+DFIMNT50,Cashier A/P,DE,ewilmen,Nicolas Wilmes
+DFIMNT50,Cashier A/P,DE,mfgbatch,QAD Batch User
+DFIMNT70,Finance A/P,DE,ebloemf,Florian Blömecke
+DFIMNT70,Finance A/P,DE,ebrehmo,Olga Brehm
+DFIMNT70,Finance A/P,DE,edjekom,Milka Djekovic
+DFIMNT70,Finance A/P,DE,edulijm,Mina Dulijan
+DFIMNT70,Finance A/P,DE,egentaa,Alfredo Genta
+DFIMNT70,Finance A/P,DE,egeorgs,Sonja Georgijev
+DFIMNT70,Finance A/P,DE,egerolj,Justin Gerold - Praktikant Ac
+DFIMNT70,Finance A/P,DE,eleem,Mikeil Lee
+DFIMNT70,Finance A/P,DE,enasemm,Melanie Nasemann
+DFIMNT70,Finance A/P,DE,eradovd,Dragana Radovanac
+DFIMNT70,Finance A/P,DE,esaricj,Jelena Saric
+DFIMNT70,Finance A/P,DE,eschaea,"Alexandra, Schäfer-Schweitzer"
+DFIMNT70,Finance A/P,DE,eschmas,Stefan Schmale
+DFIMNT70,Finance A/P,DE,etaxaud,External Tax Auditor
+DFIMNT70,Finance A/P,DE,etrapak,Katia Trapani
+DFIMNT70,Finance A/P,DE,ewilmen,Nicolas Wilmes
+DFIMNT70,Finance A/P,DE,mfgbatch,QAD Batch User
+DPUMNT10,Supplier Mstr,de,ebloemf,Florian Blömecke
+DPUMNT10,Supplier Mstr,DE,ebrehmo,Olga Brehm
+DPUMNT10,Supplier Mstr,DE,edjekom,Milka Djekovic
+DPUMNT10,Supplier Mstr,DE,edulijm,Mina Dulijan
+DPUMNT10,Supplier Mstr,DE,egentaa,Alfredo Genta
+DPUMNT10,Supplier Mstr,DE,egeorgs,Sonja Georgijev
+DPUMNT10,Supplier Mstr,DE,egerolj,Justin Gerold - Praktikant Ac
+DPUMNT10,Supplier Mstr,DE,emoenss,Stefan Moens
+DPUMNT10,Supplier Mstr,DE,enasemm,Melanie Nasemann
+DPUMNT10,Supplier Mstr,DE,eneubaa,Antje Neubauer
+DPUMNT10,Supplier Mstr,DE,eotta1,Anna Ott
+DPUMNT10,Supplier Mstr,DE,eradovd,Dragana Radovanac
+DPUMNT10,Supplier Mstr,DE,esaricj,Jelena Saric
+DPUMNT10,Supplier Mstr,DE,eschaea,"Alexandra, Schäfer-Schweitzer"
+DPUMNT10,Supplier Mstr,DE,esprens,Silvia Sprenger
+DPUMNT10,Supplier Mstr,DE,etaxaud,External Tax Auditor
+DPUMNT10,Supplier Mstr,DE,etrapak,Katia Trapani
+DPUMNT10,Supplier Mstr,DE,ewilmen,Nicolas Wilmes
+DSAMNT10,Customer Mstr,DE,ebloemf,Florian Blömecke
+DSAMNT10,Customer Mstr,DE,eboehmm,Marcus Böhme
+DSAMNT10,Customer Mstr,DE,ebrkicj,"JOVAN BRKIC, Serbia"
+DSAMNT10,Customer Mstr,DE,edjekom,Milka Djekovic
+DSAMNT10,Customer Mstr,DE,edulijm,Mina Dulijan
+DSAMNT10,Customer Mstr,DE,egarafa,Anjicka Garafijat
+DSAMNT10,Customer Mstr,DE,egentaa,Alfredo Genta
+DSAMNT10,Customer Mstr,DE,egeorgs,Sonja Georgijev
+DSAMNT10,Customer Mstr,DE,egerolj,Justin Gerold - Praktikant Ac
+DSAMNT10,Customer Mstr,DE,egilezj,"Gilezan, Jelena"
+DSAMNT10,Customer Mstr,DE,eguedes,Sabrina Guede
+DSAMNT10,Customer Mstr,DE,eholths,Solveig Holthaus
+DSAMNT10,Customer Mstr,de,eisenbn,Nalan Isenberg
+DSAMNT10,Customer Mstr,DE,eiwania,Arthur Iwaniak
+DSAMNT10,Customer Mstr,DE,eleem,Mikeil Lee
+DSAMNT10,Customer Mstr,DE,elieses,Sarah Liese
+DSAMNT10,Customer Mstr,DE,emesses,Sylvia Messerli
+DSAMNT10,Customer Mstr,DE,emoenss,Stefan Moens
+DSAMNT10,Customer Mstr,DE,eotta,Anna Ott
+DSAMNT10,Customer Mstr,DE,eradovd,Dragana Radovanac
+DSAMNT10,Customer Mstr,DE,esaengc,Christin Sänger
+DSAMNT10,Customer Mstr,DE,esaricj,Jelena Saric
+DSAMNT10,Customer Mstr,DE,eschaab,Birgit Schaake
+DSAMNT10,Customer Mstr,DE,eschmas,Stefan Schmale
+DSAMNT10,Customer Mstr,DE,etaxaud,External Tax Auditor
+DSAMNT10,Customer Mstr,DE,etepicm,Milana Tepic sales assistant
+DSAMNT10,Customer Mstr,DE,etrapak,Katia Trapani
+DSAMNT10,Customer Mstr,DE,ewilmen,Nicolas Wilmes
+ENMNT030,item master ma,DE,ebozovr,"Bozovic, Radomir"
+ENMNT030,item master ma,DE,etestap,Paola Silvia Testa
+FCCS01,FR Comp Cust S,FR,eclechd,Delphine Clechet
+FCCS01,FR Comp Cust S,FR,egentaa,Alfredo Genta
+FCCS01,FR Comp Cust S,FR,elhotea,"Antoine LHOTE, Finance IVA FR"
+FCCS01,FR Comp Cust S,FR,eteissn,"TEISSIER-ZOUAGHI Nadia, Finan"
+FCFO50,FR Comp Front,de,eminerl,"Laetitia MINERBE, FR Front-Of"
+FCFO50,FR Comp Front,DE,everboj,"Josiane VERBOIS, FR Back-Off."
+FCSITE,FR Comp - SITE,CONSO,eclechd,Delphine Clechet
+FCSITE,FR Comp - SITE,CONSO,elhotea,"Antoine LHOTE, Finance IVA FR"
+FCSITE,FR Comp - SITE,CONSO,emontrl,Luca MONTRUCCHIO
+FCSITE,FR Comp - SITE,CONSO,eteissn,"TEISSIER-ZOUAGHI Nadia, Finan"
+FCSITE,FR Comp - SITE,DE,mfgus,QAD-Italy User Account US
+FCSITE,FR Comp - SITE,FR,eboehli,Ingolf Böhle
+FCSITE,FR Comp - SITE,FR,eclechd,Delphine Clechet
+FCSITE,FR Comp - SITE,FR,ecobany,Yuecel Coban
+FCSITE,FR Comp - SITE,FR,edifatm,Marie Christine Di Fatta  IT
+FCSITE,FR Comp - SITE,FR,edoerra,"Albrecht Dörrie, IT DE /Test"
+FCSITE,FR Comp - SITE,FR,egentaa,Alfredo Genta
+FCSITE,FR Comp - SITE,FR,egoguif,"Françoise GOGUILLON, FR Accnt"
+FCSITE,FR Comp - SITE,FR,ekerlf,Fabian Kerl
+FCSITE,FR Comp - SITE,FR,elhotea,"Antoine LHOTE, Finance IVA FR"
+FCSITE,FR Comp - SITE,FR,elinnea,Andre Linnenbruegger
+FCSITE,FR Comp - SITE,FR,eoderwj,"Jan Oderwald, Sales"
+FCSITE,FR Comp - SITE,fr,eparisl,"Laetitia PARIS, CDG-Achats, M"
+FCSITE,FR Comp - SITE,fr,erecdev,FR Research and Development
+FCSITE,FR Comp - SITE,FR,erenaub1,"Bertrand RENAUD, FR Sales FO"
+FCSITE,FR Comp - SITE,FR,esakaïr,"Roland SAKAÏ, FR IVA Control"
+FCSITE,FR Comp - SITE,FR,estuckl,Laurentius Stuckenberg IT DE
+FCSITE,FR Comp - SITE,FR,eteissn,"TEISSIER-ZOUAGHI Nadia, Finan"
+FCSITE,FR Comp - SITE,FR,everboj,"Josiane VERBOIS, FR Back-Off."
+FCSITE,FR Comp - SITE,FR,mfgbatch,QAD Batch User
+FCSITE,FR Comp - SITE,FR,mfgge,Rapid-e User account German
+FCSITE,FR Comp - SITE,FR,mfgus,QAD-Italy User Account US
+FI01,Finance Superv,CONSO,ecarvaj,Joaquim Carvalho
+FI01,Finance Superv,CONSO,esousas,Sandra Sousa
+FI01,Finance Superv,PT,ecarvaj,Joaquim Carvalho
+FI01,Finance Superv,pt,eschusj,"Josef Schuster, Controller At"
+FI01,Finance Superv,PT,ewestrk,"Ken Westrick, Atlanta, VP cor"
+FI50,Finance User,PT,ecostaa,"Andreia Costa, Finance"
+FI50,Finance User,PT,emartia,Anabela Martins
+FI50,Finance User,PT,esousas,Sandra Sousa
+fix50,PT Xternal Pla,PT,edolero,Oksana Dolereit
+fix50,PT Xternal Pla,PT,eleep,Peter Lee
+fix50,PT Xternal Pla,PT,epavlor,Rolf Pavlowski
+fix50,PT Xternal Pla,PT,evorwem,Maik Vorwerk - L&K - Financia
+FMMT50,FR Mey. Mainte,fr,eernesd,Daniel Ernesto
+FMMT50,FR Mey. Mainte,FR,elepagj,"Jean-Luc  LEPAGE, FR IVA Main"
+FMMT50,FR Mey. Mainte,FR,epionf,Frederic Pion
+FMPR01,FR Mey. Produc,FR,epeyrol,"Lionel PEYRONNET, FR Prod Met"
+FMPR01,FR Mey. Produc,FR,epreuxl,"Laurent PREUX, FR IVA Prod Di"
+FMPR50,FR Mey. Produc,FR,eaitmom,"Mourad AIT MOULA, FR, Product"
+FMPR50,FR Mey. Produc,FR,efiltra1,"Generic for operators, FR PP"
+FMPR50,FR Mey. Produc,fr,efiltra2,"Generic for operators, FR PP"
+FMPR50,FR Mey. Produc,FR,efloris,"Sandrine FLORINO, FR IVA Prod"
+FMPR60,FR Mey. Prod.,FR,efiltra1,"Generic for operators, FR PP"
+FMPR60,FR Mey. Prod.,FR,efiltra2,"Generic for operators, FR PP"
+FMPU01,FR Mey. Purcha,FR,ecabous,Cabourg Stephane FR  IVA Purc
+FMPU01,FR Mey. Purcha,FR,egenelf,"Franck GENELOT, FR IVA Purcha"
+FMPU50,FR Mey. Purcha,FR,echatal,"Leo CHATAIGNIER, FR IVA Purch"
+FMPU50,FR Mey. Purcha,FR,efanjao,"FANJAT, Olivier"
+FMPU50,FR Mey. Purcha,FR,efollev,"Virginie FOLLET, FR IVA Purch"
+FMPU50,FR Mey. Purcha,fr,esakaïr,"Roland SAKAÏ, FR IVA Control"
+FMPU60,FR Mey. PR Req,FR,eaitmom,"Mourad AIT MOULA, FR, Product"
+FMPU60,FR Mey. PR Req,FR,ecabous,Cabourg Stephane FR  IVA Purc
+FMPU60,FR Mey. PR Req,FR,edatrep,"Pascal DATRE, FR QT"
+FMPU60,FR Mey. PR Req,fr,eernesd,Daniel Ernesto
+FMPU60,FR Mey. PR Req,FR,efloris,"Sandrine FLORINO, FR IVA Prod"
+FMPU60,FR Mey. PR Req,FR,efontbj,"Jacques FONTBONNE, FR IVA Ris"
+FMPU60,FR Mey. PR Req,FR,egenelf,"Franck GENELOT, FR IVA Purcha"
+FMPU60,FR Mey. PR Req,FR,ehamoua,Amjed HAMOUCHI
+FMPU60,FR Mey. PR Req,FR,ehougas,"Sacha HOUGARD, FR IVA Prod Lo"
+FMPU60,FR Mey. PR Req,FR,ejournf,"Franck JOURNEAU, FR QT"
+FMPU60,FR Mey. PR Req,FR,ekongoc,Chris Kadima Kongolo
+FMPU60,FR Mey. PR Req,FR,elepagj,"Jean-Luc  LEPAGE, FR IVA Main"
+FMPU60,FR Mey. PR Req,FR,emaertc,Clément MAERTEN
+FMPU60,FR Mey. PR Req,FR,emanevm,Milan Manevski
+FMPU60,FR Mey. PR Req,fr,emathic,"Charlotte MATHIOU, FR IVA QHS"
+FMPU60,FR Mey. PR Req,FR,emescoj,Jean-Christophe Mescot
+FMPU60,FR Mey. PR Req,FR,emilost,Teodora Milosevic
+FMPU60,FR Mey. PR Req,fr,epionf,Frederic Pion
+FMPU60,FR Mey. PR Req,FR,epreuxl,"Laurent PREUX, FR IVA Prod Di"
+FMPU60,FR Mey. PR Req,FR,eqhseg,"Denis MATHIEU, FR IVA QHSE"
+FMPU60,FR Mey. PR Req,FR,eravase,Ravas Emillie    Sales Mezyie
+FMPU60,FR Mey. PR Req,FR,erecdev,FR Research and Development
+FMPU60,FR Mey. PR Req,FR,erocajv,"Jean-Vivian ROCA-MARTINEZ, FR"
+FMPU60,FR Mey. PR Req,FR,eschala,Artjom Schaludinow
+FMPU60,FR Mey. PR Req,FR,eskrgij,Jovica Skrgic
+FMPU60,FR Mey. PR Req,FR,eszydlf,"Florence SZYDLO, FR IVA, Resp"
+FMPU60,FR Mey. PR Req,FR,etestap,Paola Silvia Testa
+FMQT01,FR Mey. Qualit,FR,edatrep,"Pascal DATRE, FR QT"
+FMQT01,FR Mey. Qualit,FR,emescoj,Jean-Christophe Mescot
+FMQT01,FR Mey. Qualit,FR,esodezj,"Jean-Bernard SODEZ, FR IVA CS"
+FMQT01,FR Mey. Qualit,FR,eszydlf,"Florence SZYDLO, FR IVA, Resp"
+FMQT30,FR Mey. Qualit,FR,edatrep,"Pascal DATRE, FR QT"
+FMQT30,FR Mey. Qualit,FR,ehernac,Christophe  Hernandez -never
+FMQT30,FR Mey. Qualit,FR,ejournf,"Franck JOURNEAU, FR QT"
+FMQT30,FR Mey. Qualit,FR,emescoj,Jean-Christophe Mescot
+FMQT30,FR Mey. Qualit,FR,eszydlf,"Florence SZYDLO, FR IVA, Resp"
+FMQT50,FR Mey. Qualit,FR,eblasqc,"Blasquez, Christian"
+FMQT50,FR Mey. Qualit,FR,eqhseg,"Denis MATHIEU, FR IVA QHSE"
+FMQT50,FR Mey. Qualit,FR,equalcs,FR IVA Quality PF
+FMQT50,FR Mey. Qualit,FR,erocajv,"Jean-Vivian ROCA-MARTINEZ, FR"
+FMRD01,FR Mey. R&D Mg,FR,edatrep,"Pascal DATRE, FR QT"
+FMRD01,FR Mey. R&D Mg,FR,emaertc,Clément MAERTEN
+FMRD01,FR Mey. R&D Mg,FR,emescoj,Jean-Christophe Mescot
+FMRD01,FR Mey. R&D Mg,FR,eszydlf,"Florence SZYDLO, FR IVA, Resp"
+FMRD50,FR Mey. R&D Us,fr,ecavagm,"CAVAGNA, Marie"
+FMRD50,FR Mey. R&D Us,FR,emaertc,Clément MAERTEN
+FMSA01,FR Mey. Sales,FR,ebacdab,Bertrand Bac-David
+FMSA01,FR Mey. Sales,fr,ecabous,Cabourg Stephane FR  IVA Purc
+FMSA01,FR Mey. Sales,FR,eescamn,"Nicolas ESCAMILLA, Sales Meyz"
+FMSA01,FR Mey. Sales,fr,egenelf,"Franck GENELOT, FR IVA Purcha"
+FMSA01,FR Mey. Sales,FR,eponsr,"Rémy PONS, FR IVA Sales Mgr,"
+FMSA30,FR Mey. Sales,FR,ebrzesb,"Beata BRZESKA, Sales IVA, FR"
+FMSA30,FR Mey. Sales,FR,eravase,Ravas Emillie    Sales Mezyie
+FMSA50,FR Mey. Sales,FR,eandres,"ANDREONE, Stéphanie"
+FMSA50,FR Mey. Sales,FR,ebacdab,Bertrand Bac-David
+FMSA50,FR Mey. Sales,FR,ebrzesb,"Beata BRZESKA, Sales IVA, FR"
+FMSA50,FR Mey. Sales,FR,egenelf,"Franck GENELOT, FR IVA Purcha"
+FMSA50,FR Mey. Sales,FR,egeorga,"Antéa GEORGHIOU, SALES IVA, F"
+FMSA50,FR Mey. Sales,FR,eihmivo,"IHM, Ivonne"
+FMSA50,FR Mey. Sales,FR,eravase,Ravas Emillie    Sales Mezyie
+FMSA50,FR Mey. Sales,FR,ivasales,IVA Sales Meyzieu
+FMSC01,FR Mey. Securi,FR,efontbj,"Jacques FONTBONNE, FR IVA Ris"
+FMSC01,FR Mey. Securi,fr,emathic,"Charlotte MATHIOU, FR IVA QHS"
+FMSC50,FR Mey. Securi,FR,ebouleg,"Géraldine BOULEZ, FR QT"
+FMSC50,FR Mey. Securi,fr,ecavagm,"CAVAGNA, Marie"
+FMSC50,FR Mey. Securi,fr,efontbj,"Jacques FONTBONNE, FR IVA Ris"
+FMSC50,FR Mey. Securi,FR,emaertc,Clément MAERTEN
+FMSC50,FR Mey. Securi,fr,emathic,"Charlotte MATHIOU, FR IVA QHS"
+FMSC50,FR Mey. Securi,FR,endiaym,Medoune N'Diaye
+FMSH01,FR Mey. Shippi,FR,ehougas,"Sacha HOUGARD, FR IVA Prod Lo"
+FMSH01,FR Mey. Shippi,FR,rfrmesh3,IVA - Transfer to TraficTir (
+FMSH01,FR Mey. Shippi,FR,rfrmesh4,IVA - WO receipt (RF Express)
+FMSH50,FR Mey. Shippi,fr,eexttir,TraficTir - SAFRAM
+FMSH60,FR Mey. Shippi,FR,rfrmesh1,"Generic for RF Express, FR PP"
+FMSITE,FR Meyzieu - S,CONSO,eclechd,Delphine Clechet
+FMSITE,FR Meyzieu - S,CONSO,elhotea,"Antoine LHOTE, Finance IVA FR"
+FMSITE,FR Meyzieu - S,CONSO,emontrl,Luca MONTRUCCHIO
+FMSITE,FR Meyzieu - S,CONSO,eteissn,"TEISSIER-ZOUAGHI Nadia, Finan"
+FMSITE,FR Meyzieu - S,FR,eaitmom,"Mourad AIT MOULA, FR, Product"
+FMSITE,FR Meyzieu - S,FR,eandres,"ANDREONE, Stéphanie"
+FMSITE,FR Meyzieu - S,FR,ebacdab,Bertrand Bac-David
+FMSITE,FR Meyzieu - S,FR,eblasqc,"Blasquez, Christian"
+FMSITE,FR Meyzieu - S,FR,ebrzesb,"Beata BRZESKA, Sales IVA, FR"
+FMSITE,FR Meyzieu - S,FR,ecabous,Cabourg Stephane FR  IVA Purc
+FMSITE,FR Meyzieu - S,fr,ecavagm,"CAVAGNA, Marie"
+FMSITE,FR Meyzieu - S,FR,echatal,"Leo CHATAIGNIER, FR IVA Purch"
+FMSITE,FR Meyzieu - S,FR,eclechd,Delphine Clechet
+FMSITE,FR Meyzieu - S,FR,edatrep,"Pascal DATRE, FR QT"
+FMSITE,FR Meyzieu - S,fr,eernesd,Daniel Ernesto
+FMSITE,FR Meyzieu - S,fr,eexttir,TraficTir - SAFRAM
+FMSITE,FR Meyzieu - S,FR,efanjao,"FANJAT, Olivier"
+FMSITE,FR Meyzieu - S,FR,efiltra1,"Generic for operators, FR PP"
+FMSITE,FR Meyzieu - S,FR,efiltra2,"Generic for operators, FR PP"
+FMSITE,FR Meyzieu - S,FR,efissia,Armandine Fissier
+FMSITE,FR Meyzieu - S,FR,efloris,"Sandrine FLORINO, FR IVA Prod"
+FMSITE,FR Meyzieu - S,FR,efollev,"Virginie FOLLET, FR IVA Purch"
+FMSITE,FR Meyzieu - S,FR,efontbj,"Jacques FONTBONNE, FR IVA Ris"
+FMSITE,FR Meyzieu - S,FR,egenelf,"Franck GENELOT, FR IVA Purcha"
+FMSITE,FR Meyzieu - S,FR,egeorga,"Antéa GEORGHIOU, SALES IVA, F"
+FMSITE,FR Meyzieu - S,FR,egiovat,tony.giovandito@ivainsulation
+FMSITE,FR Meyzieu - S,FR,ehamoua,Amjed HAMOUCHI
+FMSITE,FR Meyzieu - S,FR,ehernac,Christophe  Hernandez -never
+FMSITE,FR Meyzieu - S,FR,ehougas,"Sacha HOUGARD, FR IVA Prod Lo"
+FMSITE,FR Meyzieu - S,FR,eihmivo,"IHM, Ivonne"
+FMSITE,FR Meyzieu - S,FR,ejournf,"Franck JOURNEAU, FR QT"
+FMSITE,FR Meyzieu - S,FR,ekongoc,Chris Kadima Kongolo
+FMSITE,FR Meyzieu - S,FR,elepagj,"Jean-Luc  LEPAGE, FR IVA Main"
+FMSITE,FR Meyzieu - S,FR,elhotea,"Antoine LHOTE, Finance IVA FR"
+FMSITE,FR Meyzieu - S,FR,emaertc,Clément MAERTEN
+FMSITE,FR Meyzieu - S,FR,emanevm,Milan Manevski
+FMSITE,FR Meyzieu - S,fr,emathic,"Charlotte MATHIOU, FR IVA QHS"
+FMSITE,FR Meyzieu - S,fr,emedjak,Karim Medjani
+FMSITE,FR Meyzieu - S,FR,emescoj,Jean-Christophe Mescot
+FMSITE,FR Meyzieu - S,FR,emilost,Teodora Milosevic
+FMSITE,FR Meyzieu - S,FR,eolliem,Michel Ollier
+FMSITE,FR Meyzieu - S,FR,epellem,"epellem  ???,      Sales Mezy"
+FMSITE,FR Meyzieu - S,FR,epeyrol,"Lionel PEYRONNET, FR Prod Met"
+FMSITE,FR Meyzieu - S,fr,epionf,Frederic Pion
+FMSITE,FR Meyzieu - S,FR,eponsr,"Rémy PONS, FR IVA Sales Mgr,"
+FMSITE,FR Meyzieu - S,FR,epreuxl,"Laurent PREUX, FR IVA Prod Di"
+FMSITE,FR Meyzieu - S,FR,eqhseg,"Denis MATHIEU, FR IVA QHSE"
+FMSITE,FR Meyzieu - S,FR,equalcs,FR IVA Quality PF
+FMSITE,FR Meyzieu - S,FR,equarom,Marco Quarona - IT Italy
+FMSITE,FR Meyzieu - S,FR,eravase,Ravas Emillie    Sales Mezyie
+FMSITE,FR Meyzieu - S,FR,erecdev,FR Research and Development
+FMSITE,FR Meyzieu - S,FR,eredev2,"Olivier FANJAT, FR IVA R&D Te"
+FMSITE,FR Meyzieu - S,FR,erocajv,"Jean-Vivian ROCA-MARTINEZ, FR"
+FMSITE,FR Meyzieu - S,FR,esakaïr,"Roland SAKAÏ, FR IVA Control"
+FMSITE,FR Meyzieu - S,FR,eschala,Artjom Schaludinow
+FMSITE,FR Meyzieu - S,FR,eskrgij,Jovica Skrgic
+FMSITE,FR Meyzieu - S,FR,esodezj,"Jean-Bernard SODEZ, FR IVA CS"
+FMSITE,FR Meyzieu - S,FR,esorreg,Giorgia Sorrentino
+FMSITE,FR Meyzieu - S,FR,estuckl,Laurentius Stuckenberg IT DE
+FMSITE,FR Meyzieu - S,FR,eszydlf,"Florence SZYDLO, FR IVA, Resp"
+FMSITE,FR Meyzieu - S,FR,eteissn,"TEISSIER-ZOUAGHI Nadia, Finan"
+FMSITE,FR Meyzieu - S,FR,ivasales,IVA Sales Meyzieu
+FMSITE,FR Meyzieu - S,FR,mfgbatch,QAD Batch User
+FMSITE,FR Meyzieu - S,FR,mfgge,Rapid-e User account German
+FMSITE,FR Meyzieu - S,FR,mfgus,QAD-Italy User Account US
+FMSITE,FR Meyzieu - S,FR,rfrmesh1,"Generic for RF Express, FR PP"
+FMSITE,FR Meyzieu - S,FR,rfrmesh3,IVA - Transfer to TraficTir (
+FMSITE,FR Meyzieu - S,FR,rfrmesh4,IVA - WO receipt (RF Express)
+FRCC01,Customer Maint,FR,ehaddaa,"Aline HADDAD, FR IVA Sales CS"
+FRCC01,Customer Maint,FR,eravase,Ravas Emillie    Sales Mezyie
+FRCC01,Customer Maint,FR,esakaïr,"Roland SAKAÏ, FR IVA Control"
+FRCO01,FR Controller,CONSO,eclechd,Delphine Clechet
+FRCO01,FR Controller,CONSO,elhotea,"Antoine LHOTE, Finance IVA FR"
+FRCO01,FR Controller,CONSO,emontrl,Luca MONTRUCCHIO
+FRCO01,FR Controller,CONSO,eteissn,"TEISSIER-ZOUAGHI Nadia, Finan"
+FRCO01,FR Controller,FR,esakaïr,"Roland SAKAÏ, FR IVA Control"
+FRCO02,FR Controller,FR,eparisl,"Laetitia PARIS, CDG-Achats, M"
+FRCO02,FR Controller,FR,esakaïr,"Roland SAKAÏ, FR IVA Control"
+FRCO50,FR Controller,FR,eclechd,Delphine Clechet
+FRCO50,FR Controller,FR,elhotea,"Antoine LHOTE, Finance IVA FR"
+FRCO50,FR Controller,FR,eteissn,"TEISSIER-ZOUAGHI Nadia, Finan"
+FREC50,Ecommerce,FR,eboehli,Ingolf Böhle
+FREC50,Ecommerce,FR,edifatm,Marie Christine Di Fatta  IT
+FREC50,Ecommerce,fr,egrimms,Sascha Grimm
+FREC50,Ecommerce,FR,esorreg,Giorgia Sorrentino
+FREC50,Ecommerce,FR,estuckl,Laurentius Stuckenberg IT DE
+FREC50,Ecommerce,FR,mfgus,QAD-Italy User Account US
+FRFI01,FR Finance Mgr,CONSO,eclechd,Delphine Clechet
+FRFI01,FR Finance Mgr,CONSO,elhotea,"Antoine LHOTE, Finance IVA FR"
+FRFI01,FR Finance Mgr,CONSO,emontrl,Luca MONTRUCCHIO
+FRFI01,FR Finance Mgr,CONSO,eteissn,"TEISSIER-ZOUAGHI Nadia, Finan"
+FRFI01,FR Finance Mgr,FR,atltax,Anup Patel
+FRFI01,FR Finance Mgr,FR,eclechd,Delphine Clechet
+FRFI01,FR Finance Mgr,FR,egentaa,Alfredo Genta
+FRFI01,FR Finance Mgr,FR,egiovat,tony.giovandito@ivainsulation
+FRFI01,FR Finance Mgr,fr,eschusj,"Josef Schuster, Controller At"
+FRFI01,FR Finance Mgr,FR,eteissn,"TEISSIER-ZOUAGHI Nadia, Finan"
+FRFI01,FR Finance Mgr,fr,ewestrk,"Ken Westrick, Atlanta, VP cor"
+FRFI50,FR Finance Acc,FR,eclechd,Delphine Clechet
+FRFI50,FR Finance Acc,FR,egentaa,Alfredo Genta
+FRFI50,FR Finance Acc,FR,egiovat,tony.giovandito@ivainsulation
+FRFI50,FR Finance Acc,FR,elhotea,"Antoine LHOTE, Finance IVA FR"
+FRFI50,FR Finance Acc,FR,eteissn,"TEISSIER-ZOUAGHI Nadia, Finan"
+FRFIX50,FR Xternal Fin,FR,edolero,Oksana Dolereit
+FRFIX50,FR Xternal Fin,FR,eleep,Peter Lee
+FRFIX50,FR Xternal Fin,FR,epavlor,Rolf Pavlowski
+FRFIX50,FR Xternal Fin,FR,evorwem,Maik Vorwerk - L&K - Financia
+FRPU30,FR PU Approver,FR,edatrep,"Pascal DATRE, FR QT"
+FRPU30,FR PU Approver,FR,edifela,Andrea Di Felice
+FRPU30,FR PU Approver,FR,efontbj,"Jacques FONTBONNE, FR IVA Ris"
+FRPU30,FR PU Approver,FR,emaertc,Clément MAERTEN
+FRPU30,FR PU Approver,fr,emathic,"Charlotte MATHIOU, FR IVA QHS"
+FRPU30,FR PU Approver,FR,emescoj,Jean-Christophe Mescot
+FRPU30,FR PU Approver,FR,epreuxl,"Laurent PREUX, FR IVA Prod Di"
+FRPU30,FR PU Approver,FR,esodezj,"Jean-Bernard SODEZ, FR IVA CS"
+FRPU30,FR PU Approver,FR,eszydlf,"Florence SZYDLO, FR IVA, Resp"
+FRVHAM,Voucher Hold A,FR,ebacdab,Bertrand Bac-David
+FRVHAM,Voucher Hold A,FR,ecabous,Cabourg Stephane FR  IVA Purc
+FRVHAM,Voucher Hold A,fr,eernesd,Daniel Ernesto
+FRVHAM,Voucher Hold A,FR,egenelf,"Franck GENELOT, FR IVA Purcha"
+FRVHAM,Voucher Hold A,FR,ehaddaa,"Aline HADDAD, FR IVA Sales CS"
+FRVHAM,Voucher Hold A,FR,elepagj,"Jean-Luc  LEPAGE, FR IVA Main"
+FRVHAM,Voucher Hold A,FR,eparisl,"Laetitia PARIS, CDG-Achats, M"
+FRVHAM,Voucher Hold A,FR,eqhseg,"Denis MATHIEU, FR IVA QHSE"
+FRVHAM,Voucher Hold A,FR,eravase,Ravas Emillie    Sales Mezyie
+FRVHAM,Voucher Hold A,FR,esakaïr,"Roland SAKAÏ, FR IVA Control"
+FRVHAM,Voucher Hold A,fr,eszydlf,"Florence SZYDLO, FR IVA, Resp"
+GHFI01,GH Finance Man,CONSO,efrostl,"Lloyd Frost, GH Financials"
+GHFI01,GH Finance Man,CONSO,enorthc,"Craig North, Hi-Wire"
+GHFI01,GH Finance Man,GH,atltax,Anup Patel
+GHFI01,GH Finance Man,GH,efrostl,"Lloyd Frost, GH Financials"
+GHFI01,GH Finance Man,gh,ejohnsd,Daniel Johnson
+GHFI01,GH Finance Man,GH,enorthc,"Craig North, Hi-Wire"
+GHFI01,GH Finance Man,GH,estevet,Terry Stevenson
+GHFI01,GH Finance Man,gh,ewestrk,"Ken Westrick, Atlanta, VP cor"
+GHFI50,GH Finance Use,GH,eearles,"Samantha Earley, Finance Cast"
+GHFI50,GH Finance Use,GH,eedwarj,"Jackie Edwards, GH Financials"
+GHFI50,GH Finance Use,GH,ejohnsd,Daniel Johnson
+GHFI50,GH Finance Use,GH,ejosseb,Bev Josse
+GHFI70,GH restric.Fin,GH,eadamsd,"Donna Adams, GH Sales"
+GHFI70,GH restric.Fin,GH,eearles,"Samantha Earley, Finance Cast"
+GHFI70,GH restric.Fin,GH,esandol,"Lindsey Sandom, Finance Castl"
+ghfix01,GH Xternal Fin,GH,atltax,Anup Patel
+ghfix01,GH Xternal Fin,GH,edolero,Oksana Dolereit
+ghfix01,GH Xternal Fin,GH,epavlor,Rolf Pavlowski
+ghfix01,GH Xternal Fin,GH,eschusj,"Josef Schuster, Controller At"
+ghfix01,GH Xternal Fin,GH,evorwem,Maik Vorwerk - L&K - Financia
+ghfix01,GH Xternal Fin,GH,ewestrk,"Ken Westrick, Atlanta, VP cor"
+ghfix01,GH Xternal Fin,GH,ewittmj,Jan Wittmer
+GHHQ01,GH Head Quarte,GH,egoldtd,"Darren Goldthorpe, GH Head Qu"
+GHPU01,GH Purchase Ma,GH,ebridgm,Mark Bridge; GH Purchase
+GHPU50,GH Purchase Us,GH,eadamsd,"Donna Adams, GH Sales"
+GHPU50,GH Purchase Us,GH,egreenp,"Paula Green, GH Purchase"
+GHPU50,GH Purchase Us,GH,ehaddod,"Danny Haddock, Huyton GH"
+GHPU50,GH Purchase Us,GH,elloydl,"Lloyd, Lisa"
+GHPU50,GH Purchase Us,GH,emorgal,"Linda Morgan, GH Sales"
+GHPU50,GH Purchase Us,GH,eomaraf,"Frances Omara, GH Purchase"
+GHPU50,GH Purchase Us,gh,epritcs,"Sally Pritchard, GH Sales"
+GHPU50,GH Purchase Us,GH,eshineg,Gina Shine
+GHPU50,GH Purchase Us,GH,estevet,Terry Stevenson
+GHSA01,GH Sales Manag,GH,eadamsd,"Donna Adams, GH Sales"
+GHSA01,GH Sales Manag,GH,ebinksa,"Amanda Binks, GH Sales"
+GHSA01,GH Sales Manag,GH,elloydl,"Lloyd, Lisa"
+GHSA01,GH Sales Manag,GH,emitchg,"Gill Mitchell, GH Sales"
+GHSA01,GH Sales Manag,GH,epritcs,"Sally Pritchard, GH Sales"
+GHSA01,GH Sales Manag,GH,estevet,Terry Stevenson
+GHSA01,GH Sales Manag,GH,ewhelaj,Julie Whelan
+GHSA50,GH Sales User,GH,eadamsd,"Donna Adams, GH Sales"
+GHSA50,GH Sales User,GH,ebinksa,"Amanda Binks, GH Sales"
+GHSA50,GH Sales User,gh,ebridgm,Mark Bridge; GH Purchase
+GHSA50,GH Sales User,GH,edesign,Testuser für Customized Scree
+GHSA50,GH Sales User,GH,eexters,"External for Sales, GH"
+GHSA50,GH Sales User,GH,elloydl,"Lloyd, Lisa"
+GHSA50,GH Sales User,GH,emorgal,"Linda Morgan, GH Sales"
+GHSA50,GH Sales User,GH,epritcs,"Sally Pritchard, GH Sales"
+GHSA50,GH Sales User,GH,estevet,Terry Stevenson
+GHSA50,GH Sales User,GH,ewhelaj,Julie Whelan
+GHSA60,Sales HW for M,GH,echofff,"Fabrice CHOFFART, FR Logistic"
+GHSA60,Sales HW for M,GH,egoirem,"Marie Line GOIRE, FR Supply C"
+GHWH01,GH Warehouse M,GH,ehaddod,"Danny Haddock, Huyton GH"
+GHWH01,GH Warehouse M,GH,ewoods,"Simon Wood, GH Warehouse"
+GHWH50,GH Warehouse U,GH,emorgal,"Linda Morgan, GH Sales"
+GHWH50,GH Warehouse U,GH,ewarehc,"Warehouse, GH"
+GHWH70,GH Detail inv,GH,eadamsd,"Donna Adams, GH Sales"
+GHWH70,GH Detail inv,GH,egoldtd,"Darren Goldthorpe, GH Head Qu"
+GHWH70,GH Detail inv,GH,ejohnsd,Daniel Johnson
+GHWH70,GH Detail inv,GH,ejosseb,Bev Josse
+GHWH70,GH Detail inv,GH,enorthc,"Craig North, Hi-Wire"
+IT,,gh,eboehli,Ingolf Böhle
+IT,,gh,egrimms,Sascha Grimm
+IT,,GH,esorreg,Giorgia Sorrentino
+IT00,IT Supervisor,CONSO,edifela,Andrea Di Felice
+IT00,IT Supervisor,CONSO,ezenkep,Patrick Zenke
+IT00,IT Supervisor,DE,edifela,Andrea Di Felice
+IT00,IT Supervisor,DE,eeiskaf,Florian Eiskamp
+IT00,IT Supervisor,DE,efunkef,Frank Funke
+IT00,IT Supervisor,de,egrimms,Sascha Grimm
+IT00,IT Supervisor,DE,emaulh,Hermann Maul
+IT00,IT Supervisor,DE,equarom,Marco Quarona - IT Italy
+IT00,IT Supervisor,DE,ezenkep,Patrick Zenke
+IT00,IT Supervisor,DE,millega,Greg Miller
+IT00,IT Supervisor,DECO,estuckl,Laurentius Stuckenberg IT DE
+IT00,IT Supervisor,EF,eboehli,Ingolf Böhle
+IT00,IT Supervisor,ef,egrimms,Sascha Grimm
+IT00,IT Supervisor,ef,emanevm,Milan Manevski
+IT00,IT Supervisor,EF,emilost,Teodora Milosevic
+IT00,IT Supervisor,EF,eschala,Artjom Schaludinow
+IT00,IT Supervisor,EF,eskrgij,Jovica Skrgic
+IT00,IT Supervisor,EF,esorreg,Giorgia Sorrentino
+IT00,IT Supervisor,EF,estuckl,Laurentius Stuckenberg IT DE
+IT00,IT Supervisor,FR,edifela,Andrea Di Felice
+IT00,IT Supervisor,FR,ehamoua,Amjed HAMOUCHI
+IT00,IT Supervisor,FR,ekongoc,Chris Kadima Kongolo
+IT00,IT Supervisor,FR,equarom,Marco Quarona - IT Italy
+IT00,IT Supervisor,GH,edifela,Andrea Di Felice
+IT00,IT Supervisor,GH,efunkef,Frank Funke
+IT00,IT Supervisor,GH,emaulh,Hermann Maul
+IT00,IT Supervisor,GH,ezenkep,Patrick Zenke
+IT00,IT Supervisor,IT,edifela,Andrea Di Felice
+IT00,IT Supervisor,IT,equarom,Marco Quarona - IT Italy
+IT00,IT Supervisor,PT,edifela,Andrea Di Felice
+IT00,IT Supervisor,QAD,estuckl,Laurentius Stuckenberg IT DE
+IT01,OLD-DONOT USE!,DECO,estuckl,Laurentius Stuckenberg IT DE
+IT01,OLD-DONOT USE!,DECO,mfgge,Rapid-e User account German
+IT01,OLD-DONOT USE!,EF,eboehli,Ingolf Böhle
+IT01,OLD-DONOT USE!,EF,edifatm,Marie Christine Di Fatta  IT
+IT01,OLD-DONOT USE!,ef,egrimms,Sascha Grimm
+IT01,OLD-DONOT USE!,EF,epavlor,Rolf Pavlowski
+IT01,OLD-DONOT USE!,EF,esorreg,Giorgia Sorrentino
+IT01,OLD-DONOT USE!,EF,estuckl,Laurentius Stuckenberg IT DE
+IT01,OLD-DONOT USE!,EF,mfgge,Rapid-e User account German
+IT01,OLD-DONOT USE!,QAD,edoerra,"Albrecht Dörrie, IT DE /Test"
+IT01,OLD-DONOT USE!,QAD,mfgus,QAD-Italy User Account US
+IT50,IT User,CONSO,eboaref,Boaretto Flavio -QAD
+IT50,IT User,CONSO,efarkaa,Andras Farkas
+IT50,IT User,CONSO,egandir,Roberto Gandini
+IT50,IT User,CONSO,egrimms,Sascha Grimm
+IT50,IT User,CONSO,emanevm,Milan Manevski
+IT50,IT User,conso,emilost,Teodora Milosevic
+IT50,IT User,CONSO,eschala,Artjom Schaludinow
+IT50,IT User,CONSO,eskrgij,Jovica Skrgic
+IT50,IT User,CONSO,esorreg,Giorgia Sorrentino
+IT50,IT User,CONSO,mfgge,Rapid-e User account German
+IT50,IT User,conso,mfgus,QAD-Italy User Account US
+IT50,IT User,de,ebozovr,"Bozovic, Radomir"
+IT50,IT User,DE,efarkaa,Andras Farkas
+IT50,IT User,de,egrimms,Sascha Grimm
+IT50,IT User,DE,emanevm,Milan Manevski
+IT50,IT User,DE,emattif,Fabio MAttiuz
+IT50,IT User,DE,emilost,Teodora Milosevic
+IT50,IT User,de,emover,move system batch login/PW Sy
+IT50,IT User,DE,equarom,Marco Quarona - IT Italy
+IT50,IT User,DE,eschala,Artjom Schaludinow
+IT50,IT User,DE,eszymcd,Denis Szymczyk
+IT50,IT User,DE,etestap,Paola Silvia Testa
+IT50,IT User,DE,M2M,"QAD consultant M2M, Tomaz Ran"
+IT50,IT User,DE,mfgbatch,QAD Batch User
+IT50,IT User,DE,mfgbatus,MFGBatch User for US
+IT50,IT User,DE,mfgge,Rapid-e User account German
+IT50,IT User,DE,mfgus,QAD-Italy User Account US
+IT50,IT User,EF,edifatm,Marie Christine Di Fatta  IT
+IT50,IT User,ef,emanevm,Milan Manevski
+IT50,IT User,EF,emilost,Teodora Milosevic
+IT50,IT User,EF,epavlor,Rolf Pavlowski
+IT50,IT User,EF,eschala,Artjom Schaludinow
+IT50,IT User,EF,eskrgij,Jovica Skrgic
+IT50,IT User,EF,mfgbatch,QAD Batch User
+IT50,IT User,fr,ebozovr,"Bozovic, Radomir"
+IT50,IT User,FR,efarkaa,Andras Farkas
+IT50,IT User,fr,egrimms,Sascha Grimm
+IT50,IT User,fr,emanevm,Milan Manevski
+IT50,IT User,FR,emattif,Fabio MAttiuz
+IT50,IT User,FR,emilost,Teodora Milosevic
+IT50,IT User,FR,eschala,Artjom Schaludinow
+IT50,IT User,FR,eskrgij,Jovica Skrgic
+IT50,IT User,fr,esorreg,Giorgia Sorrentino
+IT50,IT User,FR,etestap,Paola Silvia Testa
+IT50,IT User,FR,mfgbatch,QAD Batch User
+IT50,IT User,fr,mfgbatus,MFGBatch User for US
+IT50,IT User,FR,mfgge,Rapid-e User account German
+IT50,IT User,FR,mfgus,QAD-Italy User Account US
+IT50,IT User,GH,ebozovr,"Bozovic, Radomir"
+IT50,IT User,GH,efarkaa,Andras Farkas
+IT50,IT User,gh,egrimms,Sascha Grimm
+IT50,IT User,GH,emanevm,Milan Manevski
+IT50,IT User,GH,emilost,Teodora Milosevic
+IT50,IT User,GH,eschala,Artjom Schaludinow
+IT50,IT User,GH,eskrgij,Jovica Skrgic
+IT50,IT User,GH,esorreg,Giorgia Sorrentino
+IT50,IT User,GH,etestap,Paola Silvia Testa
+IT50,IT User,GH,mfgbatch,QAD Batch User
+IT50,IT User,gh,mfgbatus,MFGBatch User for US
+IT50,IT User,GH,mfgge,Rapid-e User account German
+IT50,IT User,GH,mfgus,QAD-Italy User Account US
+IT50,IT User,it,ebozovr,"Bozovic, Radomir"
+IT50,IT User,IT,equarom,Marco Quarona - IT Italy
+IT50,IT User,IT,etestap,Paola Silvia Testa
+IT50,IT User,IT,mfgbatch,QAD Batch User
+IT50,IT User,it,mfgbatus,MFGBatch User for US
+IT50,IT User,IT,mfgge,Rapid-e User account German
+IT50,IT User,IT,mfgus,QAD-Italy User Account US
+IT50,IT User,PT,ebozovr,"Bozovic, Radomir"
+IT50,IT User,pt,egrimms,Sascha Grimm
+IT50,IT User,pt,mfgbatus,MFGBatch User for US
+IT50,IT User,PT,mfgge,Rapid-e User account German
+IT50,IT User,PT,mfgit,Default user Italian language
+IT50,IT User,pt,mfgus,QAD-Italy User Account US
+IT50,IT User,QAD,mfgspsxq,MFG-User Superior-Essex /QAD-
+IT50,IT User,QAD,mfgus,QAD-Italy User Account US
+ITCIM1,Italian CIM us,IT,edeantp,Paolo DE ANTONIO
+ITCIM1,Italian CIM us,IT,edemicm,Marilena De Michelis
+ITCIM1,Italian CIM us,IT,efiorem,Marco FIORETTA
+ITCIM1,Italian CIM us,IT,egentaa,Alfredo Genta
+ITCIM1,Italian CIM us,IT,emontrl,Luca MONTRUCCHIO
+ITCIM1,Italian CIM us,IT,erestan,Nicola Restaino
+ITCIM1,Italian CIM us,IT,esorreg,Giorgia Sorrentino
+ITCP50,Italian Copper,IT,ebelled,Dietmar Beller - External L&K
+ITCP50,Italian Copper,IT,ebrunof,Fiorenza BRUNO
+ITCP50,Italian Copper,IT,egiacor,Riccardo Giacomin
+ITCP50,Italian Copper,IT,emoenss,Stefan Moens
+ITCP50,Italian Copper,IT,etchouc,"Christian TCHOUNDA, FR Metal"
+ITDESA50,German Sales u,IT,esurmoy,Yvonne Surmont
+ITFC50,IT Finance/Con,IT,emontrl,Luca MONTRUCCHIO
+ITFI01,IT Finance Man,CONSO,egentaa,Alfredo Genta
+ITFI01,IT Finance Man,CONSO,egilezj,"Gilezan, Jelena"
+ITFI01,IT Finance Man,CONSO,egrahob,Bojan Grahovac
+ITFI01,IT Finance Man,IT,ecoloms,Stefano Colombo
+ITFI01,IT Finance Man,IT,edemicm,Marilena De Michelis
+ITFI01,IT Finance Man,it,edolero,Oksana Dolereit
+ITFI01,IT Finance Man,IT,efadinl,Luisella FADIN
+ITFI01,IT Finance Man,IT,egentaa,Alfredo Genta
+ITFI01,IT Finance Man,IT,eleep,Peter Lee
+ITFI01,IT Finance Man,IT,epavlor,Rolf Pavlowski
+ITFI01,IT Finance Man,IT,evorwem,Maik Vorwerk - L&K - Financia
+ITFI01,IT Finance Man,IT,ewestrk,"Ken Westrick, Atlanta, VP cor"
+ITFI02,Italian Financ,IT,edemicm,Marilena De Michelis
+ITFI02,Italian Financ,IT,efadinl,Luisella FADIN
+ITFI02,Italian Financ,IT,efiorem,Marco FIORETTA
+ITFI02,Italian Financ,IT,egentaa,Alfredo Genta
+ITFI02,Italian Financ,IT,emussoa,Alessandra Musso
+ITFI30,"IT, Supplier M",IT,egentaa,Alfredo Genta
+ITFI30,"IT, Supplier M",IT,emussoa,Alessandra Musso
+ITFI40,IT Finance use,IT,ecavalr,Roberta CAVALLERO
+ITFI40,IT Finance use,IT,egentaa,Alfredo Genta
+ITFI40,IT Finance use,IT,eminom,Micaela Mino
+ITFI40,IT Finance use,IT,emussoa,Alessandra Musso
+ITFI50,IT Finance Use,CONSO,egentaa,Alfredo Genta
+ITFI50,IT Finance Use,CONSO,egilezj,"Gilezan, Jelena"
+ITFI50,IT Finance Use,CONSO,egrahob,Bojan Grahovac
+ITFI50,IT Finance Use,it,ecavalr,Roberta CAVALLERO
+ITFI50,IT Finance Use,IT,ecoloms,Stefano Colombo
+ITFI50,IT Finance Use,IT,edemicm,Marilena De Michelis
+ITFI50,IT Finance Use,IT,efadinl,Luisella FADIN
+ITFI50,IT Finance Use,IT,efiorem,Marco FIORETTA
+ITFI50,IT Finance Use,IT,egentaa,Alfredo Genta
+ITFI50,IT Finance Use,it,eminom,Micaela Mino
+ITFI50,IT Finance Use,IT,emussoa,Alessandra Musso
+ITFI50,IT Finance Use,IT,eravioa,Anna RAVIOLA
+ITFI60,"IT,Customer Ma",IT,egentaa,Alfredo Genta
+ITFI60,"IT,Customer Ma",IT,eminom,Micaela Mino
+ITFI60,"IT,Customer Ma",IT,emussoa,Alessandra Musso
+ITLO01,Logistic Manag,IT,ecappis,Sandro Cappiello
+ITLO01,Logistic Manag,IT,emarocl,Luca Marocco
+ITLO01,Logistic Manag,IT,epinotv,"Pinotti Vittorio, Italy"
+ITLO30,IT Logistic Us,IT,ebolle1,Bolle Trasgo
+ITLO30,IT Logistic Us,IT,ebolle2,Bolle Trasgo / Luca Olivieri
+ITLO30,IT Logistic Us,IT,ebrandl,Lurdes Brandao
+ITLO30,IT Logistic Us,IT,echofff,"Fabrice CHOFFART, FR Logistic"
+ITLO30,IT Logistic Us,IT,edetomr,"Roberto Detoma, Italy"
+ITLO30,IT Logistic Us,IT,egattim,Mariapia GATTI
+ITLO30,IT Logistic Us,IT,egoirem,"Marie Line GOIRE, FR Supply C"
+ITLO30,IT Logistic Us,It,emaschc,Carlo Maschio
+ITLO30,IT Logistic Us,it,emastra,"Alessia Mastromauro, Sales It"
+ITLO30,IT Logistic Us,IT,esandrl,Lucia SANDRONE
+ITLO50,Logistic Users,IT,ebolle1,Bolle Trasgo
+ITLO50,Logistic Users,IT,ebolle2,Bolle Trasgo / Luca Olivieri
+ITLO50,Logistic Users,it,ebrandl,Lurdes Brandao
+ITLO50,Logistic Users,IT,ecavalr,Roberta CAVALLERO
+ITLO50,Logistic Users,IT,echofff,"Fabrice CHOFFART, FR Logistic"
+ITLO50,Logistic Users,IT,ecostaa,"Andreia Costa, Finance"
+ITLO50,Logistic Users,IT,ecunhai,Isabel Cunha
+ITLO50,Logistic Users,IT,edemora,Antonio DE MORI
+ITLO50,Logistic Users,IT,edetomr,"Roberto Detoma, Italy"
+ITLO50,Logistic Users,IT,efariam,Michelle Faria
+ITLO50,Logistic Users,IT,egattim,Mariapia GATTI
+ITLO50,Logistic Users,IT,egoirem,"Marie Line GOIRE, FR Supply C"
+ITLO50,Logistic Users,IT,eguimac,Carlos Guimares IT PT
+ITLO50,Logistic Users,IT,emagaz1,generic User warehouse Q1
+ITLO50,Logistic Users,IT,emartia,Anabela Martins
+ITLO50,Logistic Users,IT,emartij,Julia Martins Barbosa
+ITLO50,Logistic Users,It,emaschc,Carlo Maschio
+ITLO50,Logistic Users,IT,emeiros,"Sylvaine MEIROTTI, FR Logist."
+ITLO50,Logistic Users,IT,eminerl,"Laetitia MINERBE, FR Front-Of"
+ITLO50,Logistic Users,IT,emussog,Giuseppe Musso
+ITLO50,Logistic Users,IT,enetoj,Joao Neto
+ITLO50,Logistic Users,IT,esandrl,Lucia SANDRONE
+ITLO50,Logistic Users,IT,esousas,Sandra Sousa
+ITLO60,"IT, Empty Pack",IT,enetoj,Joao Neto
+ITLO70,Logistic Subco,IT,ebolle1,Bolle Trasgo
+ITLO70,Logistic Subco,IT,ebolle2,Bolle Trasgo / Luca Olivieri
+ITLO70,Logistic Subco,IT,egattim,Mariapia GATTI
+ITLS50,IT Logistic Sa,it,emastra,"Alessia Mastromauro, Sales It"
+ITLS50,IT Logistic Sa,IT,emeiros,"Sylvaine MEIROTTI, FR Logist."
+ITLS50,IT Logistic Sa,IT,etelecm,Maura TELECCO
+ITLS50,IT Logistic Sa,IT,eventug,Gemma VENTURINO
+ITPR01,Production Man,IT,ecappis,Sandro Cappiello
+ITPR01,Production Man,IT,ecarpag,Giuseppe CARPANETO
+ITPR01,Production Man,it,efrancl,"Luigi Francione, General mana"
+ITPR01,Production Man,IT,emarchf,Federico Marchese
+ITPR01,Production Man,IT,emarocl,Luca Marocco
+ITPR01,Production Man,IT,eperotg,Giovanni PEROTTI
+ITPR01,Production Man,IT,epinotv,"Pinotti Vittorio, Italy"
+ITPR30,"IT, Item Maste",IT,eboval,Luis BOVA
+ITPR30,"IT, Item Maste",IT,ecoloms,Stefano Colombo
+ITPR30,"IT, Item Maste",IT,edeantp,Paolo DE ANTONIO
+ITPR30,"IT, Item Maste",IT,elapadr,Renzo La Padula
+ITPR30,"IT, Item Maste",IT,elombac,Cristiano Lombardi; IT Purcha
+ITPR30,"IT, Item Maste",IT,emontrl,Luca MONTRUCCHIO
+ITPR30,"IT, Item Maste",IT,eravioa,Anna RAVIOLA
+ITPR30,"IT, Item Maste",IT,ezanonm,Maurizio ZANON
+ITPR40,"IT,Boms&Routin",IT,edeantp,Paolo DE ANTONIO
+ITPR50,Planning/Sched,IT,ebrienb,Bruno BRIENZA
+ITPR50,Planning/Sched,IT,edeantp,Paolo DE ANTONIO
+ITPR50,Planning/Sched,it,ef12,Generic User F12
+ITPR50,Planning/Sched,IT,efassom,Michele Fassone
+ITPR50,Planning/Sched,it,elabq1,General Laboratory Q1
+ITPR50,Planning/Sched,IT,emaschc,Carlo Maschio
+ITPR50,Planning/Sched,IT,emussog,Giuseppe Musso
+ITPR50,Planning/Sched,IT,epecora,Antonio PECORELLI
+ITPR50,Planning/Sched,IT,erestan,Nicola Restaino
+ITPR70,Workshop Users,IT,ecapill,Generic User for Reparto Capi
+ITPR70,Workshop Users,it,edeantp,Paolo DE ANTONIO
+ITPR70,Workshop Users,IT,ef12,Generic User F12
+ITPR70,Workshop Users,IT,efassom,Michele Fassone
+ITPR70,Workshop Users,IT,elabq1,General Laboratory Q1
+ITPR70,Workshop Users,IT,elupig,Gian Marco LUPI
+ITPR70,Workshop Users,IT,epanzem,MAssimo PANZERI
+ITPR70,Workshop Users,IT,epecora,Antonio PECORELLI
+ITPR70,Workshop Users,IT,erestan,Nicola Restaino
+ITPR90,Tech data mana,IT,ecoloms,Stefano Colombo
+ITPR90,Tech data mana,IT,edeantp,Paolo DE ANTONIO
+ITPR90,Tech data mana,IT,elupig,Gian Marco LUPI
+ITPR90,Tech data mana,IT,emeiros,"Sylvaine MEIROTTI, FR Logist."
+ITPR90,Tech data mana,IT,emontrl,Luca MONTRUCCHIO
+ITPR90,Tech data mana,IT,epanzem,MAssimo PANZERI
+ITPR90,Tech data mana,IT,epecora,Antonio PECORELLI
+ITPR90,Tech data mana,it,erestan,Nicola Restaino
+ITPR95,Tech data revi,IT,edelard,Denis Delaruelle
+ITPR95,Tech data revi,IT,egoldmh,Hartmut Goldmann
+ITPU01,Italy - Purcha,IT,ebrunof,Fiorenza BRUNO
+ITPU01,Italy - Purcha,IT,ecozzoc,Corrado Cozzo
+ITPU01,Italy - Purcha,IT,egiacor,Riccardo Giacomin
+ITPU01,Italy - Purcha,it,emartij,Julia Martins Barbosa
+ITPU01,Italy - Purcha,IT,eminetl,Luisella MINETTI
+ITPU01,Italy - Purcha,IT,eravioa,Anna RAVIOLA
+ITPU30,IT Purchase Ap,IT,ecappis,Sandro Cappiello
+ITPU30,IT Purchase Ap,IT,ecoloms,Stefano Colombo
+ITPU30,IT Purchase Ap,IT,ecuccum,"Matteo Cuccu, Maintenance Res"
+ITPU30,IT Purchase Ap,it,efrancl,"Luigi Francione, General mana"
+ITPU30,IT Purchase Ap,IT,egentaa,Alfredo Genta
+ITPU30,IT Purchase Ap,IT,emarchf,Federico Marchese
+ITPU30,IT Purchase Ap,IT,emarocl,Luca Marocco
+ITPU30,IT Purchase Ap,IT,eperotg,Giovanni PEROTTI
+ITPU30,IT Purchase Ap,IT,epestag,Giovanni PESTARINO
+ITPU30,IT Purchase Ap,IT,epinotv,"Pinotti Vittorio, Italy"
+ITPU30,IT Purchase Ap,IT,erabbip,"Paolo Rabbia,IT Q2 plant mana"
+ITPU30,IT Purchase Ap,IT,etelecm,Maura TELECCO
+ITPU40,IT Inventory,IT,ebrienb,Bruno BRIENZA
+ITPU40,IT Inventory,IT,ebrunof,Fiorenza BRUNO
+ITPU40,IT Inventory,IT,eravioa,Anna RAVIOLA
+ITPU50,IT Purchase Us,IT,eboval,Luis BOVA
+ITPU50,IT Purchase Us,IT,ebrienb,Bruno BRIENZA
+ITPU50,IT Purchase Us,IT,ebrunof,Fiorenza BRUNO
+ITPU50,IT Purchase Us,it,ecanepe,Enrica Canepari
+ITPU50,IT Purchase Us,IT,edemora,Antonio DE MORI
+ITPU50,IT Purchase Us,IT,edetomr,"Roberto Detoma, Italy"
+ITPU50,IT Purchase Us,IT,elapadr,Renzo La Padula
+ITPU50,IT Purchase Us,IT,elombac,Cristiano Lombardi; IT Purcha
+ITPU50,IT Purchase Us,IT,emaschc,Carlo Maschio
+ITPU50,IT Purchase Us,it,emastra,"Alessia Mastromauro, Sales It"
+ITPU50,IT Purchase Us,IT,emoretm,Mario MORETTI
+ITPU50,IT Purchase Us,it,epanzem,MAssimo PANZERI
+ITPU50,IT Purchase Us,IT,eventug,Gemma VENTURINO
+ITPU50,IT Purchase Us,IT,ezanonm,Maurizio ZANON
+ITPU90,IT PO maintena,IT,ebrandl,Lurdes Brandao
+ITPU90,IT PO maintena,IT,ecozzoc,Corrado Cozzo
+ITPU90,IT PO maintena,IT,egiacor,Riccardo Giacomin
+ITPU90,IT PO maintena,IT,egoirem,"Marie Line GOIRE, FR Supply C"
+ITPU90,IT PO maintena,IT,emartij,Julia Martins Barbosa
+ITPU90,IT PO maintena,IT,eminerl,"Laetitia MINERBE, FR Front-Of"
+ITPU90,IT PO maintena,IT,eravioa,Anna RAVIOLA
+ITSA30,Sales User Ita,IT,ebrunof,Fiorenza BRUNO
+ITSA30,Sales User Ita,IT,ecozzoc,Corrado Cozzo
+ITSA30,Sales User Ita,it,emastra,"Alessia Mastromauro, Sales It"
+ITSA30,Sales User Ita,IT,emussoa,Alessandra Musso
+ITSA30,Sales User Ita,it,esampar,Raffaella Sampaoli
+ITSA30,Sales User Ita,IT,esandrl,Lucia SANDRONE
+ITSA30,Sales User Ita,IT,etelecm,Maura TELECCO
+ITSA30,Sales User Ita,IT,eventug,Gemma VENTURINO
+ITSA50,Sales Users It,DE,esijanj,Jelena Sijan
+ITSA50,Sales Users It,it,ebrandl,Lurdes Brandao
+ITSA50,Sales Users It,IT,ebrunof,Fiorenza BRUNO
+ITSA50,Sales Users It,IT,ecasirm,Marco Casiraghi
+ITSA50,Sales Users It,it,ecavalr,Roberta CAVALLERO
+ITSA50,Sales Users It,IT,echofff,"Fabrice CHOFFART, FR Logistic"
+ITSA50,Sales Users It,IT,ecostaa,"Andreia Costa, Finance"
+ITSA50,Sales Users It,IT,ecozzoc,Corrado Cozzo
+ITSA50,Sales Users It,IT,ecunhai,Isabel Cunha
+ITSA50,Sales Users It,IT,efariam,Michelle Faria
+ITSA50,Sales Users It,it,egoirem,"Marie Line GOIRE, FR Supply C"
+ITSA50,Sales Users It,IT,emartia,Anabela Martins
+ITSA50,Sales Users It,IT,emartij,Julia Martins Barbosa
+ITSA50,Sales Users It,it,emastra,"Alessia Mastromauro, Sales It"
+ITSA50,Sales Users It,IT,eminerl,"Laetitia MINERBE, FR Front-Of"
+ITSA50,Sales Users It,IT,enetoj,Joao Neto
+ITSA50,Sales Users It,IT,erenaub1,"Bertrand RENAUD, FR Sales FO"
+ITSA50,Sales Users It,IT,esalvar,Salvaggio Roberto Sales IT
+ITSA50,Sales Users It,IT,esandrl,Lucia SANDRONE
+ITSA50,Sales Users It,IT,esousas,Sandra Sousa
+ITSA50,Sales Users It,IT,esurmoy,Yvonne Surmont
+ITSA50,Sales Users It,IT,etelecm,Maura TELECCO
+ITSA50,Sales Users It,IT,eventug,Gemma VENTURINO
+ITSA50,Sales Users It,IT,everboj,"Josiane VERBOIS, FR Back-Off."
+ITSA60,Sales Extern,IT,echofff,"Fabrice CHOFFART, FR Logistic"
+ITSA60,Sales Extern,IT,egoirem,"Marie Line GOIRE, FR Supply C"
+ITSA60,Sales Extern,IT,eminerl,"Laetitia MINERBE, FR Front-Of"
+ITSA60,Sales Extern,IT,esurmoy,Yvonne Surmont
+ITSA60,Sales Extern,IT,everboj,"Josiane VERBOIS, FR Back-Off."
+ITSA90,IT Sales limit,IT,ecobany,Yuecel Coban
+ITSA90,IT Sales limit,IT,efraczr,Rafael Fraczek
+ITSA90,IT Sales limit,IT,egreenp,"Paula Green, GH Purchase"
+ITSA90,IT Sales limit,IT,ehaddod,"Danny Haddock, Huyton GH"
+ITSA90,IT Sales limit,IT,ekerlf,Fabian Kerl
+ITSA90,IT Sales limit,IT,elinnea,Andre Linnenbruegger
+ITSA90,IT Sales limit,it,emitchg,"Gill Mitchell, GH Sales"
+ITSA90,IT Sales limit,IT,eomaraf,"Frances Omara, GH Purchase"
+ITSA90,IT Sales limit,IT,erenaub1,"Bertrand RENAUD, FR Sales FO"
+ITSC50,IT Supply Chai,IT,egoirem,"Marie Line GOIRE, FR Supply C"
+LO30,PT Logistic Us,PT,ebrandl,Lurdes Brandao
+LO30,PT Logistic Us,PT,ecarvaj,Joaquim Carvalho
+LO30,PT Logistic Us,PT,egoncam,"Marcela Goncalves, Technical"
+LO30,PT Logistic Us,PT,elarane,Estevao Laranjeira
+LO30,PT Logistic Us,PT,emartij,Julia Martins Barbosa
+LO30,PT Logistic Us,PT,epimenj,José Pimentel
+LO30,PT Logistic Us,PT,eregoi,Isabel Rego
+LO30,PT Logistic Us,PT,erochar,Rui Rocha
+LO30,PT Logistic Us,PT,erochav,Vasco Rocha
+LO50,Logistics User,DE,ejennef,Frederic Jennewein
+LO50,Logistics User,DE,emorgen,NicoMorgret WrongAccountUse e
+LO50,Logistics User,DE,emorgrn,Nico Morgret
+LO50,Logistics User,DE,ewulfd,Dominik Wulf
+LO50,Logistics User,DE,rdesh,"RF Express, DE, Shipping"
+LO50,Logistics User,PT,ebrandl,Lurdes Brandao
+LO50,Logistics User,pt,ecostaa,"Andreia Costa, Finance"
+LO50,Logistics User,pt,egoncam,"Marcela Goncalves, Technical"
+LO50,Logistics User,pt,emartia,Anabela Martins
+LO50,Logistics User,PT,emartij,Julia Martins Barbosa
+LO50,Logistics User,PT,enetoj,Joao Neto
+LO50,Logistics User,pt,esousas,Sandra Sousa
+MG01,Management Sup,PT,edifatm,Marie Christine Di Fatta  IT
+MT01,Maintenance Su,PT,edifatm,Marie Christine Di Fatta  IT
+MT01,Maintenance Su,PT,elarane,Estevao Laranjeira
+MT50,Maintenance Us,PT,elarane,Estevao Laranjeira
+p-batch,Batch User Gro,DE,emover,move system batch login/PW Sy
+p-batch,Batch User Gro,DE,mfgbatch,QAD Batch User
+p-batch,Batch User Gro,DE,mfgbatus,MFGBatch User for US
+PR01,Production Sup,pt,erochar,Rui Rocha
+PR50,Production Use,PT,efennij,Joshua Fennig
+PR50,Production Use,pt,emartij,Julia Martins Barbosa
+PR50,Production Use,PT,erochar,Rui Rocha
+PR50,Production Use,PT,erochav,Vasco Rocha
+PTSA90,PT Sales limit,PT,egoirem,"Marie Line GOIRE, FR Supply C"
+PTSA90,PT Sales limit,PT,emeiros,"Sylvaine MEIROTTI, FR Logist."
+PTSA90,PT Sales limit,PT,eminerl,"Laetitia MINERBE, FR Front-Of"
+PTSA90,PT Sales limit,pt,emitchg,"Gill Mitchell, GH Sales"
+PU01,Purchase Super,PT,eregoi,Isabel Rego
+PU50,Purchase Portu,fr,ecunhai,Isabel Cunha
+qadadmin,Administration,CONSO,edifela,Andrea Di Felice
+qadadmin,Administration,CONSO,ezenkep,Patrick Zenke
+qadadmin,Administration,conso,mfgge,Rapid-e User account German
+qadadmin,Administration,CONSO,mfgus,QAD-Italy User Account US
+qadadmin,Administration,DE,edifela,Andrea Di Felice
+qadadmin,Administration,DE,efunkef,Frank Funke
+qadadmin,Administration,DE,emaulh,Hermann Maul
+qadadmin,Administration,DE,equarom,Marco Quarona - IT Italy
+qadadmin,Administration,de,ezenkep,Patrick Zenke
+qadadmin,Administration,de,mfgge,Rapid-e User account German
+qadadmin,Administration,DE,mfgus,QAD-Italy User Account US
+qadadmin,Administration,EF,eboehli,Ingolf Böhle
+qadadmin,Administration,EF,edifatm,Marie Christine Di Fatta  IT
+qadadmin,Administration,ef,egrimms,Sascha Grimm
+qadadmin,Administration,EF,esorreg,Giorgia Sorrentino
+qadadmin,Administration,EF,estuckl,Laurentius Stuckenberg IT DE
+qadadmin,Administration,EF,mfgge,Rapid-e User account German
+qadadmin,Administration,FR,edifela,Andrea Di Felice
+qadadmin,Administration,FR,equarom,Marco Quarona - IT Italy
+qadadmin,Administration,FR,mfgge,Rapid-e User account German
+qadadmin,Administration,FR,mfgus,QAD-Italy User Account US
+qadadmin,Administration,GH,edifela,Andrea Di Felice
+qadadmin,Administration,GH,efunkef,Frank Funke
+qadadmin,Administration,GH,emaulh,Hermann Maul
+qadadmin,Administration,GH,ezenkep,Patrick Zenke
+qadadmin,Administration,GH,mfgge,Rapid-e User account German
+qadadmin,Administration,GH,mfgus,QAD-Italy User Account US
+qadadmin,Administration,IT,edifela,Andrea Di Felice
+qadadmin,Administration,it,mfgge,Rapid-e User account German
+qadadmin,Administration,IT,mfgus,QAD-Italy User Account US
+qadadmin,Administration,PT,edifela,Andrea Di Felice
+qadadmin,Administration,pt,mfgus,QAD-Italy User Account US
+qadadmin,Administration,QAD,edoerra,"Albrecht Dörrie, IT DE /Test"
+qadadmin,Administration,QAD,mfg,Default User
+qadadmin,Administration,QAD,mfgge,Rapid-e User account German
+qadadmin,Administration,QAD,mfgus,QAD-Italy User Account US
+qadctrl,,FR,edoerra,"Albrecht Dörrie, IT DE /Test"
+END OF REPORT,,,,
+,,,,
+,,,,
+Report Path : 36.3.5,,,,
+Report Name : User Group Inquiry,,,,
+Program Name: mgurgpiq.p 1+,,,,
+Report Date : 09/30/25,,,,
+,,,,
+,,,,
+,,,,
+Report Criteria not found,,,,

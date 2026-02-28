@@ -1,0 +1,19 @@
+ 
+
+Šaljem ti fajl koji sam dobio od Markusa. Pogledaj da li ti ovako odgovara. Poslednji sheet sadrži AD username menadžera, sa tim nalogom oni će pristupati svojim podacima. Ako je potrebno nešto da se izmeni ili doda, samo javi. Možda u aplikaciji treba nekako naznačiti da su to role iz LuK SAP.
+
+Server za aplikaciju je od sada
+
+arvr-itsvr05.ge.eu.spsx.com
+
+IP: 10.247.64.13
+
+Tvoj share je: \\ARVR-ITSVR05\itcompliance
+
+ 
+
+Pozicija baze za sada ostaje na istoj lokaciji kao do sada.
+
+ 
+
+Aplikaciji se privremeno pristupa preko linka http://ittest.eu.spsx.com/
