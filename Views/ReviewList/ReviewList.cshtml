@@ -6,7 +6,7 @@
 
 <div class="card">
     <div class="card-header bg-success text-uppercase text-white text-center card-header-slim">
-        <h6>QAD Review Process</h6>
+        <h6>User Review — @Model.ActivePeriodName</h6>
     </div>
 
     @using (Html.BeginForm("Save", "ReviewList", FormMethod.Post))
@@ -73,9 +73,9 @@
                     <p class="fw-bold mb-3">Multiple Update of Selection</p>
 
                     <div class="d-flex flex-column gap-2 mb-3">
-                        <button id="btnApprove" type="button" class="btn btn-success" title="Approve the selected records with status Pending" onclick="approveSelected()">Approve Selection</button>
-                        <button id="btnDisable" type="button" class="btn btn-danger" title="Disable the selected records with status Pending" onclick="disableSelected()">Disable Selection</button>
-                        <button id="btnPending" type="button" class="btn btn-primary" title="Return the selected records to status Pending" onclick="pendingSelected()">Reset to Pending</button>
+                        <button id="btnApprove" type="button" class="btn btn-outline-success btn-sm" title="Approve the selected records with status Pending" onclick="approveSelected()">Approve Selection</button>
+                        <button id="btnDisable" type="button" class="btn btn-outline-danger btn-sm" title="Disable the selected records with status Pending" onclick="disableSelected()">Disable Selection</button>
+                        <button id="btnPending" type="button" class="btn btn-outline-secondary btn-sm" title="Return the selected records to status Pending" onclick="pendingSelected()">Reset to Pending</button>
                     </div>
                 }
                 else
@@ -89,7 +89,7 @@
                     <a href="~/files/qad user review web.pdf" title="Download" download>User Manual</a>
                 </div>
 
-                <p class="mb-0"><strong>Active Period: @Model.ActivePeriodName</strong></p>
+                <p class="mb-0"><strong>Last Data Update: @(Model.LastUpdateDate.HasValue ? Model.LastUpdateDate.Value.ToString("yyyy-MM-dd") : "N/A")</strong></p>
             </div>
 
         </div>
@@ -111,7 +111,7 @@
                             <th style="width:18%">Employee</th>
                             <th style="width:10%">Plant</th>
                             <th style="width:8%">System</th>
-                            <th style="width:18%">Role</th>
+                            <th style="width:18%">User Group / Role</th>
                             <th style="width:12%">Status</th>
                             <th style="width:24%">Comment</th>
                             <th style="width:10%">Actions</th>

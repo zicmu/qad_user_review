@@ -1,5 +1,41 @@
 "use strict";
 
+var _formDirty = false;
+var _initialFormState = null;
+
+function captureFormState() {
+    var state = {};
+    $("#WorkingList select, #WorkingList input[type='text']").each(function () {
+        state[this.name] = $(this).val();
+    });
+    return state;
+}
+
+function isFormDirty() {
+    if (!_initialFormState) return false;
+    var current = captureFormState();
+    for (var key in _initialFormState) {
+        if (_initialFormState[key] !== current[key]) return true;
+    }
+    return false;
+}
+
+$(document).ready(function () {
+    if ($("#WorkingList").length) {
+        _initialFormState = captureFormState();
+
+        $(window).on("beforeunload", function () {
+            if (isFormDirty()) {
+                return "You have unsaved changes. Are you sure you want to leave?";
+            }
+        });
+
+        $("form").on("submit", function () {
+            _initialFormState = null;
+        });
+    }
+});
+
 function showMenuDetails(url, title) {
     $.ajax({
         type: "GET",

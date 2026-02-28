@@ -38,7 +38,8 @@
                     </select>
                 </div>
                 <div>
-                    <button type="submit" class="btn btn-success btn-sm">Add User</button>
+                    <button type="submit" class="btn btn-xs btn-outline-success"
+                            style="font-size:0.7rem; padding:2px 8px;">Add User</button>
                 </div>
             </form>
         </div>
@@ -146,7 +147,8 @@
                                         if (rf != null)
                                         {
                                             <td class="text-center">
-                                                <form asp-action="UpdatePermission" method="post" style="display:inline">
+                                                <form asp-action="UpdatePermission" method="post" style="display:inline"
+                                                      onsubmit="return confirm('@(rf.CanAccess ? "Revoke" : "Grant") \'@feature.FeatureCode\' for @role.RoleCode?');">
                                                     <input type="hidden" name="RoleFeatureKey" value="@rf.RoleFeatureKey" />
                                                     <input type="hidden" name="CanAccess" value="@(rf.CanAccess ? "false" : "true")" />
                                                     <button type="submit" class="btn btn-sm @(rf.CanAccess ? "btn-success" : "btn-outline-secondary")"

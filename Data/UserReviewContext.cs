@@ -135,6 +135,7 @@ namespace QAD_User_Review.Data
                     .HasMaxLength(20).IsUnicode(false).IsRequired();
                 entity.Property(e => e.StartDate).HasColumnType("date");
                 entity.Property(e => e.EndDate).HasColumnType("date");
+                entity.Property(e => e.LastUpdateDate).HasColumnType("datetime2");
             });
 
             modelBuilder.Entity<BridgeOrgChart>(entity =>

@@ -8,6 +8,7 @@ namespace QAD_User_Review.Models
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public bool IsActive { get; set; } = true;
+        public DateTime? LastUpdateDate { get; set; }
 
         public ICollection<FactRoleReview> Reviews { get; set; } = new List<FactRoleReview>();
     }

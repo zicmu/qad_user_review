@@ -147,6 +147,7 @@ namespace QAD_User_Review.Controllers
                 Statuses = statusList,
                 ReviewerName = reviewer.FullName,
                 ActivePeriodName = activePeriod.PeriodName,
+                LastUpdateDate = activePeriod.LastUpdateDate,
                 SelectedEmployee = null,
                 SelectedStatus = null,
                 SelectedPlant = null,
