@@ -272,7 +272,7 @@ BEGIN
         )
         MERGE Dim_SystemIdentity AS tgt
         USING (
-            SELECT  ai.SystemUsername,
+            SELECT DISTINCT  ai.SystemUsername,
                     ai.SourceSystem,
                     ai.Plant,
                     ai.UserType,
