@@ -15,12 +15,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="QAD User Review 1.0.0\**" />
+    <Content Remove="QAD User Review 1.0.0\**" />
+    <EmbeddedResource Remove="QAD User Review 1.0.0\**" />
+    <None Remove="QAD User Review 1.0.0\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Files\Essex Italy Back-up and Restore Policy.pdf" />
     <None Remove="Files\EU Mobile Device Policy.pdf" />
     <None Remove="Files\QAD User Review Web.pdf" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Negotiate" Version="6.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9">

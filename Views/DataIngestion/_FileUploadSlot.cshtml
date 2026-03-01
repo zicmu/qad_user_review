@@ -1,0 +1,18 @@
+@{
+    var label   = (string)ViewData["Label"]!;
+    var hint    = (string)ViewData["Hint"]!;
+    var fileKey = (string)ViewData["FileKey"]!;
+}
+
+<label class="small-label">
+    @label <small class="text-muted">(@hint)</small>
+</label>
+<div class="input-group input-group-sm">
+    <input type="file" id="file-@fileKey" class="form-control form-control-sm" accept=".xlsx,.xls" />
+    <button type="button" id="btn-@fileKey" class="btn btn-outline-success btn-sm"
+            onclick="uploadFile('@fileKey')">
+        <span class="spinner-border spinner-border-sm d-none me-1" id="spinner-@fileKey"></span>
+        Upload
+    </button>
+</div>
+<div id="status-@fileKey" class="mt-1" style="display:none;"></div>

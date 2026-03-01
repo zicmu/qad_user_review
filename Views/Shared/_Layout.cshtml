@@ -42,18 +42,25 @@
                             @{
                                 var permService = Context.RequestServices.GetService<QAD_User_Review.Services.IPermissionService>();
                                 bool showSettings = false;
+                                string? userRole = null;
                                 if (Context.User.Identity?.IsAuthenticated == true && permService != null)
                                 {
                                     var parts = Context.User.Identity.Name?.ToLower().Split('\\');
                                     var adUser = parts != null && parts.Length > 1 ? parts[1] : parts?[0] ?? "";
-                                    var role = await permService.GetUserRoleCodeAsync(adUser);
-                                    showSettings = role == "SuperAdmin" || role == "Admin";
+                                    userRole = await permService.GetUserRoleCodeAsync(adUser);
+                                    showSettings = userRole == "SuperAdmin" || userRole == "Admin";
                                 }
                             }
                             @if (showSettings)
                             {
                                 <li class="nav-item">
                                     <a class="nav-link @menuTextColor" asp-controller="Admin" asp-action="Index">Settings</a>
+                                </li>
+                            }
+                            @if (userRole == "SuperAdmin")
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link @menuTextColor" asp-controller="DataIngestion" asp-action="Index">Data Import</a>
                                 </li>
                             }
                         </ul>

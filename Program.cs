@@ -21,6 +21,7 @@ builder.Services.AddDbContext<UserReviewContext>(options =>
 builder.Services.AddSingleton<IEmailService, EmailService>();
 builder.Services.AddMemoryCache();
 builder.Services.AddScoped<IPermissionService, PermissionService>();
+builder.Services.AddScoped<IDataIngestionService, DataIngestionService>();
 
 var app = builder.Build();
 

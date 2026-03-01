@@ -1,0 +1,250 @@
+@model QAD_User_Review.ViewModels.DataIngestionViewModel
+
+@{
+    ViewData["Title"] = "Data Import";
+}
+
+<div class="card mb-4">
+    <div class="card-header bg-success text-uppercase text-white text-center card-header-slim">
+        <h6>Data Import — Source File Upload</h6>
+    </div>
+
+    <div class="review-table-section">
+
+        <!-- Import options: when was data extracted -->
+        <div class="review-table-header">
+            <h5 class="review-table-title">Import Options</h5>
+        </div>
+        <div class="card p-3 mb-3" style="background-color: var(--surface-card);">
+            <p class="small text-muted mb-2">
+                Select the date when the source data was extracted. This is stored as <strong>Last update date</strong> for the active review period and shown on the review list.
+            </p>
+            <div class="row align-items-center g-2">
+                <div class="col-auto">
+                    <label for="dataExtractedDate" class="form-label mb-0 small">Data extracted on</label>
+                </div>
+                <div class="col-auto">
+                    <input type="date" id="dataExtractedDate" class="form-control form-control-sm" style="max-width: 11rem;" />
+                </div>
+            </div>
+        </div>
+
+        <!-- SAP Section -->
+        <div class="review-table-header">
+            <h5 class="review-table-title">SAP Source Files</h5>
+        </div>
+        <div class="card p-3 mb-3" style="background-color: var(--surface-card);">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    @await Html.PartialAsync("_FileUploadSlot", new ViewDataDictionary(ViewData)
+                    {
+                        { "Label", "SAP Org Hierarchy" },
+                        { "Hint", "sap_org_hier" },
+                        { "FileKey", "SapOrgHier" }
+                    })
+                </div>
+                <div class="col-md-6">
+                    @await Html.PartialAsync("_FileUploadSlot", new ViewDataDictionary(ViewData)
+                    {
+                        { "Label", "SAP Roles" },
+                        { "Hint", "sap_rollen" },
+                        { "FileKey", "SapRollen" }
+                    })
+                </div>
+            </div>
+        </div>
+
+        <!-- QAD 2007 Section -->
+        <div class="review-table-header">
+            <h5 class="review-table-title">QAD 2007 Source Files</h5>
+        </div>
+        <div class="card p-3 mb-3" style="background-color: var(--surface-card);">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    @await Html.PartialAsync("_FileUploadSlot", new ViewDataDictionary(ViewData)
+                    {
+                        { "Label", "QAD 2007 Users" },
+                        { "Hint", "Users2007" },
+                        { "FileKey", "QadUsers2007" }
+                    })
+                </div>
+                <div class="col-md-6">
+                    @await Html.PartialAsync("_FileUploadSlot", new ViewDataDictionary(ViewData)
+                    {
+                        { "Label", "QAD 2007 Roles — DEFRGB" },
+                        { "Hint", "DEFRGB" },
+                        { "FileKey", "QadDefrgb" }
+                    })
+                </div>
+            </div>
+        </div>
+
+        <!-- QAD 2008 Section -->
+        <div class="review-table-header">
+            <h5 class="review-table-title">QAD 2008 Source Files</h5>
+        </div>
+        <div class="card p-3 mb-3" style="background-color: var(--surface-card);">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    @await Html.PartialAsync("_FileUploadSlot", new ViewDataDictionary(ViewData)
+                    {
+                        { "Label", "QAD 2008 Users" },
+                        { "Hint", "Users2008" },
+                        { "FileKey", "QadUsers2008" }
+                    })
+                </div>
+                <div class="col-md-6">
+                    @await Html.PartialAsync("_FileUploadSlot", new ViewDataDictionary(ViewData)
+                    {
+                        { "Label", "QAD 2008 Roles — ITRS" },
+                        { "Hint", "ITRS" },
+                        { "FileKey", "QadItrs" }
+                    })
+                </div>
+            </div>
+        </div>
+
+        <!-- QAD Shared -->
+        <div class="review-table-header">
+            <h5 class="review-table-title">QAD Shared</h5>
+        </div>
+        <div class="card p-3 mb-4" style="background-color: var(--surface-card);">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    @await Html.PartialAsync("_FileUploadSlot", new ViewDataDictionary(ViewData)
+                    {
+                        { "Label", "QAD Org Hierarchy" },
+                        { "Hint", "essex_org_hier" },
+                        { "FileKey", "QadOrgHier" }
+                    })
+                </div>
+            </div>
+        </div>
+
+        <!-- Process Data -->
+        <div class="review-table-header">
+            <h5 class="review-table-title">Process Data (ETL Transform)</h5>
+        </div>
+        <div class="card p-3 mb-3" style="background-color: var(--surface-card);">
+            <p class="small text-muted mb-2">
+                Execute the stored procedure <code>sp_IngestSourceData</code> to transform
+                the uploaded staging data into the final tables. The <strong>Data extracted on</strong> date above is saved as the active review period's last update date.
+            </p>
+            <div id="process-status" class="mb-2" style="display:none;"></div>
+            <div class="d-flex gap-2">
+                <button type="button" id="btnProcess" class="btn btn-success btn-sm"
+                        onclick="runProcess()">
+                    <span class="spinner-border spinner-border-sm d-none me-1" id="processSpinner"></span>
+                    Process Data
+                </button>
+                <a href="@Url.Action("Index", "Admin")" class="btn btn-outline-secondary btn-sm">
+                    Back to Settings
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    (function setDefaultExtractionDate() {
+        var el = document.getElementById('dataExtractedDate');
+        if (el && !el.value) {
+            var d = new Date();
+            el.value = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+        }
+    })();
+
+    function uploadFile(fileKey) {
+        var input = document.getElementById('file-' + fileKey);
+        if (!input.files || input.files.length === 0) {
+            showSlotStatus(fileKey, false, ['Please select a file first.']);
+            return;
+        }
+
+        var btn = document.getElementById('btn-' + fileKey);
+        var spinner = document.getElementById('spinner-' + fileKey);
+        btn.disabled = true;
+        spinner.classList.remove('d-none');
+        showSlotStatus(fileKey, null, null);
+
+        var formData = new FormData();
+        formData.append('file', input.files[0]);
+        formData.append('fileKey', fileKey);
+
+        fetch('@Url.Action("UploadSingleFile", "DataIngestion")', {
+            method: 'POST',
+            body: formData
+        })
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            showSlotStatus(fileKey, data.success, data.messages, data.duration);
+            if (data.success) input.value = '';
+        })
+        .catch(function(err) {
+            showSlotStatus(fileKey, false, ['Network error: ' + err.message]);
+        })
+        .finally(function() {
+            btn.disabled = false;
+            spinner.classList.add('d-none');
+        });
+    }
+
+    function showSlotStatus(fileKey, success, messages, duration) {
+        var el = document.getElementById('status-' + fileKey);
+        if (success === null && messages === null) {
+            el.style.display = 'none';
+            el.innerHTML = '';
+            return;
+        }
+        var cls = success ? 'alert-success' : 'alert-danger';
+        var icon = success ? '&#10003;' : '&#10007;';
+        var durText = duration ? ' (' + duration.toFixed(1) + 's)' : '';
+        var html = '<div class="alert ' + cls + ' py-1 px-2 mb-0 small">'
+                 + icon + ' ' + (messages || []).join('; ') + durText
+                 + '</div>';
+        el.innerHTML = html;
+        el.style.display = 'block';
+    }
+
+    function runProcess() {
+        var btn = document.getElementById('btnProcess');
+        var spinner = document.getElementById('processSpinner');
+        var statusEl = document.getElementById('process-status');
+        btn.disabled = true;
+        spinner.classList.remove('d-none');
+        statusEl.style.display = 'none';
+
+        var dateInput = document.getElementById('dataExtractedDate');
+        var body = {};
+        if (dateInput && dateInput.value) {
+            body.lastUpdateDate = dateInput.value;
+        }
+
+        fetch('@Url.Action("RunTransform", "DataIngestion")', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: Object.keys(body).length ? JSON.stringify(body) : '{}'
+        })
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            var cls = data.success ? 'alert-success' : 'alert-danger';
+            var durText = data.duration ? ' (' + data.duration.toFixed(1) + 's)' : '';
+            statusEl.innerHTML = '<div class="alert ' + cls + ' py-2 px-3 mb-0 small">'
+                + (data.messages || []).join('<br/>') + durText + '</div>';
+            statusEl.style.display = 'block';
+        })
+        .catch(function(err) {
+            statusEl.innerHTML = '<div class="alert alert-danger py-2 px-3 mb-0 small">Network error: '
+                + err.message + '</div>';
+            statusEl.style.display = 'block';
+        })
+        .finally(function() {
+            btn.disabled = false;
+            spinner.classList.add('d-none');
+        });
+    }
+
+</script>
+}
